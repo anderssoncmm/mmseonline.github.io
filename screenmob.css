@@ -1,0 +1,1108 @@
+
+@font-face {
+
+    font-family: 'FGHeavy';
+
+    src: url('//www.mediamarkt.se/static/fonts/mmtextpro-bold-webfont.eot') format('eot'),
+
+         url('//www.mediamarkt.se/static/fonts/mmtextpro-bold-webfont.woff') format('woff'),
+
+         url('//www.mediamarkt.se/static/fonts/mmtextpro-bold-webfont.ttf')  format('truetype'),
+
+         url('//www.mediamarkt.se/static/fonts/mmtextpro-bold-webfont.svg#mm_text_proregular') format('svg');
+
+    }
+
+	
+
+@font-face {
+
+    font-family: 'mm-medium';
+
+    src: url('//www.mediamarkt.se/static/fonts/mmtextpro-regular-webfont.eot') format('eot'), 
+
+         url('//www.mediamarkt.se/static/fonts/mmtextpro-regular-webfont.woff') format('woff'), 
+
+         url('//www.mediamarkt.se/static/fonts/mmtextpro-regular-webfont.ttf')  format('truetype'),
+
+         url('//www.mediamarkt.se/static/fonts/mmtextpro-regular-webfont-webfont.svg#mm_text_proregular') format('svg');
+
+    }
+
+
+
+@font-face {
+
+    font-family: 'FGMedium';
+
+    src: url('//www.mediamarkt.se/static/fonts/mmtextpro-bold-webfont.eot') format('eot'),
+
+         url('//www.mediamarkt.se/static/fonts/mmtextpro-bold-webfont.woff') format('woff'),
+
+         url('//www.mediamarkt.se/static/fonts/mmtextpro-bold-webfont.ttf')  format('truetype'),
+
+         url('//www.mediamarkt.se/static/fonts/mmtextpro-bold-webfont.svg#mm_text_proregular') format('svg');
+
+    }
+
+    
+
+@font-face {
+
+    font-family: 'mm-demi';
+
+    src: url('//www.mediamarkt.se/static/fonts/mmtextpro-regular-webfont.eot') format('eot'), 
+
+         url('//www.mediamarkt.se/static/fonts/mmtextpro-regular-webfont.woff') format('woff'), 
+
+         url('//www.mediamarkt.se/static/fonts/mmtextpro-regular-webfont.ttf')  format('truetype'),
+
+         url('//www.mediamarkt.se/static/fonts/mmtextpro-regular-webfont-webfont.svg#mm_text_proregular') format('svg');
+
+    }
+
+
+
+@font-face {
+
+    font-family: 'FGDemi';
+
+    src: url('//www.mediamarkt.se/static/fonts/mmtextpro-regular-webfont.eot') format('eot'), 
+
+         url('//www.mediamarkt.se/static/fonts/mmtextpro-regular-webfont.woff') format('woff'), 
+
+         url('//www.mediamarkt.se/static/fonts/mmtextpro-regular-webfont.ttf')  format('truetype'),
+
+         url('//www.mediamarkt.se/static/fonts/mmtextpro-regular-webfont-webfont.svg#mm_text_proregular') format('svg');
+
+    }
+
+   	
+
+@font-face {
+
+    font-family: 'mm-book';
+
+    src: url('//www.mediamarkt.se/static/fonts/mmtextpro-regular-webfont.eot') format('eot'), 
+
+         url('//www.mediamarkt.se/static/fonts/mmtextpro-regular-webfont.woff') format('woff'), 
+
+         url('//www.mediamarkt.se/static/fonts/mmtextpro-regular-webfont.ttf')  format('truetype'),
+
+         url('//www.mediamarkt.se/static/fonts/mmtextpro-regular-webfont-webfont.svg#mm_text_proregular') format('svg');
+
+    }
+
+	
+
+@font-face {
+
+    font-family: 'FGBook';
+
+    src: url('//www.mediamarkt.se/static/fonts/mmtextpro-regular-webfont.eot') format('eot'), 
+
+         url('//www.mediamarkt.se/static/fonts/mmtextpro-regular-webfont.woff') format('woff'), 
+
+         url('//www.mediamarkt.se/static/fonts/mmtextpro-regular-webfont.ttf')  format('truetype'),
+
+         url('//www.mediamarkt.se/static/fonts/mmtextpro-regular-webfont-webfont.svg#mm_text_proregular') format('svg');
+
+    }
+
+
+
+@font-face {
+
+    font-family: 'MMTextProWeb-Bold';
+
+    src: url('//www.mediamarkt.se/static/fonts/mmtextpro-bold-webfont.eot') format('eot'),
+
+         url('//www.mediamarkt.se/static/fonts/mmtextpro-bold-webfont.woff') format('woff'),
+
+         url('//www.mediamarkt.se/static/fonts/mmtextpro-bold-webfont.ttf')  format('truetype'),
+
+         url('//www.mediamarkt.se/static/fonts/mmtextpro-bold-webfont.svg#mm_text_proregular') format('svg');
+
+    }
+
+	
+
+@font-face {
+
+    font-family: 'MMHeadlineProWeb-Regular';
+
+    src: url('//www.mediamarkt.se/static/fonts/mmheadlinepro-regular-webfont.eot') format('eot'), 
+
+         url('//www.mediamarkt.se/static/fonts/mmheadlinepro-regular-webfont.woff') format('woff'), 
+
+         url('//www.mediamarkt.se/static/fonts/mmheadlinepro-regular-webfont.ttf')  format('truetype'),
+
+         url('//www.mediamarkt.se/static/fonts/mmheadlinepro-regular-webfont.svg') format('svg');
+
+    }	
+
+	    
+
+@font-face {
+
+    font-family: 'mmheadline';
+
+    src: url('//www.mediamarkt.se/static/fonts/mmheadlinepro-regular-webfont.eot') format('eot'), 
+
+         url('//www.mediamarkt.se/static/fonts/mmheadlinepro-regular-webfont.woff') format('woff'), 
+
+         url('//www.mediamarkt.se/static/fonts/mmheadlinepro-regular-webfont.ttf')  format('truetype'),
+
+         url('//www.mediamarkt.se/static/fonts/mmheadlinepro-regular-webfont.svg') format('svg');
+
+    }
+
+    
+
+@font-face {
+
+    font-family: 'mmtextregular';
+
+    src: url('//www.mediamarkt.se/static/fonts/mmtextpro-regular-webfont.eot') format('eot'), 
+
+         url('//www.mediamarkt.se/static/fonts/mmtextpro-regular-webfont.woff') format('woff'), 
+
+         url('//www.mediamarkt.se/static/fonts/mmtextpro-regular-webfont.ttf')  format('truetype'),
+
+         url('//www.mediamarkt.se/static/fonts/mmtextpro-regular-webfont-webfont.svg#mm_text_proregular') format('svg');
+
+    }
+
+    
+
+@font-face {
+
+    font-family: 'mmtextbold';
+
+    src: url('//www.mediamarkt.se/static/fonts/mmtextpro-bold-webfont.eot') format('eot'),
+
+         url('//www.mediamarkt.se/static/fonts/mmtextpro-bold-webfont.woff') format('woff'),
+
+         url('//www.mediamarkt.se/static/fonts/mmtextpro-bold-webfont.ttf')  format('truetype'),
+
+         url('//www.mediamarkt.se/static/fonts/mmtextpro-bold-webfont.svg#mm_text_proregular') format('svg');
+
+    }
+
+#logo > a {
+  display: block;
+  background: transparent url("images/general/mm-logo.png") no-repeat 0 50% !important;
+  background-size: auto 19px;
+  width: 165px;
+  height: 30px;
+  position: relative;
+}
+
+
+
+.swemodule h1 {
+
+    font-size: 42px;
+
+    line-height: 48px;
+
+    margin: 0px 0 19px 0;
+
+    display: block;
+
+    font-family: "FGMedium", Arial, sans-serif;
+
+    color: #000;
+
+    }
+
+    
+
+.swemodule h2, h2 {
+
+    font-size: 22px;
+
+    line-height: 25px;
+
+    margin: 0 0 18px 0;
+
+    display: block;
+
+    font-family: "FGMedium", Arial, sans-serif;
+
+    color: #525252;
+
+    Text-transform: none;
+
+    Border-top: none;
+
+    }
+
+    
+
+.swemodule h3, .sweteaser h3 {
+
+    font-size: 18px;
+
+    line-height: 25px;
+
+    margin: 0 0 20px 0;
+
+    display: block;
+
+    font-family: "FGMedium", Arial, sans-serif;
+
+    color: #525252;
+
+    Text-transform: none;
+
+    Border-top: none;
+
+    }
+
+
+
+.swemodule h4 {
+
+    font-size: 19px;
+
+    line-height: 15px;
+
+    margin: 0 0 18px 0;
+
+    display: block;
+
+    font-family: "FGMedium", Arial, sans-serif;
+
+    color: #525252;
+
+    }
+
+    
+
+.swemodule h4 a {
+
+    color: #df0000;
+
+    font-family: "FGMedium", Arial, sans-serif;
+
+    margin: 16px 0 4px 0;
+
+    }
+
+
+
+.swemodule h4 a:hover {
+
+    color: #555;
+
+    }
+
+    
+
+.swemodule h5 {
+
+    font-size: 16px;
+
+    line-height:16px;
+
+    margin: 0 0 12px 0;
+
+    display: block;
+
+    font-family: "FGMedium", Arial, sans-serif;
+
+    color: #525252;
+
+    }
+
+    
+
+.swemodule h6 a {
+
+    font-size: 14px;
+
+    line-height:14px;
+
+    margin: 0 0 12px 0;
+
+    display: block;
+
+    font-family: "FGMedium", Arial, sans-serif;
+
+    color: #525252;
+
+    }
+
+    
+
+.swemodule p, p {
+
+    font-size: 14px;
+
+    line-height: 18px;
+
+    margin: 0 0 20px 0;
+
+    display: block;
+
+    font-family: "FGBook", Arial, sans-serif; 
+
+    }
+
+	
+
+li {
+
+    font-size: 14px;
+
+    font-family: "FGBook", Arial, sans-serif; 
+
+    }
+
+        
+
+.swemodule a {
+
+    color: #df0000;
+
+    text-decoration: underline;
+
+    }
+
+    
+
+.swemodule a:hover {
+
+    text-decoration: none;
+
+    }
+
+
+
+.swemodule.klickbar a, .swemodule.klickbar a:hover {
+
+    text-decoration: none;
+
+    color: inherit;
+
+    }
+
+    
+
+.swemodule b {
+
+    font-family: 'mmtextbold', Arial, sans-serif;
+
+    }
+
+    
+
+.cms_html_container i {
+
+    font-style: italic;
+
+    font-size: 10px;
+
+    line-height: 17px;
+
+    }
+
+
+
+.finstilt {
+
+    font-style: italic;
+
+    font-size: 10px;
+
+    line-height: 17px;
+
+    }
+
+    
+
+.finstiltstort {
+
+    font-style: italic;
+
+    line-height: 17px;
+
+    }   
+
+
+
+.punktlista ul, .punktlista { /* till?ter att man ser punkterna, finns ocks? i checkout.css */
+
+    list-style: disc;
+
+	margin-left: 20px;
+
+    padding: 0 0 30px;
+
+    }
+
+
+
+       
+
+.swemodule .right {
+
+    float: right;
+
+    }
+
+    
+
+.swemodule .center {
+
+    text-align: center;
+
+    }
+
+
+
+.swemodule img {
+
+    width: 50%
+
+    }
+
+	
+
+.swemodule .textsektion {
+
+    padding: 0;
+
+    }
+
+	
+
+	
+
+.swemodule .third, .swemodule .quarter, .m03 {
+
+    border: 1px solid #ddd;
+
+    display: block;
+
+    padding: 12px;
+
+    margin: 12px 0;
+
+    }
+
+	
+
+.swemodule .third:last-child {
+
+    margin-bottom: -10px;
+
+    }	
+
+	
+
+.swemodule .third:last-child.mindre {
+
+    margin-bottom: 0px;
+
+    }	
+
+	
+
+.swemodule .third h3, .swemodule .quarter h3, .m03 p , .m03 h3, .m22 h2, .m22 p, .m03 h2 {
+
+    text-align: center;
+
+    }
+
+	
+
+ .swemodule .sweknapp, .sweteaser.menu a {
+
+    -webkit-border-top-left-radius:4px;
+
+    -moz-border-radius-topleft:4px;
+
+    border-top-left-radius:4px;
+
+    -webkit-border-top-right-radius:4px;
+
+    -moz-border-radius-topright:4px;
+
+    border-top-right-radius:4px;
+
+    -webkit-border-bottom-right-radius:4px;
+
+    -moz-border-radius-bottomright:4px;
+
+    border-bottom-right-radius:4px;
+
+    -webkit-border-bottom-left-radius:4px;
+
+    -moz-border-radius-bottomleft:4px;
+
+    border-bottom-left-radius:4px;
+
+    text-indent:0;
+
+    font-family: "FGMedium", Arial, sans-serif;    
+
+    font-size:15px;
+
+    font-weight:bold;
+
+    font-style:normal;
+
+    height:28px;
+
+    line-height:28px;
+
+    width: auto;
+
+    text-decoration:none;
+
+    text-align:center;
+
+    margin: 6px 6px 6px 0;
+
+    padding: 0 12px;
+
+    display: inline-table;
+
+    border: 1px solid #ddd;
+
+    color: #000;
+
+    }
+
+	
+
+	
+
+.swemodule.m22 img {
+
+    margin-left: auto;
+
+	margin-right: auto;
+
+    display: block;
+
+    }
+
+		
+
+.swemodule.m22 a {
+
+    text-decoration: none;
+
+	color: #000;
+
+    }
+
+	
+
+.swemodule.m22 .sweknapp {
+
+    display: block;
+
+	margin: 20px auto;
+
+	width: 70px
+
+    }
+
+	
+
+.cms_html_container img:first-child {
+
+    width: 100%;
+
+    }
+
+	
+
+.cms_html_container .swemodule img {
+
+    width: 50%;
+
+    }
+
+	
+
+.swemodule.m09 {
+
+    margin: 20px 0;
+
+    }
+
+	
+
+.swemodule.m03 img{
+
+    margin: 20px auto;
+
+    position: relative;
+
+    display: block;
+
+}
+
+	
+
+.swemodule a.go-up {
+
+    margin: 20px 0;
+
+	display: inline-block;
+
+    }
+
+	
+
+.swemodule.noborder {
+
+    border: none;
+
+    }
+
+	
+
+.sweteaser.menu {
+
+    background: none repeat scroll 0% 0% #F2F2F2;
+
+    border: 1px solid #DDD;
+
+    padding: 20px;
+
+    position: relative;
+
+    height: 100%;
+
+    width: 100%;
+
+    box-sizing: border-box;
+
+    overflow: visible;
+
+    margin: 12px 0;
+
+    }
+
+
+
+
+
+[for="idbillingAddressBusinessTitle"], [name="billingAddressBusinessTitle"], [name="businessTitle"], [for="idbusinessTitle"], [for="iddisplayName"], [for="idfax"] /* D�ljer irrelevanta saker i formul�r */ {
+
+    display: none;
+
+    }
+
+.mrh-button-passbook-container {
+
+  display: none !important;
+
+  }
+
+
+  .button.background-type-2, .button.button-add-to-wishlist-pdp, .button.button-recommend {
+
+    background: #FFF !important;
+
+
+}
+/* --- LOGIN --- */
+
+.bg-white h1 span#logInText {
+  font-family: 'MMTextProWeb-Regular', sans-serif !important;
+  line-height: 18px !important;
+
+  font-size: 16px !important;
+
+  text-transform: none !important;
+  display: block !important;
+  position: relative !important;
+  left: 0px !important;
+}
+
+span#logInText ul{
+    padding-left: 0px !important;
+}
+
+.login-section .cf.box.register-box ul {
+    padding-left: 0px !important;
+    margin: 0px;
+}
+
+section.bg-white.login-section.login-ie-border .grid {
+    margin-top: 0px;
+}
+
+section.bg-white.login-section.login-ie-border p.gridbox {
+    margin: 0px !important;
+    padding: 0px;
+}
+
+ li.green-bock{
+    list-style: none !important;
+    padding-left: 22px;
+    margin-left: 0px !important;
+    padding-bottom: 5px;
+    color: #000;
+    position: relative;
+}
+
+li.green-bock:before{
+    position: absolute;
+    content: "";
+    background: url(https://perf.mediamarkt.se/static/icons/check-green.png) no-repeat;
+    background-size: 15px 20px;
+    width: 15px;
+    height: 20px;
+    top: 2px;
+    left: 0px;
+}
+
+li.green-bock.long:before{
+    top: 10px;
+}
+
+section.bg-white.login-section.login-ie-border {
+    margin: 20px 0 !important;
+    padding-left: 10px;
+    }
+
+
+section.bg-white.login-section.login-ie-border p {
+  margin-bottom: 10px !important;
+}
+
+section.bg-white.status-red {
+    top: 80px;
+    position: relative;
+    margin-left: 10px !important;
+    }
+
+section.bg-white.status-red h2 {
+    padding-left: 0 !important;
+
+}
+
+section.bg-white.status-red ul {
+    list-style: none;
+    padding-left: 5px;
+}
+
+
+/* --- Layers --- */
+.layer-header h2 {
+  line-height: 28px !important;
+  white-space: normal !important;
+  font-size: 25px !important;
+}
+.mrh-layer-content h2 {
+  line-height: 20px !important;
+  white-space: normal !important;
+  font-size: 18px;
+  padding-bottom: 4px;
+  margin-bottom: 10px;
+}
+a.button.background-type-1.async-layer-link {
+    margin-top: 20px;
+}
+
+
+/* ---------- TIDIGARE PRISER JUNI 2016 ---------- */
+.crossed-price-wrapper .crossed-price-layer span {
+    font-size: 16px;
+    color: #000;
+}
+.crossed-price-wrapper .product-crossed-price {
+    color: #000;
+    font-size: 30px;
+    line-height: 30px;
+    margin-left: 5px;
+}
+.crossed-price-wrapper .product-crossed-price:before {
+    width: 82%;
+    height: 2px;
+    top: 18px;
+    -ms-transform: rotate(-10deg);
+    -webkit-transform: rotate(-10deg);
+    transform: rotate(-10deg);
+}
+
+/* ---------- SÖK JUNI OCH AUGUSTI 2016 ---------- */
+
+.mrh-mobile-channel ul.content-link-list.level-1,
+.mrh-mobile-channel section.wrapper-full-width.bg-white.tab-categories,
+.mrh-mobile-channel section.wrapper-full-width.bg-white.tab-categories .grid,
+.mrh-mobile-channel div#filter-container,
+.mrh-mobile-channel a.current-category.mrh-accordion-headline.mrh-accordion-trigger {
+    margin: 0 !important;
+}
+section.bg-white.fixed-search-container {
+    margin-bottom: 0 !important;
+}
+.mrh-pagetypeid-mobile_searchresult div#filter-container {
+    padding: 0 !important;
+}
+.fixed-search-container .gridbox.column-1-1 {
+    padding-bottom: 0;
+}
+
+/*----------------------Göm fält i sök efter varuhus temporärt för avvikande öppettider------------------------*/
+form.mrh-market-search-form .gridbox.column-1-2:first-child {
+    width: 100% !important;
+}
+form.mrh-market-search-form .column-1-1 {
+    display: none;
+}
+form.mrh-market-search-form .column-1-2:last-child {
+    display: none;
+}
+/*--------------------Flyttad hit från HideMobileAppSearch för att minska antal CSS filer och  öka laddningstid------------------*/
+.mrh-app-channel.mrh-pagetypeid-mobile_category .app-product-search {
+	display: none;
+}
+/*--------------------------------------------------------------------------------------------------------------------------------*/
+
+
+/* ------------------ COOKIES maj 2018------------------ */
+.mrh-bottom-layer-stack-wrapper .cookies-banner {
+    background: #dddddd;
+}
+.cookies-banner .cookie-banner-text {
+    color: #000000;
+    font-size: 12px;
+    -ms-word-break: normal;
+    word-break: normal;
+    text-align: center;
+}
+.cookies-banner a.button.background-type-1,
+.cookies-banner a.button.background-type-1 span,
+.cookies-banner a.button.background-type-2,
+.cookies-banner a.button.background-type-2 span {
+    height: 20px;
+    line-height: 20px;
+    font-size: 12px;
+    border: none;
+}
+.cookies-banner .second-page-content.cookie-layer {
+    padding-top: 24px;
+}
+/*-----------------------------------------------------------*/
+
+/*---------------------Styling för Sidorna Användarvillkor 2018 för GDPR---------------------*/
+/*--------------Viktors CSS------------------------------*/
+.layer-wrapper.common h2 {
+    padding: 12px 0 22px 0;
+}
+.layer-wrapper.common a {
+    color: #000;
+    font-size: 14px;
+}
+.layer-anchors {
+    border: 1px solid #ddd;
+    background: #F2F2F2;
+    margin-bottom: 12px;
+    overflow: hidden;
+    padding-bottom: 12px;
+}
+.layer-anchors h2 {
+    padding: 15px 0 15px 22px !important;
+    margin: 0;
+}
+.layer-anchors ul {
+    margin-right: 20px;
+    list-style: none;
+}
+.layer-anchors li {
+    margin: 0 12px 12px 0;
+    float: left;
+    height: 30px;
+    width: 100%;
+}
+.layer-anchors li>a {
+    background: none repeat scroll 0 0 #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 13px !important;
+    font-weight: normal;
+    padding: 5px 25px 7px 10px !important;
+    position: relative;
+    display: block;
+}
+.layer-anchors li>a:after {
+    background: none;
+    content: url('http://www.mediamarkt.se/static/img/icons/liten_pil_ner.png');
+    font-size: 8px;
+    height: 7px;
+    position: absolute;
+    right: 11px;
+    text-indent: 0;
+    top: 7px;
+    width: 8px;
+}
+p.intro {
+    color: #444;
+    font-size: 16px;
+    line-height: 20px;
+    margin: 0 20px !important;
+}
+.fsd-accordion {
+    margin-top: 12px;
+    border-bottom: 1px solid #ddd;
+}
+.fsd-accordion dd {
+    display: none;
+    margin: 0;
+    padding-bottom: 20px;
+    padding-left: 25px;
+    font-size: 14px;
+    line-height: 16px;
+    color: #444;
+}
+.fsd-accordion dt {
+    position: relative;
+    cursor: pointer;
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-bottom: 20px;
+    font-size: 20px;
+    line-height: 22px;
+}
+.fsd-accordion dt:before {
+    transition: transform .3s ease-in-out;
+    border-radius: 50%;
+    font-size: 21px;
+    line-height: 21px;
+    color: #000;
+    content: url(http://www.mediamarkt.se/static/img/icons/pil_ner_svart.png);
+    display: block;
+    position: absolute;
+    text-indent: 0;
+    text-align: center;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    padding: 7px;
+    box-sizing: border-box;
+    width: 38px;
+    height: 38px;
+    border: 1px solid #ddd;
+    background: #fff;
+    transform: rotate(-90deg);
+}
+.fsd-accordion dt.expanded:before {
+    transform: rotate(0deg);
+}
+.fsd-accordion dt, .fsd-accordion dd {
+    padding-right: 25px;
+}
+.fsd-accordion dt {
+    position: relative;
+    cursor: pointer;
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 20px;
+    line-height: 22px;
+}
+.fsd-accordion dd ul {
+    margin: 8px 0 18px 0;
+    list-style: none;
+    padding: 0;
+}
+.fsd-accordion dd ul li {
+    padding-left: 15px;
+    position: relative;
+}
+.fsd-accordion dd ul li:before {
+    content: ' ';
+    width: 3px;
+    height: 3px;
+    background: black;
+    display: inline-block;
+    position: absolute;
+    left: 6px;
+    top: 8px;
+}
+.fsd-accordion dd p>a {
+    text-decoration: none;
+    border-bottom: 1px solid #bbb;
+}
+.fsd-accordion dd p>a:hover {
+    border-bottom-color: #DF0000;
+}
+/*-------------för "Sekretesspolicy Cookies" sidan------------*/
+	.fsd-accordion h1,
+	.fsd-accordion h2,
+	.fsd-accordion h3,
+	.fsd-accordion h4,
+	.fsd-accordion h5 {
+		margin-bottom:0;
+	}
+	h2, h3{
+		padding: 0 !important;
+	}
+	p {
+		margin: 0 !important;
+	}
+	#CookiesOnlineshop {
+    		padding: 12px 20px 12px 20px !important;
+	}
+	.accordion-title {
+		background: url(//picscdn.redblue.de/doi/msh-pixelboxx-553487607/feecms_x_x_x) no-repeat;
+	}
+	.accordion-title {
+		margin-top: -1px;
+		background-position: top 10px left 0 !important;
+		height: 35px;
+		border-top: #ddd solid 1px;
+		border-bottom: #ddd solid 1px;
+		padding: 10px 0 0 40px;
+		cursor: pointer;
+	}
+	.accordion-title.active {
+		border-bottom: none;
+	}
+	.accordion-detail {
+		display: none;
+		border-bottom: #ddd solid 1px;
+		margin-left:40px;
+	}
+	.accordion-title {
+		clear:both;
+	}
+/*-------------för "Sekretesspolicy MediaMarkt sidan"-------------*/
+#DSClub {
+	padding: 12px 20px 0px 20px !important;
+}
+h4.auszug  {
+	text-indent: 4em !important;
+}
+p.auszug {
+	padding-left: 4em !important;
+}
+/*---------------------för "Dataskydd Club" sidan-------------------*/
+#DSOnlineshop {
+		padding: 12px 0 12px 0 !important;
+}
+/*-------------------------------------------------------------------*/
+
+/*---------------------för produktgrid startsidan mobil 2018-06-------------------*/
+.dynamic-product-list.template-grid .dynamic-grid-bordered-item img.product-teaser-image {
+    max-width: 100%;
+}
+.dynamic-product-list.template-grid .product-teaser-container {
+    padding-top: 0;
+}
+.dynamic-product-list.template-grid .dynamic-grid-bordered-item img.product-teaser-image {
+    max-width: 100%;
+    margin: -27% auto;
+}
