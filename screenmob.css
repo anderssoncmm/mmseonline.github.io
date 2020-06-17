@@ -1,0 +1,1180 @@
+@font-face {
+    font-family: 'mmheadlinepro';
+    src: url('https://csscdn.redblue.de/MediaSE/static/fonts/MM/MMHeadlineProWebTT-Regular.woff2'),
+         url('https://csscdn.redblue.de/MediaSE/static/fonts/MM/MMHeadlinePro-Regular.otf'),
+         url('https://csscdn.redblue.de/MediaSE/static/fonts/MM/MMHeadlineProWebTT-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'mmtextboldpro';
+    src: url('https://csscdn.redblue.de/MediaSE/static/fonts/MM/MMTextProWebTT-Bold.woff2'),
+         url('https://csscdn.redblue.de/MediaSE/static/fonts/MM/MMTextPro-Bold.otf'),
+         url('https://csscdn.redblue.de/MediaSE/static/fonts/MM/MMTextProWebTT-Bold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'mmtextregularpro';
+    src: url('https://csscdn.redblue.de/MediaSE/static/fonts/MM/MMTextProWebTT-Regular.woff2'),
+         url('https://csscdn.redblue.de/MediaSE/static/fonts/MM/MMTextPro-Regular.otf'),
+         url('https://csscdn.redblue.de/MediaSE/static/fonts/MM/MMTextProWebTT-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'sourcesanspro-regular';
+    font-weight: normal;
+    src: url('https://csscdn.redblue.de/MediaSE/static/fonts/MM/SourceSansPro-Regular.eot');
+    src: url('https://csscdn.redblue.de/MediaSE/static/fonts/MM/SourceSansPro-Regular.eot?#iefix') format('embedded-opentype'),
+         url('https://csscdn.redblue.de/MediaSE/static/fonts/MM/SourceSansPro-Regular.woff2') format('woff2'),
+         url('https://csscdn.redblue.de/MediaSE/static/fonts/MM/SourceSansPro-Regular.woff') format('woff'),
+         url('https://csscdn.redblue.de/MediaSE/static/fonts/MM/SourceSansPro-Regular.ttf') format('truetype'),
+         url('https://csscdn.redblue.de/MediaSE/static/fonts/MM/SourceSansPro-Regular.svg#svg') format('svg');
+}
+@font-face {
+    font-family: 'pricemm';
+    src: url('https://csscdn.redblue.de/MediaSE/static/fonts/MM/pricemm.eot');
+    src: url('https://csscdn.redblue.de/MediaSE/static/fonts/MM/pricemm.eot?#iefix') format('embedded-opentype'),
+         url('https://csscdn.redblue.de/MediaSE/static/fonts/MM/pricemm.woff2') format('woff2'),
+         url('https://csscdn.redblue.de/MediaSE/static/fonts/MM/pricemm.woff') format('woff'),
+         url('https://csscdn.redblue.de/MediaSE/static/fonts/MM/pricemm.ttf') format('truetype'),
+         url('https://csscdn.redblue.de/MediaSE/static/fonts/MM/pricemm.svg#svg') format('svg')
+}
+@font-face {
+    font-family:'mm-icons';
+    src: url('https://csscdn.redblue.de/MediaSE/static/fonts/MM/mmicons/MMIcons.eot');
+    src: url('https://csscdn.redblue.de/MediaSE/static/fonts/MM/mmicons/MMIcons.eot?#iefix') format('embedded-opentype'),
+         url('https://csscdn.redblue.de/MediaSE/static/fonts/MM/mmicons/MMIcons.woff2') format('woff2'),
+         url('https://csscdn.redblue.de/MediaSE/static/fonts/MM/mmicons/MMIcons.woff') format('woff')
+}
+
+/* -------------------- Start: Typography -------------------- */
+h1, h2 {
+    font-family: 'mmtextboldpro', sans-serif;
+}
+h3, h4, h5, h6, b {
+    font-family: 'mmtextboldpro', sans-serif;
+}
+p, ul, li, a {
+    font-family: 'mmtextregularpro', sans-serif;
+}
+/* -------------------- End: Typography   -------------------- */
+
+/* -------------------- Start: Price  -------------------- */
+body .price,
+body .wrapper-price .price,
+body .pdp-product-info .wrapper-price .price,
+body .crossed-price-wrapper .product-crossed-price,
+body .product-teaser-container .product-teaser-details .wrapper-price .price {
+	color: #000;
+	font-family: 'pricemm', 'mmtextboldpro', sans-serif;
+    font-weight: normal;
+    padding-right: 0.25em; /* == Make some room for the :- characters in a cursive price font */
+	text-shadow: 0 0 1em transparent, 0 -0.04em 0 #fff, 0.04em 0 0 #fff, 0 0.04em 0 #fff, -0.034em -0.024em 0 #fff, -0.03em -0.04em 0 #fff, -0.01em -0.04em 0 #fff, 0.052em -0.04em 0 #fff, 0.04em -0.04em 0 #fff, 0.02em -0.04em 0 #fff, 0.047em -0.025em 0 #fff, -0.045em 0.016em 0 #fff, -0.039em 0.038em 0 #fff, -0.052em 0.04em 0 #fff, -0.042em 0.04em 0 #fff, 0.031em 0.028em 0 #fff, 0.029em 0.04em 0 #fff, rgba(0, 0, 0, 0.2) 0.05em 0 0.05em, rgba(0, 0, 0, 0.2) 0 0.05em 0.05em, rgba(0, 0, 0, 0.2) 0.05em 0.05em 0.05em;
+}
+body .product-teaser-container .product-teaser-details .wrapper-price {
+    font-weight: normal;
+}
+body .product-teaser-container .product-teaser-details .wrapper-price .price {
+    display: block;
+}
+body .product-teaser-container .product-teaser-details .wrapper-price .product-teaser-vatLabel,
+body .product-teaser-container .product-teaser-details .wrapper-price .product-teaser-fee-container {
+    display: inline-block;
+}
+body .crossed-price-wrapper .product-crossed-price {
+    /* @TODO: check this font-size */
+    /* font-size: 30px; */
+    line-height: 100%;
+    margin-left: 0;
+}
+body .crossed-price-wrapper .product-crossed-price::after,
+body .pdp-product-info .crossed-price-wrapper .product-crossed-price::after,
+body .crossed-price-wrapper .product-crossed-price::before,
+body .pdp-product-info .crossed-price-wrapper .product-crossed-price::before {
+    background-color: #df0000;
+    content: "";
+    height: 1.5px;
+    left: 8%;
+    position: absolute;
+    top: 48%;
+    width: 100%;
+    max-width: 84%;
+}
+body .crossed-price-wrapper .product-crossed-price::after {
+    -webkit-transform: rotate(10deg);
+    -ms-transform: rotate(10deg);
+    transform: rotate(10deg);
+}
+body .crossed-price-wrapper .product-crossed-price::before {
+    -webkit-transform: rotate(-10deg);
+    -ms-transform: rotate(-10deg);
+    transform: rotate(-10deg);
+}
+body .product-list .crossed-price-wrapper .product-crossed-price {
+    font-size: 1.5em;
+}
+body .pdp-product-info .crossed-price-wrapper .product-crossed-price {
+    font-size: 1.75em;
+}
+body .pdp-product-info .crossed-price-wrapper .product-crossed-price::after {}
+body .pdp-product-info .crossed-price-wrapper .product-crossed-price::before {}
+body .crossed-price-wrapper.product-price-info {
+    margin: 8px 0;
+}
+body .crossed-price-wrapper .crossed-price-layer span {
+    color: #000;
+    font-size: 16px;
+}
+/* --------------------   End: Price -------------------- */
+
+/* -------------------- Start: PDP -------------------- */
+body .pdp-slider .swiper-container {
+    /* == Based on the image ratio in combination with viewport width (vw)
+     *    we propose a minimum height to the container to avoid a jumping
+     *    and flickering PDP layout when loading
+     *
+     *    Image ratio (based on mobile_580_430_png)
+     *    (430/580) = 0.74137931
+     *    0.74137931 * 100 = 74.137931034
+     */
+    min-height: 74.137931034vw;
+}
+/* == Product details */
+body #wrapper-main .table-prod-details {
+    margin: 1em 0;
+}
+body #wrapper-main .table-prod-details table {
+    margin-top: 0;
+}
+body #wrapper-main .table-prod-details td.checkmark {
+    /* Remove the background image ... */
+    background: none;
+    font-family: 'sourcesanspro-regular', 'mmtextregularpro', sans-serif;
+    width: 16px;
+}
+body #wrapper-main .table-prod-details td.checkmark::before {
+    /* ... and add a checkmark as icon font instead */
+    content: "\2713"; /* ✔ */
+    color: #00ac45;
+    display: inline-block;
+    font-family: 'MM-iconfont';
+    font-size: 1.25em;
+    line-height: 100%;
+}
+body #wrapper-main .table-prod-details td.feat-name {
+    color: #555;
+}
+body #wrapper-main .table-prod-details td.feat-text {
+    font-family: 'sourcesanspro-regular', 'mmtextregularpro', sans-serif;
+}
+/* --------------------   End: PDP -------------------- */
+
+/* -------------------- Start: Header -------------------- */
+body .ms-header2 {
+    background-image: none;
+}
+body .ms-header2--glued.ms-glue--scroll-down:not(.ms-header2--nav-active),
+body .ms-header2--glued.ms-glue--scroll-up:not(.ms-header2--nav-active),
+body .ms-header2--glued.ms-glue--fixed:not(.ms-header2--nav-active) {
+    box-shadow: 0 .2rem .6rem rgba(0,0,0,.2);
+}
+@media (min-width: 61.875em) {
+    body .ms-header2 {
+        border-bottom-width: 1px;
+    }
+    body .ms-header2--glued.ms-glue--fixed:not(.ms-header2--nav-active) {
+        box-shadow: 0 .2rem .6rem rgba(0,0,0,.2);
+    }
+}
+@media (max-width: 61.865em) {
+    body .ms-header2__meta-nav {
+        background-image: none;
+    }
+    body .site-navigation2__wrapper--is-open {
+        box-shadow: none;
+    }
+}
+body .site-navigation2__list li {
+    font-size: 18px;
+    font-family: 'mmtextregularpro', sans-serif;
+}
+body .site-navigation2__list .site-navigation2__panel--level-3 li a {
+    font-family: 'sourcesanspro-regular', 'mmtextregularpro', sans-serif;
+    font-size: 0.888888889em;
+    font-weight: normal;
+}
+/* --------------------   End: Header -------------------- */
+
+/* -------------------- Start: Search Field -------------------- */
+body .ms-header2__search-wrapper input[type=search],
+body .ms-header2__search-wrapper input[type=text],
+body .wrapper-search-form input[type=search],
+body .wrapper-search-form input[type=text] {
+    border-radius: 3px;
+}
+body .ms-header2__search-wrapper input[type=search],
+body .ms-header2__search-wrapper input[type=text],
+body .wrapper-search-form input[type=search],
+body .wrapper-search-form input[type=text],
+body .fixed-search-container .fixed-search-close-btn {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+/* --------------------   End: Search Field -------------------- */
+
+/* -------------------- Start: Category Page -------------------- */
+body #wrapper-main > .category-title-container h1 {
+    margin: 0;
+    padding: 0.5em 1em;
+    text-align: center;
+}
+body #wrapper-main > .category-title-container h1 > span {
+    display: none;
+}
+body #wrapper-main .product-list .product-teaser-container {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 1em;
+}
+body #wrapper-main .product-list .product-teaser-container .product-teaser-details .information * {
+    font-family: 'sourcesanspro-regular', 'mmtextregularpro', sans-serif;
+}
+body #nav-categories {
+    margin-bottom: 1em;
+}
+body #nav-categories li a {
+    background: #fff;
+    border-bottom: 0px solid #fff;
+    border-top: 1px solid #ddd;
+    color: #000;
+    font-family: 'sourcesanspro-regular', 'mmtextregularpro', sans-serif;
+    line-height: 100%;
+    padding: 1em 2em 1em 10px;
+}
+body #nav-categories li a::after,
+body #nav-categories li a.background-type-2::after {
+    background: none;
+    color: #444;
+    content: "\276f"; /* › */
+    font-family: 'MM-iconfont';
+    font-size: 1em;
+    height: auto;
+    margin-top: auto;
+    right: 0;
+    text-align: center;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 2em;
+}
+body ul#nav-categories li:last-child {
+    /* Hide the list item for ‘Show all categories’ link */
+    display: none;
+}
+body ul#nav-categories li:nth-last-child(2) a {
+    /* Fix the border color for the list item before the hidden last-child */
+    border-color: #ddd;
+}
+/* --------------------   End: Category Page -------------------- */
+
+/* -------------------- Start: Filter & Sorting -------------------- */
+body #filter-container .button {
+    background: #df0000;
+    border-width: 0;
+    color: #fff;
+    margin: 0;
+}
+body #wrapper-main .tab-categories ul.content-link-list li a.mrh-accordion-headline {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    color: #525252;
+    font-family: 'sourcesanspro-regular', 'mmtextregularpro', sans-serif;
+    font-weight: normal;
+    padding: 8px;
+}
+body #wrapper-main .tab-categories ul.content-link-list li a:after,
+body #wrapper-main .tab-categories ul.content-link-list li a.mrh-accordion-headline:after {
+    background: none !important;
+    color: #444;
+    content: "\276f"; /* › */
+    font-family: 'MM-iconfont';
+    font-size: 1em;
+    height: auto;
+    margin-top: auto;
+    right: 0;
+    text-align: center;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 2em;
+    -webkit-transition: all 150ms ease-out;
+    -moz-transition: all 150ms ease-out;
+    -ms-transition: all 150ms ease-out;
+    -o-transition: all 150ms ease-out;
+    transition: all 150ms ease-out;
+}
+body #wrapper-main .tab-categories ul.content-link-list li a:after {
+    color: #888;
+    font-size: 0.625em;
+}
+body #wrapper-main .tab-categories ul.content-link-list li a.mrh-accordion-headline:after {}
+body #wrapper-main .tab-categories ul.content-link-list li.displayed a.mrh-accordion-headline:after {
+    top: 25%;
+    transform: rotate(90deg);
+}
+body .button.background-type-2 span:after {
+    background: url("https://www.mediamarkt.se/static/icons/Arrow_white.png") no-repeat 0px 0px rgba(0,0,0,0);
+    background-size: contain;
+}
+body .button.background-type-2.dropdown-wrapper span:after {
+    background: url("https://www.mediamarkt.se/static/icons/sort_white.png") no-repeat 0px 0px rgba(0,0,0,0);
+    background-size: contain;
+}
+body #wrapper-main .tab-categories ul.content-link-list li.displayed {
+    padding-bottom: 10px;
+}
+body #wrapper-main .tab-categories ul.content-link-list li > a,
+body #wrapper-main .tab-categories ul.content-link-list li > ul {
+    margin-bottom: 0;
+}
+body #wrapper-main .tab-categories ul.content-link-list > li > ul {
+    margin-top: 10px;
+}
+body #wrapper-main .tab-categories ul.content-link-list li a,
+body #wrapper-main .tab-categories ul.content-link-list li span {
+    font-family: 'sourcesanspro-regular', 'mmtextregularpro', sans-serif;
+}
+/* --------------------   End: Filter & Sorting -------------------- */
+
+/* -------------------- Start: Breadcrumbs -------------------- */
+body #wrapper-main .category-breadcrumb,
+body #wrapper-main .category-breadcrumb:link,
+body #wrapper-main .category-breadcrumb:visited {
+    display: inline-block;
+    color: #df0000;
+    padding: 5px 0 10px;
+}
+body #wrapper-main .category-breadcrumb:before {
+    background: none !important;
+    content: "\276e"; /* ‹ */
+    display: inline-block;
+    font-family: 'MM-iconfont';
+    font-size: .875em;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    vertical-align: middle;
+    height: 100%;
+    width: auto;
+}
+body #wrapper-main .category-breadcrumb:after {
+    background: none;
+    content: " ";
+    display: none;
+}
+/* --------------------   End: Breadcrumbs -------------------- */
+
+#logo > a {
+    display: block;
+    background: transparent url('images/general/mm-logo.png') no-repeat 0 50% !important;
+    background-size: auto 19px;
+    width: 165px;
+    height: 30px;
+    position: relative;
+}
+.swemodule h1 {
+    font-size: 42px;
+    line-height: 48px;
+    margin: 0px 0 19px 0;
+    display: block;
+    color: #000;
+}
+.swemodule h2, h2 {
+    font-size: 22px;
+    line-height: 25px;
+    margin: 0 0 18px 0;
+    display: block;
+    color: #000;
+    Text-transform: none;
+    Border-top: none;
+}
+.swemodule h3, .sweteaser h3 {
+    font-size: 18px;
+    line-height: 25px;
+    margin: 0 0 20px 0;
+    display: block;
+    color: #525252;
+    Text-transform: none;
+    Border-top: none;
+}
+.swemodule h4 {
+    font-size: 19px;
+    line-height: 15px;
+    margin: 0 0 18px 0;
+    display: block;
+    color: #525252;
+}
+.swemodule h4 a {
+    color: #df0000;
+    margin: 16px 0 4px 0;
+}
+.swemodule h4 a:hover {
+    color: #555;
+}
+.swemodule h5 {
+    font-size: 16px;
+    line-height: 16px;
+    margin: 0 0 12px 0;
+    display: block;
+    color: #525252;
+}
+.swemodule h6 a {
+    font-size: 14px;
+    line-height: 14px;
+    margin: 0 0 12px 0;
+    display: block;
+    color: #525252;
+}
+.swemodule p, p {
+    font-size: 14px;
+    line-height: 18px;
+    margin: 0 0 20px 0;
+    display: block;
+}
+li {
+    font-size: 14px;
+}
+.swemodule a {
+    color: #df0000;
+    text-decoration: underline;
+}
+.swemodule a:hover {
+    text-decoration: none;
+}
+.swemodule.klickbar a, .swemodule.klickbar a:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+.cms_html_container i {
+    font-style: italic;
+    font-size: 10px;
+    line-height: 17px;
+}
+.finstilt {
+    font-style: italic;
+    font-size: 10px;
+    line-height: 17px;
+}
+.finstiltstort {
+    font-style: italic;
+    line-height: 17px;
+}
+.punktlista ul, .punktlista { /* till?ter att man ser punkterna, finns ocks? i checkout.css */
+    list-style: disc;
+    margin-left: 20px;
+    padding: 0 0 30px;
+}
+.swemodule .right {
+    float: right;
+}
+.swemodule .center {
+    text-align: center;
+}
+.swemodule img {
+    width: 50%
+}
+.swemodule .textsektion {
+    padding: 0;
+}
+.swemodule .third, .swemodule .quarter, .m03 {
+    border: 1px solid #ddd;
+    display: block;
+    padding: 12px;
+    margin: 12px 0;
+}
+.swemodule .third:last-child {
+    margin-bottom: -10px;
+}
+.swemodule .third:last-child.mindre {
+    margin-bottom: 0px;
+}
+.swemodule .third h3, .swemodule .quarter h3, .m03 p, .m03 h3, .m22 h2, .m22 p, .m03 h2 {
+    text-align: center;
+}
+.swemodule .sweknapp, .sweteaser.menu a {
+    -webkit-border-top-left-radius: 4px;
+    -moz-border-radius-topleft: 4px;
+    border-top-left-radius: 4px;
+    -webkit-border-top-right-radius: 4px;
+    -moz-border-radius-topright: 4px;
+    border-top-right-radius: 4px;
+    -webkit-border-bottom-right-radius: 4px;
+    -moz-border-radius-bottomright: 4px;
+    border-bottom-right-radius: 4px;
+    -webkit-border-bottom-left-radius: 4px;
+    -moz-border-radius-bottomleft: 4px;
+    border-bottom-left-radius: 4px;
+    text-indent: 0;
+    font-size: 15px;
+    font-weight: bold;
+    font-style: normal;
+    height: 28px;
+    line-height: 28px;
+    width: auto;
+    text-decoration: none;
+    text-align: center;
+    margin: 6px 6px 6px 0;
+    padding: 0 12px;
+    display: inline-table;
+    border: 1px solid #ddd;
+    color: #000;
+}
+.swemodule.m22 img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.swemodule.m22 a {
+    text-decoration: none;
+    color: #000;
+}
+.swemodule.m22 .sweknapp {
+    display: block;
+    margin: 20px auto;
+    width: 70px
+}
+
+.cms_html_container .swemodule img {
+    width: 50%;
+}
+.swemodule.m09 {
+    margin: 20px 0;
+}
+.swemodule.m03 img {
+    margin: 20px auto;
+    position: relative;
+    display: block;
+}
+.swemodule a.go-up {
+    margin: 20px 0;
+    display: inline-block;
+}
+.swemodule.noborder {
+    border: none;
+}
+.sweteaser.menu {
+    background: none repeat scroll 0% 0% #F2F2F2;
+    border: 1px solid #DDD;
+    padding: 20px;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    overflow: visible;
+    margin: 12px 0;
+}
+[for="idbillingAddressBusinessTitle"], [name="billingAddressBusinessTitle"], [name="businessTitle"], [for="idbusinessTitle"], [for="iddisplayName"], [for="idfax"] /* Döljer irrelevanta saker i formulär */ {
+    display: none;
+}
+.mrh-button-passbook-container {
+    display: none !important;
+}
+/* --- LOGIN --- */
+
+.bg-white h1 span#logInText {
+    line-height: 18px !important;
+    font-size: 16px !important;
+    text-transform: none !important;
+    display: block !important;
+    margin: 20px 0 !important;
+    position: absolute !important;
+    left: 10px !important;
+}
+#wrapper-main section.login-section {
+    margin-top: 80px;
+}
+section.bg-white.login-section.login-ie-border {
+    margin: 20px 0 !important;
+    padding-left: 10px;
+}
+section.bg-white.login-section.login-ie-border p {
+    margin-bottom: 10px !important;
+}
+section.bg-white.status-red {
+    top: 80px;
+    position: relative;
+    margin-left: 10px !important;
+}
+section.bg-white.status-red h2 {
+    padding-left: 0 !important;
+}
+section.bg-white.status-red ul {
+    list-style: none;
+    padding-left: 5px;
+}
+/* --- Layers --- */
+.layer-header h2 {
+    line-height: 28px !important;
+    white-space: normal !important;
+    font-size: 25px !important;
+}
+.mrh-layer-content h2 {
+    line-height: 20px !important;
+    white-space: normal !important;
+    font-size: 18px;
+    padding-bottom: 4px;
+    margin-bottom: 10px;
+}
+a.button.background-type-1.async-layer-link {
+    margin-top: 20px;
+}
+/* ---------- SÖK JUNI OCH AUGUSTI 2016 ---------- */
+.mrh-mobile-channel ul.content-link-list.level-1, .mrh-mobile-channel section.wrapper-full-width.bg-white.tab-categories, .mrh-mobile-channel section.wrapper-full-width.bg-white.tab-categories .grid, .mrh-mobile-channel div#filter-container, .mrh-mobile-channel a.current-category.mrh-accordion-headline.mrh-accordion-trigger {
+    margin: 0 !important;
+}
+section.bg-white.fixed-search-container {
+    margin-bottom: 0 !important;
+}
+.mrh-pagetypeid-mobile_searchresult div#filter-container {
+    padding: 0 !important;
+}
+.fixed-search-container .gridbox.column-1-1 {
+    padding: 0;
+}
+/* -------------------- Start: Ingresser till kategorisidor (20180420) -------------------- */
+section.ingress {
+    padding: 0 0 20px 0;
+}
+section.ingress h1,
+section.ingress h2 {
+    font-size: 18px;
+    color: #000000;
+    margin: 0px;
+}
+section.ingress p {
+    max-width: 700px;
+    font-size: 16px;
+    line-height: 20px;
+}
+/* --------------------   End: Ingresser till kategorisidor (20180420) -------------------- */
+
+/* -------------------- Start: mrh-app-channel -------------------- */
+.mrh-app-channel.mrh-pagetypeid-mobile_category .app-product-search {
+    display: none;
+}
+/* --------------------   End: mrh-app-channel -------------------- *
+
+/* -------------------- Cookies maj 2018 -------------------- */
+.mrh-bottom-layer-stack-wrapper .cookies-banner {
+    background: #dddddd;
+}
+.cookies-banner .cookie-banner-text {
+    color: #000000;
+    font-size: 12px;
+    -ms-word-break: normal;
+    word-break: normal;
+    text-align: center;
+}
+.cookies-banner a.button.background-type-1,
+.cookies-banner a.button.background-type-1 span,
+.cookies-banner a.button.background-type-2,
+.cookies-banner a.button.background-type-2 span {
+    height: 20px;
+    line-height: 20px;
+    font-size: 12px;
+    border: none;
+}
+.cookies-banner .second-page-content.cookie-layer {
+    padding-top: 24px;
+}
+/*---- Gömmer inställningar-knappen i cookie layer mobil-----*/
+a.button.background-type-2.set-up-cookies.second-cookie-btn {
+    display: none;
+}
+a.button.background-type-1.accept-cookies.first-cookie-btn {
+    margin: auto;
+    float: none;
+}
+/*-----------------------------------------------------------*/
+
+/*---------------------Styling för sidorna användarvillkor 2018 för GDPR---------------------*/
+.layer-wrapper.common h2 {
+    padding: 12px 0 22px 0;
+}
+.layer-wrapper.common a {
+    color: #000;
+    font-size: 14px;
+}
+.layer-anchors {
+    border: 1px solid #ddd;
+    background: #F2F2F2;
+    margin-bottom: 12px;
+    overflow: hidden;
+    padding-bottom: 12px;
+}
+.layer-anchors h2 {
+    padding: 15px 0 15px 22px !important;
+    margin: 0;
+}
+.layer-anchors ul {
+    margin-right: 20px;
+    list-style: none;
+}
+.layer-anchors li {
+    margin: 0 12px 12px 0;
+    float: left;
+    height: 30px;
+    width: 100%;
+}
+.layer-anchors li>a {
+    background: none repeat scroll 0 0 #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 13px !important;
+    font-weight: normal;
+    padding: 5px 25px 7px 10px !important;
+    position: relative;
+    display: block;
+}
+.layer-anchors li>a:after {
+    background: none;
+    content: url('https://www.mediamarkt.se/static/img/icons/liten_pil_ner.png');
+    font-size: 8px;
+    height: 7px;
+    position: absolute;
+    right: 11px;
+    text-indent: 0;
+    top: 7px;
+    width: 8px;
+}
+p.intro {
+    color: #444;
+    font-size: 16px;
+    line-height: 20px;
+    margin: 0 20px !important;
+}
+.fsd-accordion {
+    margin-top: 12px;
+    border-bottom: 1px solid #ddd;
+}
+.fsd-accordion h1, .fsd-accordion h2, .fsd-accordion h3, .fsd-accordion h4, .fsd-accordion h5 {
+    margin-bottom: 0;
+}
+.fsd-accordion h2, .fsd-accordion h3 {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.fsd-accordion p {
+    margin: 0 !important;
+}
+.fsd-accordion dd {
+    display: none;
+    margin: 0;
+    padding-bottom: 20px;
+    padding-left: 25px;
+    font-size: 14px;
+    line-height: 16px;
+    color: #444;
+}
+.fsd-accordion dt {
+    position: relative;
+    cursor: pointer;
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-bottom: 20px;
+    font-size: 20px;
+    line-height: 22px;
+}
+.fsd-accordion dt:before {
+    transition: transform .3s ease-in-out;
+    border-radius: 50%;
+    font-size: 21px;
+    line-height: 21px;
+    color: #000;
+    content: url('https://www.mediamarkt.se/static/img/icons/pil_ner_svart.png');
+    display: block;
+    position: absolute;
+    text-indent: 0;
+    text-align: center;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    padding: 7px;
+    box-sizing: border-box;
+    width: 38px;
+    height: 38px;
+    border: 1px solid #ddd;
+    background: #fff;
+    transform: rotate(-90deg);
+}
+.fsd-accordion dt.expanded:before {
+    transform: rotate(0deg);
+}
+.fsd-accordion dt, .fsd-accordion dd {
+    padding-right: 25px;
+}
+.fsd-accordion dt {
+    position: relative;
+    cursor: pointer;
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 20px;
+    line-height: 22px;
+}
+.fsd-accordion dd ul {
+    margin: 8px 0 18px 0;
+    list-style: none;
+    padding: 0;
+}
+.fsd-accordion dd ul li {
+    padding-left: 15px;
+    position: relative;
+}
+.fsd-accordion dd ul li:before {
+    content: " ";
+    width: 3px;
+    height: 3px;
+    background: black;
+    display: inline-block;
+    position: absolute;
+    left: 6px;
+    top: 8px;
+}
+.fsd-accordion dd p>a {
+    text-decoration: none;
+    border-bottom: 1px solid #bbb;
+}
+.fsd-accordion dd p>a:hover {
+    border-bottom-color: #DF0000;
+}
+.accordion-title {
+    background: url('//picscdn.redblue.de/doi/msh-pixelboxx-553487607/feecms_x_x_x') no-repeat;
+}
+.accordion-title {
+    margin-top: -1px;
+    background-position: top 10px left 0 !important;
+    height: 35px;
+    border-top: #ddd solid 1px;
+    border-bottom: #ddd solid 1px;
+    padding: 10px 0 0 40px;
+    cursor: pointer;
+}
+.accordion-title.active {
+    border-bottom: none;
+}
+.accordion-detail {
+    display: none;
+    border-bottom: #ddd solid 1px;
+    margin-left: 40px;
+}
+.accordion-title {
+    clear: both;
+}
+#CookiesOnlineshop {
+    padding: 12px 20px 12px 20px !important;
+}
+#DSClub {
+    padding: 12px 20px 0px 20px !important;
+}
+#DSOnlineshop {
+    padding: 12px 20px 12px 20px !important;
+}
+h4.auszug {
+    text-indent: 4em !important;
+}
+p.auszug {
+    padding-left: 4em !important;
+}
+/*------------------------------ SEARCH -------------------------------------*/
+.tab-categories .gridbox {
+    padding-bottom: 0px !important;
+}
+#filter-container, #filter-container .gridbox {
+    padding: 0px 2.5px !important;
+}
+.button.background-type-2.dropdown-wrapper span {
+    padding-right: 25px;
+}
+.button.background-type-2.dropdown-wrapper span:after {
+    background: url('images/css_sprites.png') no-repeat -7px -40px rgba(0,0,0,0);
+    background-size: 120px auto;
+    top: 12px;
+    right: 0px;
+	width: 18px;
+    height: 18px;
+}
+/*------------------------ Lagerstatus-------------------------------------*/
+a.instockonline {
+    color: #000;
+}
+span.greentext{
+    color: #00ac45;
+}
+span.redtext {
+    color: #df0000;
+}
+/*----------------------- GRIDBOX AND BOXES---------------------------- */
+.grid h4.gridbox, .gridbox{
+	padding: 0 5px 5px 5px;
+}
+/* CMS PRODUCT GRID */
+.cms-products-grid .ct-products-grid>li .base-info .price {
+    top: 145px;
+    left: auto;
+    right: unset;
+}
+.cms-products-grid .ct-products-grid>li .base-info .ee-wrapper {
+    margin: 35px 0 0 0px;
+}
+.cms-products-grid .ee-wrapper > a.energy-usage-label {
+    width: 50% !important;
+    margin: 0px 0 0 0px;
+}
+.cms-products-grid a.ee-pdf, a.ee-layer {
+    margin: 0px 0 20px 0px;
+}
+.cms-products-grid .pavailability li {
+    vertical-align: text-top;
+    text-align: left;
+    font-size: 12px;
+}
+.cms-products-grid .online-verylowstock p span {
+    padding-left: 22px;
+    color: #ed7811;
+}
+.cms-products-grid .online-verylowstock p span .redtext {
+    padding-left: 0px;
+    color: #df0000;
+}
+.cms-products-grid .pavailability ul li:before {
+    background: url('images/greenbox.png') no-repeat !important;
+    background-size: 16px 16px !important;
+    background-position: center;
+    content: ".";
+    padding: 0 0px 3px 19px;
+    color: transparent;
+}
+.cms-products-grid .action-bar {
+    background: rgba(88,88,88,0.9);
+}
+.cms-products-grid .ct-products-grid>li.selected {
+    border-color: #df0000;
+    box-shadow: 0 0 0 1px #df0000;
+}
+.cms-products-grid .ct-products-grid>li .base-info h3 {
+    max-height: 65px;
+    font-size: 18px;
+    line-height: 18px;
+    opacity: 1.0;
+    margin: 10px 0px 0;
+    padding: 0;
+    border: none;
+    overflow: hidden;
+    text-transform: none;
+}
+.cms-products-grid .ct-products-grid>li .base-info h3 a {
+    color: #000;
+}
+.cms-products-grid .ct-products-grid>li .has-variants-text {
+    color: #df0000;
+    margin: 5px 0px;
+    font-size: 11px
+}
+.cms-products-grid .rating-link {
+    display: none;
+}
+.cms-products-grid .ct-products-grid>li .base-info {
+    height: 370px !important;
+    padding: 10px !important;
+}
+/*PRICE*/
+.cms-products-grid .ct-products-grid>li .base-info .price-old {
+    top: 115px;
+    left: 15px;
+}
+.cms-products-grid .ct-products-grid>li .base-info .vat-info {
+    margin: 0 0px;
+    font-size: 12px;
+    left: auto;
+    right: unset;
+    top: 200px;
+    text-align: left;
+}
+/*PRICE END*/
+.cms-products-grid .ct-products-grid>li .actions {
+    text-align: center;
+    padding: 10px 0px;
+    width: 92%;
+    margin: 0 auto;
+    background: #000;
+    color: #fff;
+    border-radius: 4px;
+}
+.cms-products-grid .price-old-info-icon {
+    display: none;
+}
+.cms-products-grid .ct-products-grid>li .cart-checkbox input {
+    display: none;
+}
+.cms-products-grid .ct-products-grid>li.selected .actions input+label:after {
+    left: -25px;
+    top: 3px;
+}
+.cms-products-grid .action-bar .large.button.add-to-cart .count {
+    position: absolute;
+    top: -10px;
+    right: -5px;
+    display: block;
+    margin: 0px !important;
+    padding: 8px !important;
+    height: auto;
+    width: auto;
+    font-size: 12px !important;
+    line-height: 4px !important;
+    text-align: center;
+    color: #fff;
+    background: #df0000 !important;
+    border-radius: 50px;
+}
+.cms-products-grid .add-to-cart.button.large {
+    padding: 0px !important;
+    height: auto !important;
+}
+.cms-products-grid .add-to-cart.button.large:hover {
+    padding: 0px !important;
+    height: auto !important;
+}
+.cms-products-grid .action-bar .large.button.add-to-cart:before {
+    top: 10px;
+    right: unset;
+    left: 5px;
+    background: url('https://css.redblue.de/MediaSE/skins/feemmse/sv/images/sprites.png') no-repeat scroll -582px -32px transparent;
+    width: 21px;
+    height: 16px;
+}
+/* LAYER */
+.ct-modal--show .add-to-cart.button.large {
+    padding: 3px 20px 3px 28px!important;
+}
+.ct-modal--show .product-short-details .action-box .details {
+    padding: 4px 10px 4px 10px!important;
+}
+.ct-modal--show .product-short-details .action-box .details span:after {
+    display: none;
+}
+.ct-modal--show .add-to-cart.button.large:hover {
+    padding: 3px 18px 1px 28px!important;
+}
+.ct-modal--show .button.add-to-cart:hover:before {
+    background: url('https://css.redblue.de/MediaSE/skins/feemmse/sv/images/sprites.png') no-repeat scroll -581px -5px transparent !important;
+}
+.ct-modal--show .product-short-details .action-box .details:hover {
+    padding: 4px 10px 3px 10px!important;
+    background: #f2f2f2 !important;
+    border: 1px solid #ddd;
+    color: #df0000;
+}
+.ct-modal--show .product-short-details .action-box .details:hover .button span:after {
+    background: url('images/general/sprites.png') no-repeat scroll -52px -1px transparent !important;
+}
+.ct-modal--show .product-short-details .product-details dd {
+    width: 240px;
+}
+.ct-modal--show .product-rate {
+    display: none;
+}
+/* MOBILE */
+@media screen and (max-width: 640px) {
+    .dynamic-product-list.grid-view-products .product-teaser-details {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .dynamic-product-list.grid-view-products span.product-teaser-fee-container {
+        position: absolute;
+        top: 33px;
+        right: 0px;
+    }
+    .dynamic-product-list.grid-view-products span.product-teaser-vatLabel {
+        margin-bottom: 10px;
+    }
+    .dynamic-product-list.grid-view-products .mrh-ee-container {
+        width: 100%;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        display: flex;
+        justify-content: space-between;
+        align-items: end;
+    }
+    .dynamic-product-list.grid-view-products .add-to-compare-list-wrapper.clearfix {
+        width: 60% !important;
+        padding: 8px 4px;
+    }
+    .dynamic-product-list.grid-view-products .add-to-wish-list-wrapper.clearfix {
+        width: 35% !important;
+        margin: 0px !important;
+        text-indent: 9999px;
+        background-image: url('https://www.mediamarkt.se/static/icons/heart.png');
+        background-repeat: no-repeat;
+        background-size: 25px 23px;
+        background-position: center;
+    }
+    .dynamic-product-list.grid-view-products .add-to-wish-list:after {
+        display: none;
+    }
+    .dynamic-product-list.grid-view-products a.ee-pdf, a.ee-layer {
+        margin: 0px 0 0px 0px;
+    }
+    .dynamic-product-list.grid-view-products a.ellipsis.add-to-compare-list.async-layer-link {
+        color: #000!important;
+    }
+
+    .dynamic-product-list.grid-view-products h3.product-teaser-headline {
+        min-height: 35px;
+    }
+
+    .dynamic-product-list.grid-view-products img.product-brand-logo {
+        min-height: 18px;
+    }
+
+    .dynamic-product-list.grid-view-products span.price.product-teaser-price {
+        margin: 5px 0 5px 5px;
+    }
+}
+
+/* -------------------- Start: Ratings -------------------- */
+.rating {
+    background-image: url('https://www.mediamarkt.se/static/icons/ratingyellowgrey.png');
+    background-position: 0px 2px;
+}
+.rating div {
+    background-image: url('https://www.mediamarkt.se/static/icons/ratingyellowgrey.png');
+    background-position: 0 -7px;
+}
+span.rating-count {
+    color: #000;
+}
+/* --------------------   End: Ratings -------------------- */
+
+/* CMS */
+.cms_html_container img {
+	width: 100%;
+}
+
+/* -------------------- Start: Produktsnurror -------------------- */
+.swiper-slide .product-teaser-container figure {
+    max-height: 100%;
+}
+.swiper-wrapper .product-teaser-details .has-crossed-price .product-price-info .crossed-price-layer {
+    display: none;
+}
+.swiper-container .product-teaser-container .wrapper-price.has-crossed-price .crossed-price-wrapper {
+    margin: 0;
+}
+.crossed-price-wrapper .product-crossed-price {
+	margin-left: 0;
+}
+.swiper-slide .product-teaser-container h3.product-teaser-headline {
+    max-height: 100%;
+}
+/* --------------------   End: Produktsnurror -------------------- */
