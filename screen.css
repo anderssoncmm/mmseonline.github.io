@@ -3544,6 +3544,7 @@ a#basket-flyout-cart {
   font-family: 'mmtextregularpro', sans-serif;
   background: #000 !important;
   color: #fff;
+  font-size: 14px;
 }
 
 a#basket-flyout-cart:hover {
@@ -4376,8 +4377,9 @@ label.product-attributes__item-label {
 }
 
 #product-wrapper .price-old-you-save {
-  margin-top: 4px;
+  margin-top: 5px;
   color: #df0000;
+  font-family: 'mmtextregularpro', sans-serif;
 }
 
 .price.price-old:after {
