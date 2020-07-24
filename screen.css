@@ -4382,6 +4382,10 @@ label.product-attributes__item-label {
   font-family: 'mmtextregularpro', sans-serif;
 }
 
+.price.price-old {
+    margin-left: 0px;
+}
+
 .price.price-old:after {
   transform: rotate(-10deg) !important;
   -webkit-transform: rotate(-10deg) !important;
