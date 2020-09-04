@@ -546,9 +546,6 @@ h6 {
 #header .cart>.button.arrow span:after {
   /* Pil p� k�p knapp, N�sta i checkout, Till Kassan i header */
   background: none !important;
-  -webkit-transition: .2s ease-in-out;
-  -moz-transition: .2s ease-in-out;
-  -o-transition: .2s ease-in-out;
   transition: .2s ease-in-out;
 }
 
@@ -616,9 +613,6 @@ h6 {
   background: url('images/buttonicons.png') -14px -10px no-repeat;
   overflow: hidden;
   content: ".";
-  -webkit-transition: .2s ease-in-out;
-  -moz-transition: .2s ease-in-out;
-  -o-transition: .2s ease-in-out;
   transition: .2s ease-in-out;
 }
 
@@ -2481,9 +2475,6 @@ form.newsletter-form button:before {
   right: 9px;
   top: 14px;
   background: url("https://css.redblue.de/MediaSE/skins/feemmse/sv/images/sprites.png") -413px -25px no-repeat scroll !important;
-  -webkit-transition: .2s ease-in-out;
-  -moz-transition: .2s ease-in-out;
-  -o-transition: .2s ease-in-out;
   transition: .2s ease-in-out;
 }
 
@@ -3638,9 +3629,6 @@ a#basket-flyout-cart:hover span:after {
   right: -4px;
   margin: 0;
   opacity: .6;
-  -webkit-transition: .2s ease-in-out;
-  -moz-transition: .2s ease-in-out;
-  -o-transition: .2s ease-in-out;
   transition: .2s ease-in-out;
 }
 
@@ -5674,13 +5662,6 @@ li.back-to-search:before {
   position: absolute;
   top: 10px;
   right: 0;
-  /* Firefox */
-  -moz-transition: all 0.3s ease;
-  /* WebKit */
-  -webkit-transition: all 0.3s ease;
-  /* Opera */
-  -o-transition: all 0.3s ease;
-  /* Standard */
   transition: all 0.3s ease;
   opacity: 0.5;
 }
@@ -5705,13 +5686,6 @@ li.back-to-search:before {
   position: absolute;
   top: 10px;
   right: 0;
-  /* Firefox */
-  -moz-transition: all 0.3s ease;
-  /* WebKit */
-  -webkit-transition: all 0.3s ease;
-  /* Opera */
-  -o-transition: all 0.3s ease;
-  /* Standard */
   transition: all 0.3s ease;
   -ms-transform: rotate(0deg);
   /* IE 9 */
@@ -5819,9 +5793,6 @@ section.ingress {
   background: #fff;
   border: 1px solid #bbb;
   outline: none;
-  -webkit-transition-property: none;
-  -moz-transition-property: none;
-  -o-transition-property: none;
   transition-property: none;
   z-index: 999;
   color: #000;
@@ -5987,9 +5958,6 @@ a.cookie-info-cancel-button.js-cookie-info-cancel-button.button {
 }
 
 .cookie-info-accept-button.button span:after {
-  -webkit-transition: .2s ease-in-out;
-  -moz-transition: .2s ease-in-out;
-  -o-transition: .2s ease-in-out;
   transition: .2s ease-in-out;
 }
 
