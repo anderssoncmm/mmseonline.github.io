@@ -5,8 +5,8 @@
     font-style: normal;
     font-display: swap;
     src:
-      url('https://www.mediamarkt.se/public/fonts/SourceSansPro-Regular.woff2') format('woff2'),
-      url('https://www.mediamarkt.se/public/fonts/SourceSansPro-Regular.woff2') format('woff');
+      url('https://www.mediamarkt.de/public/fonts/SourceSansPro-Regular.woff2') format('woff2'),
+      url('https://www.mediamarkt.de/public/fonts/SourceSansPro-Regular.woff2') format('woff');
   }
   
   /* Semibold - 600 */
