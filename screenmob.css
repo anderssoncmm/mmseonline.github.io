@@ -37,10 +37,12 @@
     font-weight: 400;
     font-style: normal;
     font-display: swap;
-    src:
-      url('https://www.mediamarkt.de/public/fonts/MMHeadlineProWebTT-Regular_subset.woff2') format('woff2'),
-      url('https://www.mediamarkt.de/public/fonts/MMHeadlineProWebTT-Regular_subset.woff') format('woff');
-  }
+    src: url('https://csscdn.redblue.de/MediaSE/static/fonts/MM/MMHeadlineProWebTT-Regular.woff2'),
+         url('https://csscdn.redblue.de/MediaSE/static/fonts/MM/MMHeadlinePro-Regular.otf'),
+         url('https://csscdn.redblue.de/MediaSE/static/fonts/MM/MMHeadlineProWebTT-Regular.ttf') format('truetype');
+}
+
+    
 @font-face {
     font-family: 'pricemm';
     src: url('https://csscdn.redblue.de/MediaSE/static/fonts/MM/pricemm.eot');
@@ -59,6 +61,12 @@
 }
 
 /* -------------------- Start: Typography -------------------- */
+body, p, ul, li, a {
+    font-family: 'sourcesanspro', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
 h1, h2 {
     font-family: 'sourcesanspro', sans-serif;
     font-weight: 700;
@@ -67,10 +75,7 @@ h3, h4, h5, h6, b {
     font-family: 'sourcesanspro', sans-serif;
     font-weight: 700;
 }
-p, ul, li, a {
-    font-family: 'sourcesanspro', sans-serif;
-    font-weight: 400;
-}
+
 /* -------------------- End: Typography   -------------------- */
 
 /* -------------------- Start: Price  -------------------- */
@@ -80,8 +85,8 @@ body .pdp-product-info .wrapper-price .price,
 body .crossed-price-wrapper .product-crossed-price,
 body .product-teaser-container .product-teaser-details .wrapper-price .price {
 	color: #000;
-	font-family: 'pricemm', 'mmtextboldpro', sans-serif;
-    font-weight: normal;
+    font-family: 'pricemm', 'sourcesanspro', sans-serif;
+    font-weight: 600;
     padding-right: 0.25em; /* == Make some room for the :- characters in a cursive price font */
 	text-shadow: 0 0 1em transparent, 0 -0.04em 0 #fff, 0.04em 0 0 #fff, 0 0.04em 0 #fff, -0.034em -0.024em 0 #fff, -0.03em -0.04em 0 #fff, -0.01em -0.04em 0 #fff, 0.052em -0.04em 0 #fff, 0.04em -0.04em 0 #fff, 0.02em -0.04em 0 #fff, 0.047em -0.025em 0 #fff, -0.045em 0.016em 0 #fff, -0.039em 0.038em 0 #fff, -0.052em 0.04em 0 #fff, -0.042em 0.04em 0 #fff, 0.031em 0.028em 0 #fff, 0.029em 0.04em 0 #fff, rgba(0, 0, 0, 0.2) 0.05em 0 0.05em, rgba(0, 0, 0, 0.2) 0 0.05em 0.05em, rgba(0, 0, 0, 0.2) 0.05em 0.05em 0.05em;
 }
@@ -130,8 +135,7 @@ body .product-list .crossed-price-wrapper .product-crossed-price {
 body .pdp-product-info .crossed-price-wrapper .product-crossed-price {
     font-size: 1.75em;
 }
-body .pdp-product-info .crossed-price-wrapper .product-crossed-price::after {}
-body .pdp-product-info .crossed-price-wrapper .product-crossed-price::before {}
+
 body .crossed-price-wrapper.product-price-info {
     margin: 8px 0;
 }
@@ -163,7 +167,8 @@ body #wrapper-main .table-prod-details table {
 body #wrapper-main .table-prod-details td.checkmark {
     /* Remove the background image ... */
     background: none;
-    font-family: 'sourcesanspro-regular', 'mmtextregularpro', sans-serif;
+    font-family: 'sourcesanspro', sans-serif;
+    font-weight: 400;
     width: 16px;
 }
 body #wrapper-main .table-prod-details td.checkmark::before {
@@ -179,7 +184,7 @@ body #wrapper-main .table-prod-details td.feat-name {
     color: #555;
 }
 body #wrapper-main .table-prod-details td.feat-text {
-    font-family: 'sourcesanspro-regular', 'mmtextregularpro', sans-serif;
+    font-family: 'sourcesanspro', sans-serif;
 }
 /* --------------------   End: PDP -------------------- */
 
@@ -210,10 +215,10 @@ body .ms-header2--glued.ms-glue--fixed:not(.ms-header2--nav-active) {
 }
 body .site-navigation2__list li {
     font-size: 18px;
-    font-family: 'mmtextregularpro', sans-serif;
+    font-family: 'sourcesanspro', sans-serif;
 }
 body .site-navigation2__list .site-navigation2__panel--level-3 li a {
-    font-family: 'sourcesanspro-regular', 'mmtextregularpro', sans-serif;
+    font-family: 'sourcesanspro', sans-serif;
     font-size: 0.888888889em;
     font-weight: normal;
 }
@@ -250,7 +255,7 @@ body #wrapper-main .product-list .product-teaser-container {
     padding-bottom: 1em;
 }
 body #wrapper-main .product-list .product-teaser-container .product-teaser-details .information * {
-    font-family: 'sourcesanspro-regular', 'mmtextregularpro', sans-serif;
+    font-family: 'sourcesanspro', sans-serif;
 }
 body #nav-categories {
     margin-bottom: 1em;
@@ -260,7 +265,7 @@ body #nav-categories li a {
     border-bottom: 0px solid #fff;
     border-top: 1px solid #ddd;
     color: #000;
-    font-family: 'sourcesanspro-regular', 'mmtextregularpro', sans-serif;
+    font-family: 'sourcesanspro', sans-serif;
     line-height: 100%;
     padding: 1em 2em 1em 10px;
 }
@@ -301,7 +306,7 @@ body #wrapper-main .tab-categories ul.content-link-list li a.mrh-accordion-headl
     border: 1px solid #ddd;
     border-radius: 4px;
     color: #525252;
-    font-family: 'sourcesanspro-regular', 'mmtextregularpro', sans-serif;
+    font-family: 'sourcesanspro', sans-serif;
     font-weight: normal;
     padding: 8px;
 }
@@ -354,7 +359,7 @@ body #wrapper-main .tab-categories ul.content-link-list > li > ul {
 }
 body #wrapper-main .tab-categories ul.content-link-list li a,
 body #wrapper-main .tab-categories ul.content-link-list li span {
-    font-family: 'sourcesanspro-regular', 'mmtextregularpro', sans-serif;
+    font-family: 'sourcesanspro', sans-serif;
 }
 /* --------------------   End: Filter & Sorting -------------------- */
 
