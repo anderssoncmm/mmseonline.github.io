@@ -5,8 +5,8 @@
     font-style: normal;
     font-display: swap;
     src:
-      url('https://www.mediamarkt.de/public/fonts/SourceSansPro-Regular.woff2') format('woff2'),
-      url('https://www.mediamarkt.de/public/fonts/SourceSansPro-Regular.woff2') format('woff');
+      url('https://csscdn.redblue.de/MediaSE/static/fonts/MM/SourceSansPro-Regular.woff2') format('woff2'),
+      url('https://csscdn.redblue.de/MediaSE/static/fonts/MM/SourceSansPro-Regular.woff2') format('woff');
   }
   
   /* Semibold - 600 */
@@ -16,8 +16,8 @@
     font-style: normal;
     font-display: swap;
     src:
-      url('https://www.mediamarkt.de/public/fonts/SourceSansPro-Semibold.woff2') format('woff2'),
-      url('https://www.mediamarkt.de/public/fonts/SourceSansPro-Semibold.woff') format('woff');
+      url('https://csscdn.redblue.de/MediaSE/static/fonts/MM/SourceSansPro-Semibold.woff2') format('woff2'),
+      url('https://csscdn.redblue.de/MediaSE/static/fonts/MM/SourceSansPro-Semibold.woff') format('woff');
   }
   
   /* Bold - 700 */
@@ -27,8 +27,8 @@
     font-style: normal;
     font-display: swap;
     src:
-      url('https://www.mediamarkt.de/public/fonts/SourceSansPro-Bold.woff2') format('woff2'),
-      url('https://www.mediamarkt.de/public/fonts/SourceSansPro-Bold.woff') format('woff');
+      url('https://csscdn.redblue.de/MediaSE/static/fonts/MM/SourceSansPro-Bold.woff2') format('woff2'),
+      url('https://csscdn.redblue.de/MediaSE/static/fonts/MM/SourceSansPro-Bold.woff') format('woff');
   }
   
   /* Regular - 400 */
@@ -329,7 +329,7 @@ body #wrapper-main .tab-categories ul.content-link-list li a:after {
     color: #888;
     font-size: 0.625em;
 }
-body #wrapper-main .tab-categories ul.content-link-list li a.mrh-accordion-headline:after {}
+
 body #wrapper-main .tab-categories ul.content-link-list li.displayed a.mrh-accordion-headline:after {
     top: 25%;
     transform: rotate(90deg);
