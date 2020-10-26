@@ -5,8 +5,8 @@
     font-style: normal;
     font-display: swap;
     src:
-      url('https://csscdn.redblue.de/MediaSE/static/fonts/MM/SourceSansPro-Regular.woff2') format('woff2'),
-      url('https://csscdn.redblue.de/MediaSE/static/fonts/MM/SourceSansPro-Regular.woff') format('woff');
+      url('https://www.mediamarkt.se/public/fonts/SourceSansPro-Regular.woff2') format('woff2'),
+      url('https://www.mediamarkt.se/public/fonts/SourceSansPro-Regular.woff2') format('woff');
   }
   
   /* Semibold - 600 */
@@ -16,8 +16,8 @@
     font-style: normal;
     font-display: swap;
     src:
-      url(/public/fonts/SourceSansPro-Semibold.woff2) format('woff2'),
-      url(/public/fonts/SourceSansPro-Semibold.woff) format('woff');
+      url('https://www.mediamarkt.se/public/fonts/SourceSansPro-Semibold.woff2') format('woff2'),
+      url('https://www.mediamarkt.se/public/fonts/SourceSansPro-Semibold.woff') format('woff');
   }
   
   /* Bold - 700 */
@@ -27,8 +27,8 @@
     font-style: normal;
     font-display: swap;
     src:
-      url(/public/fonts/SourceSansPro-Bold.woff2) format('woff2'),
-      url(/public/fonts/SourceSansPro-Bold.woff) format('woff');
+      url('https://www.mediamarkt.se/public/fonts/SourceSansPro-Bold.woff2') format('woff2'),
+      url('https://www.mediamarkt.se/public/fonts/SourceSansPro-Bold.woff') format('woff');
   }
   
   /* Regular - 400 */
@@ -38,8 +38,8 @@
     font-style: normal;
     font-display: swap;
     src:
-      url(/public/fonts/MMHeadlineProWebTT-Regular_subset.woff2) format('woff2'),
-      url(/public/fonts/MMHeadlineProWebTT-Regular_subset.woff) format('woff');
+      url('https://www.mediamarkt.se/public/fonts/MMHeadlineProWebTT-Regular_subset.woff2') format('woff2'),
+      url('https://www.mediamarkt.se/public/fonts/MMHeadlineProWebTT-Regular_subset.woff') format('woff');
   }
 @font-face {
     font-family: 'pricemm';
