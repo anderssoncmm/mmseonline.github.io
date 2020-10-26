@@ -60,13 +60,16 @@
 
 /* -------------------- Start: Typography -------------------- */
 h1, h2 {
-    font-family: 'mmtextboldpro', sans-serif;
+    font-family: 'sourcesanspro', sans-serif;
+    font-weight: 700;
 }
 h3, h4, h5, h6, b {
-    font-family: 'mmtextboldpro', sans-serif;
+    font-family: 'sourcesanspro', sans-serif;
+    font-weight: 700;
 }
 p, ul, li, a {
-    font-family: 'mmtextregularpro', sans-serif;
+    font-family: 'sourcesanspro', sans-serif;
+    font-weight: 400;
 }
 /* -------------------- End: Typography   -------------------- */
 
