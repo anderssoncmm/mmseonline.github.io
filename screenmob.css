@@ -5,8 +5,8 @@
     font-style: normal;
     font-display: swap;
     src:
-      url(/public/fonts/SourceSansPro-Regular.woff2) format('woff2'),
-      url(/public/fonts/SourceSansPro-Regular.woff) format('woff');
+      url('https://csscdn.redblue.de/MediaSE/static/fonts/MM/SourceSansPro-Regular.woff2') format('woff2'),
+      url('https://csscdn.redblue.de/MediaSE/static/fonts/MM/SourceSansPro-Regular.woff') format('woff');
   }
   
   /* Semibold - 600 */
