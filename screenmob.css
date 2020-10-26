@@ -45,6 +45,7 @@
     
 @font-face {
     font-family: 'pricemm';
+    font-weight: 400;
     src: url('https://csscdn.redblue.de/MediaSE/static/fonts/MM/pricemm.eot');
     src: url('https://csscdn.redblue.de/MediaSE/static/fonts/MM/pricemm.eot?#iefix') format('embedded-opentype'),
          url('https://csscdn.redblue.de/MediaSE/static/fonts/MM/pricemm.woff2') format('woff2'),
@@ -86,7 +87,6 @@ body .crossed-price-wrapper .product-crossed-price,
 body .product-teaser-container .product-teaser-details .wrapper-price .price {
 	color: #000;
     font-family: 'pricemm', 'sourcesanspro', sans-serif;
-    font-weight: 600;
     padding-right: 0.25em; /* == Make some room for the :- characters in a cursive price font */
 	text-shadow: 0 0 1em transparent, 0 -0.04em 0 #fff, 0.04em 0 0 #fff, 0 0.04em 0 #fff, -0.034em -0.024em 0 #fff, -0.03em -0.04em 0 #fff, -0.01em -0.04em 0 #fff, 0.052em -0.04em 0 #fff, 0.04em -0.04em 0 #fff, 0.02em -0.04em 0 #fff, 0.047em -0.025em 0 #fff, -0.045em 0.016em 0 #fff, -0.039em 0.038em 0 #fff, -0.052em 0.04em 0 #fff, -0.042em 0.04em 0 #fff, 0.031em 0.028em 0 #fff, 0.029em 0.04em 0 #fff, rgba(0, 0, 0, 0.2) 0.05em 0 0.05em, rgba(0, 0, 0, 0.2) 0 0.05em 0.05em, rgba(0, 0, 0, 0.2) 0.05em 0.05em 0.05em;
 }
