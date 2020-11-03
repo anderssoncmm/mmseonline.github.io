@@ -68,12 +68,12 @@ body, p, ul, li, a, span:not(.ms-icon) {
     font-size: 16px;
 }
 
-h1, h2 {
+h1, h2, h1 span, h2 span {
     font-family: 'sourcesanspro', sans-serif !important;
     font-weight: 700;
     font-size: 20px;
 }
-h3, h4, h5, h6, b {
+h3, h4, h5, h6, b, h3 span, h4 span, h5 span, h6 span{
     font-family: 'sourcesanspro', sans-serif !important;
     font-weight: 700;
     font-size: 16px;
@@ -508,7 +508,7 @@ body #wrapper-main .category-breadcrumb:link,
 body #wrapper-main .category-breadcrumb:visited {
     display: inline-block;
     color: #df0000;
-    padding: 5px 0 10px;
+    padding: 0px;
 }
 body #wrapper-main .category-breadcrumb:before {
     background: none !important;
@@ -905,7 +905,7 @@ a.button.background-type-1.accept-cookies.first-cookie-btn {
     width: 8px;
 }
 p.intro {
-    color: #444;
+    color: #4f4f4f;
     font-size: 16px;
     line-height: 20px;
     margin: 0 20px !important;
@@ -1002,7 +1002,7 @@ p.intro {
 }
 .fsd-accordion dd p>a {
     text-decoration: none;
-    border-bottom: 1px solid #bbb;
+    border-bottom: 1px solid #ddd;
 }
 .fsd-accordion dd p>a:hover {
     border-bottom-color: #DF0000;
@@ -1073,9 +1073,13 @@ span.greentext{
 span.redtext {
     color: #df0000;
 }
+
+span.orangetext {
+    color: #ff9900;
+}
 /*----------------------- GRIDBOX AND BOXES---------------------------- */
 .grid h4.gridbox, .gridbox{
-	padding: 0 5px 5px 5px;
+	padding: 0px 0px 5px 0px;
 }
 /* CMS PRODUCT GRID */
 .cms-products-grid .ct-products-grid>li .base-info .price {
@@ -1340,3 +1344,13 @@ span.rating-count {
     max-height: 100%;
 }
 /* --------------------   End: Produktsnurror -------------------- */
+
+/* -------------------- Start: Bazaarvoice ----------------------- */
+div[data-bv-show=rating_summary] div.bv_main_container {
+    width: auto;
+    margin: 0px 10px !important;
+}
+
+[data-bv-show=rating_summary] .bv_main_container .bv_stars_component_container {
+    padding-right: 0px!important;
+}
