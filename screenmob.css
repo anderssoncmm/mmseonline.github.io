@@ -188,6 +188,11 @@ div#type-standard-delivery h2.green span.time-cluster {
     font-weight: 400;
 }
 
+#delivery-type h1.mrh-accordion-headline span.only-closed {
+    font-family: 'sourcesanspro', sans-serif;
+    font-weight: 400;
+}
+
 div#type-express-delivery {
     display: none;
 }
