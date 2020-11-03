@@ -141,7 +141,14 @@ body .crossed-price-wrapper .crossed-price-layer span {
     color: #000;
     font-size: 16px;
 }
-/* --------------------   End: Price -------------------- */
+/* -------------------- End: Price -------------------- */
+
+/* -------------------- Start: Buttons ---------------- */
+a.button {
+    border-radius: 39px;
+    font-family: 'sourcesanspro', sans-serif;
+    font-weight: 400px;
+}
 
 /* -------------------- Start: PDP -------------------- */
 body .pdp-slider .swiper-container {
@@ -165,6 +172,7 @@ body .pdp-slider .swiper-container {
 div#delivery-type h1, h1.mrh-accordion-headline span {
     font-family: 'sourcesanspro', sans-serif;
     font-weight: 600;
+    font-size: 18px;
 }
 
 div#type-standard-delivery h2, #type-pickup-delivery h2.extra-info {
@@ -200,7 +208,6 @@ div#type-express-delivery {
 .mrh-delivery-type .option-label h1 {
     padding: 0px;
 }
-
 
 .mrh-delivery-type .delivery-radio+.option-label .availability {
     background: none;
