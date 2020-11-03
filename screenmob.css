@@ -152,12 +152,12 @@ body .crossed-price-wrapper .crossed-price-layer span {
 /* -------------------- End: Price -------------------- */
 
 /* -------------------- Start: Buttons ---------------- */
-a.button, .button, p.button {
+a.button, input.button, label.button, p.button, span.button  {
     height: 28px;
-    background: #fff !important;
+    background: #fff;
     border-radius: 28px;
-    color: #000 !important;
-    border: 1px solid #4f4f4f !important;
+    color: #000;
+    border: 1px solid #4f4f4f;
     font-family: 'sourcesanspro', sans-serif;
     font-weight: 400;
     line-height: 28px;
@@ -165,12 +165,12 @@ a.button, .button, p.button {
     
 }
 
-a.button.primary-button, .button.primary-button {
+a.button.primary-button, input.button.primary-button, label.button.primary-button, p.button, span.button.primary-button {
     height: 28px;
     border-radius: 28px;
-    background: #4f4f4f !important;
-    color: #fff !important;
-    border: 1px solid #4f4f4f !important;
+    background: #4f4f4f;
+    color: #fff;
+    border: 1px solid #4f4f4f;
     font-family: 'sourcesanspro', sans-serif;
     font-weight: 600;
     font-size: 16px;
