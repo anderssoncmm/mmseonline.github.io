@@ -101,8 +101,6 @@ body .product-teaser-container .product-teaser-details .wrapper-price .product-t
     display: inline-block;
 }
 body .crossed-price-wrapper .product-crossed-price {
-    /* @TODO: check this font-size */
-    /* font-size: 30px; */
     line-height: 100%;
     margin-left: 0;
 }
@@ -157,7 +155,90 @@ body .pdp-slider .swiper-container {
      */
     min-height: 74.137931034vw;
 }
-/* == Product details */
+
+/* == Delivery information == */
+.mrh-delivery-type .mrh-delivery-type-container, .product-variants-container .product-variants-list{
+    background: #fff;
+    border-color: #ddd;
+}
+
+div#delivery-type h1, h1.mrh-accordion-headline span {
+    font-family: 'sourcesanspro', sans-serif;
+    font-weight: 600;
+}
+
+div#type-standard-delivery h2, #type-pickup-delivery h2.extra-info {
+    padding: 0px 0px 0px 20px !important;
+    font-weight: normal;
+}
+
+#type-pickup-delivery h2.extra-info span {
+    font-family: 'SourceSansPro-regular', sans-serif;
+}
+
+div#type-standard-delivery h2.green span.instock {
+    color: #00ac45;
+    font-family: 'sourcesanspro', sans-serif;
+    font-weight: 400;
+}
+
+div#type-standard-delivery h2.green span.time-cluster {
+    color: #ff9900;
+    font-family: 'sourcesanspro', sans-serif;
+    font-weight: 400;
+}
+
+div#type-express-delivery {
+    display: none;
+}
+
+.mrh-delivery-type .option-label h1 {
+    padding: 0px;
+}
+
+
+.mrh-delivery-type .delivery-radio+.option-label .availability {
+    background: none;
+}
+
+.mrh-delivery-type .delivery-type-item.disabled .delivery-radio+.option-label .availability {
+    display: none;
+}
+
+.mrh-delivery-type .market-list .delivery-type-item.sub-item label h2 {
+    font-family: 'sourcesanspro', sans-serif;
+    font-weight: 400;
+}
+
+.mrh-delivery-type .delivery-type-item.disabled>* {
+    opacity: 1;
+}
+
+.grid.delivery-type-item.sub-item .not-available-pickup .green{
+	color: #00ac45;
+	font-weight: normal;
+
+} 
+
+.grid.delivery-type-item.sub-item.disabled .not-available-pickup{
+	color: #ddd;
+	font-weight: normal;
+}
+
+div#type-standard-delivery.disabled h1, div#type-standard-delivery h2 {
+    color: #ddd;
+}
+
+.mrh-delivery-type .market-list .delivery-type-item.sub-item {
+    padding: 15px 0 15px 25px;
+}
+
+.mrh-delivery-type .market-list .delivery-type-item.sub-item h2 {
+    padding: 0px;
+}
+
+
+/* == Product details  == */
 body #wrapper-main .table-prod-details {
     margin: 1em 0;
 }
@@ -165,15 +246,13 @@ body #wrapper-main .table-prod-details table {
     margin-top: 0;
 }
 body #wrapper-main .table-prod-details td.checkmark {
-    /* Remove the background image ... */
     background: none;
     font-family: 'sourcesanspro', sans-serif;
     font-weight: 400;
     width: 16px;
 }
 body #wrapper-main .table-prod-details td.checkmark::before {
-    /* ... and add a checkmark as icon font instead */
-    content: "\2713"; /* ✔ */
+    content: "\2713";
     color: #00ac45;
     display: inline-block;
     font-family: 'MM-iconfont';
