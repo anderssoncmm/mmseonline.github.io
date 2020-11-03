@@ -79,6 +79,12 @@ h3, h4, h5, h6, b, h3 span, h4 span, h5 span, h6 span{
     font-size: 16px;
 }
 
+.product-teaser-fee-container, .product-teaser-unit-price, .product-teaser-vatLabel {
+    font-size: 10px!important;
+    line-height: 10px!important;
+    display: block;
+}
+
 /* -------------------- End: Typography   -------------------- */
 
 /* -------------------- Start: Price  -------------------- */
@@ -146,12 +152,12 @@ body .crossed-price-wrapper .crossed-price-layer span {
 /* -------------------- End: Price -------------------- */
 
 /* -------------------- Start: Buttons ---------------- */
-a.button, .button {
+a.button, .button, p.button {
     height: 28px;
-    background: #fff;
+    background: #fff !important;
     border-radius: 28px;
-    color: #000;
-    border: 1px solid #4f4f4f;
+    color: #000 !important;
+    border: 1px solid #4f4f4f !important;
     font-family: 'sourcesanspro', sans-serif;
     font-weight: 400;
     line-height: 28px;
@@ -162,9 +168,9 @@ a.button, .button {
 a.button.primary-button, .button.primary-button {
     height: 28px;
     border-radius: 28px;
-    background: #4f4f4f;
-    color: #fff;
-    border: 1px solid #4f4f4f;
+    background: #4f4f4f !important;
+    color: #fff !important;
+    border: 1px solid #4f4f4f !important;
     font-family: 'sourcesanspro', sans-serif;
     font-weight: 600;
     font-size: 16px;
@@ -333,7 +339,7 @@ body .ms-header2--glued.ms-glue--fixed:not(.ms-header2--nav-active) {
     box-shadow: 0 .2rem .6rem rgba(0,0,0,.2);
 }
 
-.site-navigation2__offcanvas-toggle-label{
+span.site-navigation2__offcanvas-toggle-label{
     font-size: 9px;
 }
 @media (min-width: 61.875em) {
