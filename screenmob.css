@@ -196,7 +196,7 @@ a#addToBasket.button.primary-button {
     border-radius: 54px;
     font-family: 'sourcesanspro', sans-serif;
     font-weight: 600;
-    font-size: 16px;
+    font-size: 20px;
     line-height: 54px;
     margin: 0 auto 15px;
     padding: 0px;
@@ -209,8 +209,11 @@ a#addToBasket.button.primary-button span {
     height:54px;
     font-family: 'sourcesanspro', sans-serif;
     font-weight: 600;
-    font-size: 16px;
+    font-size: 20px;
     line-height: 54px;
+    background-color: #000;
+    color: #fff;
+    border: 1px solid #000;
 }
 
 /* -------------------- Start: PDP -------------------- */
@@ -244,23 +247,21 @@ div#type-standard-delivery h2, #type-pickup-delivery h2.extra-info {
 }
 
 #type-pickup-delivery h2.extra-info span {
-    font-family: 'sourcesanspro', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
 }
 
 div#type-standard-delivery h2.green span.instock {
     color: #00ac45;
-    font-family: 'sourcesanspro', sans-serif;
     font-weight: 400;
 }
 
 div#type-standard-delivery h2.green span.time-cluster {
     color: #ff9900;
-    font-family: 'sourcesanspro', sans-serif;
     font-weight: 400;
 }
 
 #delivery-type h1.mrh-accordion-headline span.only-closed {
-    font-family: 'sourcesanspro', sans-serif;
     font-weight: 400;
 }
 
