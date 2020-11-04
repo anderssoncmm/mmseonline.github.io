@@ -169,7 +169,7 @@ a.button, input.button, label.button, p.button, span.button, .button.background-
     font-size: 16px;  
 }
 
-a.button *, input.button *, label.button *, p.button *, span.button *{
+a.button *, input.button *, label.button *, p.button *, span.button *, .button.background-type-2 *, .button.background-type-1 *{
     background: #fff;
     color: #000;
     font-weight: 400;
