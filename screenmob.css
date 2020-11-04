@@ -151,6 +151,11 @@ body .crossed-price-wrapper .crossed-price-layer span {
 }
 /* -------------------- End: Price -------------------- */
 
+/* -------------------- Start: General ---------------- */
+.grid {
+    margin: 0px;
+}
+
 /* -------------------- Start: Buttons ---------------- */
 a.button, input.button, label.button, p.button, span.button  {
     height: 28px;
@@ -370,11 +375,15 @@ body .site-navigation2__list .site-navigation2__panel--level-3 li a {
 /* --------------------   End: Header -------------------- */
 
 /* -------------------- Start: Search Field -------------------- */
+section.bg-white.fixed-search-container {
+    margin: 0px!important;
+}
+
 body .ms-header2__search-wrapper input[type=search],
 body .ms-header2__search-wrapper input[type=text],
 body .wrapper-search-form input[type=search],
 body .wrapper-search-form input[type=text] {
-    border-radius: 3px;
+    border-radius: 4px;
 }
 body .ms-header2__search-wrapper input[type=search],
 body .ms-header2__search-wrapper input[type=text],
@@ -383,6 +392,18 @@ body .wrapper-search-form input[type=text],
 body .fixed-search-container .fixed-search-close-btn {
     -webkit-box-shadow: none;
     box-shadow: none;
+}
+
+.wrapper-search-form input[type=search] {
+    background: #fff !important;
+    border: 1px solid #4f4f4f;
+    font-family: 'sourcesanspro';
+}
+
+label.button.search-submit {
+    border-radius: 0px 4px 4px 0px;
+    border: none;
+    background-color: #4f4f4f;
 }
 /* --------------------   End: Search Field -------------------- */
 
@@ -1085,7 +1106,7 @@ span.orangetext {
 }
 /*----------------------- GRIDBOX AND BOXES---------------------------- */
 .grid h4.gridbox, .gridbox{
-	padding: 0px 0px 5px 0px;
+	padding: 5px;
 }
 /* CMS PRODUCT GRID */
 .cms-products-grid .ct-products-grid>li .base-info .price {
