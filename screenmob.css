@@ -243,7 +243,7 @@ div#delivery-type h1, h1.mrh-accordion-headline span {
 
 div#type-standard-delivery h2, #type-pickup-delivery h2.extra-info {
     padding: 0px 0px 0px 20px !important;
-    font-weight: normal;
+    font-weight: 400;
 }
 
 #type-pickup-delivery h2.extra-info span {
@@ -254,15 +254,18 @@ div#type-standard-delivery h2, #type-pickup-delivery h2.extra-info {
 div#type-standard-delivery h2.green span.instock {
     color: #00ac45;
     font-weight: 400;
+    font-size: 16px;
 }
 
 div#type-standard-delivery h2.green span.time-cluster {
     color: #ff9900;
     font-weight: 400;
+    font-size: 16px;
 }
 
 #delivery-type h1.mrh-accordion-headline span.only-closed {
     font-weight: 400;
+    font-size: 16px;
 }
 
 div#type-express-delivery {
