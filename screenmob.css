@@ -68,12 +68,12 @@ body, p, ul, li, a, span:not(.ms-icon) {
     font-size: 16px;
 }
 
-h1, h2, h1 span, h2 span {
+h1, h2, h1 span:not(.ms-icon), h2 span:not(.ms-icon) {
     font-family: 'sourcesanspro', sans-serif !important;
     font-weight: 700;
     font-size: 20px;
 }
-h3, h4, h5, h6, b, h3 span, h4 span, h5 span, h6 span{
+h3, h4, h5, h6, b, h3 span:not(.ms-icon), h4 span:not(.ms-icon), h5 span:not(.ms-icon), h6 span:not(.ms-icon){
     font-family: 'sourcesanspro', sans-serif !important;
     font-weight: 700;
     font-size: 16px;
@@ -475,6 +475,14 @@ body #filter-container .button {
     color: #fff;
     margin: 0;
 }
+
+body #filter-container .button.background-type-2 span {
+    background-color: #df0000;
+    border-width: 0;
+    color: #fff;
+    margin: 0;
+}
+
 body #wrapper-main .tab-categories ul.content-link-list li a.mrh-accordion-headline {
     background: #fff;
     border: 1px solid #ddd;
