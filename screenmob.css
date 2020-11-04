@@ -230,7 +230,11 @@ body .pdp-slider .swiper-container {
 }
 
 /* == Delivery information == */
-.mrh-delivery-type .mrh-delivery-type-container, .product-variants-container .product-variants-list{
+div#type-express-delivery {
+    display: none;
+}
+
+/*.mrh-delivery-type .mrh-delivery-type-container, .product-variants-container .product-variants-list{
     background: #fff;
     border-color: #ddd;
 }
@@ -268,9 +272,7 @@ div#type-standard-delivery h2.green span.time-cluster {
     font-size: 16px;
 }
 
-div#type-express-delivery {
-    display: none;
-}
+
 
 .mrh-delivery-type .option-label h1 {
     padding: 0px;
@@ -315,7 +317,7 @@ div#type-standard-delivery.disabled h1, div#type-standard-delivery h2 {
 .mrh-delivery-type .market-list .delivery-type-item.sub-item h2 {
     padding: 0px;
 }
-
+*/
 
 /* == Product details  == */
 body #wrapper-main .table-prod-details {
