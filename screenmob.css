@@ -190,6 +190,18 @@ a.button.primary-button, input.button.primary-button, label.button.primary-butto
     line-height: 28px;
 }
 
+.button.primary-button span, .button.primary-button input{
+    height: 28px;
+    border-radius: 28px;
+    background-color: #4f4f4f;
+    color: #fff;
+    border: 1px solid #4f4f4f;
+    font-family: 'sourcesanspro', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+}
+
 a#addToBasket.button.primary-button {
     height:54px;
     width: 97%;
@@ -234,20 +246,39 @@ div#type-express-delivery {
     display: none;
 }
 
-/*.mrh-delivery-type .mrh-delivery-type-container, .product-variants-container .product-variants-list{
-    background: #fff;
-    border-color: #ddd;
+div#delivery-type {
+    padding: 0px;
+}
+
+div#delivery-type {
+   	margin: 0px;
+	padding: 0px;
+    	border: none;
+    	background: #f8f8f8;
+}
+
+.mrh-delivery-type .delivery-type-item {
+    border: none;
+}
+
+div#type-standard-delivery.delivery-type-item {
+    padding: 20px 0px 0px 0px!important;
+}
+
+div#type-pickup-delivery.delivery-type-item {
+    padding: 0px 0px 20px 0px!important;
+}
+
+
+div#type-pickup-delivery.delivery-type-item .mrh-accordion.mrh-accordion-container {
+    padding: 15px 0px 0px;
 }
 
 div#delivery-type h1, h1.mrh-accordion-headline span {
     font-family: 'sourcesanspro', sans-serif;
-    font-weight: 600;
+    font-weight: 700;
     font-size: 18px;
-}
-
-div#type-standard-delivery h2, #type-pickup-delivery h2.extra-info {
-    padding: 0px 0px 0px 20px !important;
-    font-weight: 400;
+    line-height: 1;
 }
 
 #type-pickup-delivery h2.extra-info span {
@@ -272,7 +303,20 @@ div#type-standard-delivery h2.green span.time-cluster {
     font-size: 16px;
 }
 
+.mrh-delivery-type .mrh-delivery-type-container .displayed {
+    background: #f8f8f8;
+}
 
+.mrh-delivery-type .mrh-accordion-content {
+    border-top: 1px solid #ddd;
+    margin-top: 15px;
+    margin: 15px 20px;
+    padding-top: 20px;
+}
+
+div#type-pickup-delivery .grid.market-list {
+    margin: 0px 0px;
+}
 
 .mrh-delivery-type .option-label h1 {
     padding: 0px;
@@ -298,7 +342,6 @@ div#type-standard-delivery h2.green span.time-cluster {
 .grid.delivery-type-item.sub-item .not-available-pickup .green{
 	color: #00ac45;
 	font-weight: normal;
-
 } 
 
 .grid.delivery-type-item.sub-item.disabled .not-available-pickup{
@@ -317,7 +360,14 @@ div#type-standard-delivery.disabled h1, div#type-standard-delivery h2 {
 .mrh-delivery-type .market-list .delivery-type-item.sub-item h2 {
     padding: 0px;
 }
-*/
+
+#type-pickup-delivery h1#load-more {
+    border: 1px solid #4f4f4f;
+    border-radius: 40px;
+    text-align: center;
+    padding: 10px 0px;
+    font-weight: 400!important;
+}
 
 /* == Product details  == */
 body #wrapper-main .table-prod-details {
