@@ -369,7 +369,7 @@ div#type-standard-delivery.disabled h1, div#type-standard-delivery h2 {
     font-weight: 400!important;
 }
 
-/* == Product details  == */
+/* == PDP  == */
 body #wrapper-main .table-prod-details {
     margin: 1em 0;
 }
@@ -396,6 +396,30 @@ body #wrapper-main .table-prod-details td.feat-name {
 body #wrapper-main .table-prod-details td.feat-text {
     font-family: 'sourcesanspro', sans-serif;
 }
+
+h3.mrh-accordion-headline.additional-services-headline {
+    padding-bottom: 0px;
+}
+
+h3.mrh-accordion-headline.additional-services-headline span {
+    font-weight: 400;
+}
+
+.mrh-delivery-type .mrh-accordion-headline>.mrh-accordion-trigger:after {
+    bottom: -21px;
+    top: auto;
+    right: -15px;
+    position: absolute;
+    background-color: transparent;
+}
+
+.mrh-delivery-type .mrh-accordion .only-open {
+    right: 0px;
+    top: 29px;
+    font-weight: 600;
+    font-size: 16px;
+}
+
 /* --------------------   End: PDP -------------------- */
 
 /* -------------------- Start: Header -------------------- */
