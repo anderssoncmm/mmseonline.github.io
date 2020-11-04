@@ -157,7 +157,7 @@ body .crossed-price-wrapper .crossed-price-layer span {
 }
 
 /* -------------------- Start: Buttons ---------------- */
-a.button, input.button, label.button, p.button, span.button  {
+a.button, input.button, label.button, p.button, span.button, .button.background-type-2, .button.background-type-1  {
     height: 28px;
     background: #fff;
     border-radius: 28px;
@@ -166,8 +166,16 @@ a.button, input.button, label.button, p.button, span.button  {
     font-family: 'sourcesanspro', sans-serif;
     font-weight: 400;
     line-height: 28px;
-    font-size: 16px;
-    
+    font-size: 16px;  
+}
+
+a.button *, input.button *, label.button *, p.button *, span.button *{
+    background: #fff;
+    color: #000;
+    font-weight: 400;
+    line-height: 28px;
+    font-size: 16px;  
+    font-family: 'sourcesanspro', sans-serif;
 }
 
 a.button.primary-button, input.button.primary-button, label.button.primary-button, p.button, span.button.primary-button {
@@ -375,10 +383,6 @@ body .site-navigation2__list .site-navigation2__panel--level-3 li a {
 /* --------------------   End: Header -------------------- */
 
 /* -------------------- Start: Search Field -------------------- */
-section.bg-white.fixed-search-container {
-    margin: 0px!important;
-}
-
 body .ms-header2__search-wrapper input[type=search],
 body .ms-header2__search-wrapper input[type=text],
 body .wrapper-search-form input[type=search],
@@ -812,7 +816,7 @@ section.bg-white.status-red ul {
 a.button.background-type-1.async-layer-link {
     margin-top: 20px;
 }
-/* ---------- SÖK JUNI OCH AUGUSTI 2016 ---------- */
+/* ---------- SEARCH PAGE ---------- */
 .mrh-mobile-channel ul.content-link-list.level-1, .mrh-mobile-channel section.wrapper-full-width.bg-white.tab-categories, .mrh-mobile-channel section.wrapper-full-width.bg-white.tab-categories .grid, .mrh-mobile-channel div#filter-container, .mrh-mobile-channel a.current-category.mrh-accordion-headline.mrh-accordion-trigger {
     margin: 0 !important;
 }
@@ -822,10 +826,8 @@ section.bg-white.fixed-search-container {
 .mrh-pagetypeid-mobile_searchresult div#filter-container {
     padding: 0 !important;
 }
-.fixed-search-container .gridbox.column-1-1 {
-    padding: 0;
-}
-/* -------------------- Start: Ingresser till kategorisidor (20180420) -------------------- */
+
+/* -------------------- Start: Ingresses -------------------- */
 section.ingress {
     padding: 0 0 20px 0;
 }
@@ -840,7 +842,7 @@ section.ingress p {
     font-size: 16px;
     line-height: 20px;
 }
-/* --------------------   End: Ingresser till kategorisidor (20180420) -------------------- */
+/* --------------------   End: Ingresses -------------------- */
 
 /* -------------------- Start: mrh-app-channel -------------------- */
 .mrh-app-channel.mrh-pagetypeid-mobile_category .app-product-search {
