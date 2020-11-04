@@ -383,6 +383,10 @@ body .site-navigation2__list .site-navigation2__panel--level-3 li a {
 /* --------------------   End: Header -------------------- */
 
 /* -------------------- Start: Search Field -------------------- */
+section.bg-white.fixed-search-container {
+    margin: 10px 0px 0px 0px !important;
+}
+
 body .ms-header2__search-wrapper input[type=search],
 body .ms-header2__search-wrapper input[type=text],
 body .wrapper-search-form input[type=search],
@@ -820,9 +824,7 @@ a.button.background-type-1.async-layer-link {
 .mrh-mobile-channel ul.content-link-list.level-1, .mrh-mobile-channel section.wrapper-full-width.bg-white.tab-categories, .mrh-mobile-channel section.wrapper-full-width.bg-white.tab-categories .grid, .mrh-mobile-channel div#filter-container, .mrh-mobile-channel a.current-category.mrh-accordion-headline.mrh-accordion-trigger {
     margin: 0 !important;
 }
-section.bg-white.fixed-search-container {
-    margin-bottom: 0 !important;
-}
+
 .mrh-pagetypeid-mobile_searchresult div#filter-container {
     padding: 0 !important;
 }
