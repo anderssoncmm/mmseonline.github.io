@@ -229,7 +229,7 @@ a#addToBasket.button.primary-button span {
 }
 
 /* MMSEBUTTONS */ 
-a.mmsebutton {
+a.mmsebutton, .mmsebutton {
     border: 1px solid #4f4f4f;
     border-radius: 50px;
     background: #fff;
@@ -242,42 +242,48 @@ a.mmsebutton {
     text-decoration: none;
 }
 
-a.mmsebutton:hover{
+a.mmsebutton.small, .mmsebutton.small{
+    padding: 6px 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+} 
+
+a.mmsebutton:hover, .mmsebutton:hover{
     text-decoration: none;
     background: #f2f2f2;
 }
 
-a.mmsebutton.fullwidth{
+a.mmsebutton.fullwidth, .mmsebutton.fullwidth{
     display: block;
 }
 
-a.mmsebutton.pri{
+a.mmsebutton.pri, .mmsebutton.pri{
     background: #df0000;
     color: #fff;
     border: 1px solid #df0000;
     font-weight: 600;
 }
 
-a.mmsebutton.pri:hover{
+a.mmsebutton.pri:hover, .mmsebutton.pri:hover{
     background: #9c0000;
     color: #fff;
     border: 1px solid #9c0000;
 }
 
-a.mmsebutton.pri-sec{
+a.mmsebutton.pri-sec, .mmsebutton.pri-sec{
     background: #4f4f4f;
     color: #fff;
     border: 1px solid #4f4f4f;
     font-weight: 600;
 }
 
-a.mmsebutton.pri-sec:hover{
+a.mmsebutton.pri-sec:hover, .mmsebutton.pri-sec:hover{
     background: #000;
     color: #fff;
     border: 1px solid #000;
 }
 
-a.mmsebutton.inactive{
+a.mmsebutton.inactive, .mmsebutton.inactive{
     opacity: 0.2;
     background: #fff;
     color: #000;
@@ -285,7 +291,7 @@ a.mmsebutton.inactive{
     pointer-events: none;
 }
 
-a.mmsebutton:hover.inactive{
+a.mmsebutton:hover.inactive, .mmsebutton:hover.inactive{
     opacity: 0.2;
     background: #fff;
     color: #000;
