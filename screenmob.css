@@ -228,6 +228,70 @@ a#addToBasket.button.primary-button span {
     border: 1px solid #000;
 }
 
+/* MMSEBUTTONS */ 
+a.mmsebutton {
+    border: 1px solid #4f4f4f;
+    border-radius: 50px;
+    background: #fff;
+    color: #000;
+    padding: 12px 20px;
+    font-size: 16px;
+    line-height: 1.2;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+}
+
+a.mmsebutton:hover{
+    text-decoration: none;
+    background: #f2f2f2;
+}
+
+a.mmsebutton.fullwidth{
+    display: block;
+}
+
+a.mmsebutton.pri{
+    background: #df0000;
+    color: #fff;
+    border: 1px solid #df0000;
+    font-weight: 600;
+}
+
+a.mmsebutton.pri:hover{
+    background: #9c0000;
+    color: #fff;
+    border: 1px solid #9c0000;
+}
+
+a.mmsebutton.pri-sec{
+    background: #4f4f4f;
+    color: #fff;
+    border: 1px solid #4f4f4f;
+    font-weight: 600;
+}
+
+a.mmsebutton.pri-sec:hover{
+    background: #000;
+    color: #fff;
+    border: 1px solid #000;
+}
+
+a.mmsebutton.inactive{
+    opacity: 0.2;
+    background: #fff;
+    color: #000;
+    border: 1px solid #4f4f4f;
+    pointer-events: none;
+}
+
+a.mmsebutton:hover.inactive{
+    opacity: 0.2;
+    background: #fff;
+    color: #000;
+    border: 1px solid #4f4f4f;
+}
+
 /* -------------------- Start: PDP -------------------- */
 body .pdp-slider .swiper-container {
     /* == Based on the image ratio in combination with viewport width (vw)
@@ -251,10 +315,10 @@ div#delivery-type {
 }
 
 div#delivery-type {
-   	margin: 0px;
+   	margin: 0px 0px 20px 0px;
 	padding: 0px;
-    	border: none;
-    	background: #f8f8f8;
+    border: none;
+    background: #f8f8f8;
 }
 
 .mrh-delivery-type .delivery-type-item {
