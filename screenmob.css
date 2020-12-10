@@ -298,6 +298,25 @@ a.mmsebutton:hover.inactive, .mmsebutton:hover.inactive{
     border: 1px solid #4f4f4f;
 }
 
+a.mmsebutton.pri.parent-bg, a.mmsebutton.pri-sec.parent-bg, .mmsebutton.pri.parent-bg, .mmsebutton.pri-sec.parent-bg {
+    background: #fff;
+    color: #df0000;
+    border: 1px solid #fff;
+}
+
+a.mmsebutton.sec.parent-bg, .mmsebutton.sec.parent-bg {
+    background: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+
+a.mmsebutton.parent-bg:hover, .mmsebutton.parent-bg:hover{
+    background: #9c0000;
+    color: #fff;
+    border: 1px solid #fff
+}
+
 /* -------------------- Start: PDP -------------------- */
 body .pdp-slider .swiper-container {
     /* == Based on the image ratio in combination with viewport width (vw)
