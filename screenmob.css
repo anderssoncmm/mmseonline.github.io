@@ -814,15 +814,13 @@ body #wrapper-main .category-breadcrumb:after {
     display: block;
     color: #525252;
 }
-.swemodule p, p {
+.swemodule p {
     font-size: 14px;
     line-height: 18px;
     margin: 0 0 20px 0;
     display: block;
 }
-li {
-    font-size: 14px;
-}
+
 .swemodule a {
     color: #df0000;
     text-decoration: underline;
