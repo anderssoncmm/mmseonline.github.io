@@ -158,14 +158,14 @@ body .crossed-price-wrapper .crossed-price-layer span {
 
 /* -------------------- Start: Buttons ---------------- */
 a.button, input.button, label.button, p.button, span.button, .button.background-type-2, .button.background-type-1  {
-    height: 28px;
+    height: 30px;
     background-color: #fff;
-    border-radius: 28px;
+    border-radius: 30px;
     color: #000;
     border: 1px solid #4f4f4f;
     font-family: 'sourcesanspro', sans-serif;
     font-weight: 400;
-    line-height: 28px;
+    line-height: 30px;
     font-size: 16px;  
 }
 
@@ -175,31 +175,32 @@ a.button, input.button, label.button, p.button, span.button, .button.background-
     font-weight: 400;
     line-height: 28px;
     font-size: 16px;  
+    padding: 0px;
     font-family: 'sourcesanspro', sans-serif;
 }
 
 a.button.primary-button, input.button.primary-button, label.button.primary-button, p.button, span.button.primary-button {
-    height: 28px;
-    border-radius: 28px;
+    height: 30px;
+    border-radius: 30px;
     background-color: #4f4f4f;
     color: #fff;
     border: 1px solid #4f4f4f;
     font-family: 'sourcesanspro', sans-serif;
     font-weight: 600;
     font-size: 16px;
-    line-height: 28px;
+    line-height: 30px;
 }
 
 .button.primary-button span, .button.primary-button input{
-    height: 28px;
-    border-radius: 28px;
+    height: 30px;
+    border-radius: 30px;
     background-color: #4f4f4f;
     color: #fff;
     border: 1px solid #4f4f4f;
     font-family: 'sourcesanspro', sans-serif;
     font-weight: 600;
     font-size: 16px;
-    line-height: 28px;
+    line-height: 30px;
 }
 
 a#addToBasket.button.primary-button {
@@ -226,6 +227,16 @@ a#addToBasket.button.primary-button span {
     background-color: #000;
     color: #fff;
     border: 1px solid #000;
+}
+
+.button.background-type-1.primary-button, .button.background-type-1.primary-button * {
+    height: 42px;
+    line-height: 42px;
+    padding: 0px;
+}
+
+a.button.background-type-1.button-go-to-basket.primary-button span {
+    padding-left: 35px;
 }
 
 /* MMSEBUTTONS */ 
