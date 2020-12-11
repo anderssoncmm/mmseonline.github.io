@@ -1,50 +1,75 @@
+/* Regular - 400 */
+@font-face {
+  font-family: 'sourcesanspro';
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  src:
+    url('https://csscdn.redblue.de/MediaSE/static/fonts/MM/SourceSansPro-Regular.woff2') format('woff2'),
+    url('https://csscdn.redblue.de/MediaSE/static/fonts/MM/SourceSansPro-Regular.woff2') format('woff');
+}
+
+/* Semibold - 600 */
+@font-face {
+  font-family: 'sourcesanspro';
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+  src:
+    url('https://csscdn.redblue.de/MediaSE/static/fonts/MM/SourceSansPro-Semibold.woff2') format('woff2'),
+    url('https://csscdn.redblue.de/MediaSE/static/fonts/MM/SourceSansPro-Semibold.woff') format('woff');
+}
+
+/* Bold - 700 */
+@font-face {
+  font-family: 'sourcesanspro';
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+  src:
+    url('https://csscdn.redblue.de/MediaSE/static/fonts/MM/SourceSansPro-Bold.woff2') format('woff2'),
+    url('https://csscdn.redblue.de/MediaSE/static/fonts/MM/SourceSansPro-Bold.woff') format('woff');
+}
+
+/* Regular - 400 */
 @font-face {
   font-family: 'mmheadlinepro';
-  src: url('https://csscdn.redblue.de/MediaSE/static/fonts/MM/MMHeadlineProWebTT-Regular.woff2'), url('https://csscdn.redblue.de/MediaSE/static/fonts/MM/MMHeadlinePro-Regular.otf'), url('https://csscdn.redblue.de/MediaSE/static/fonts/MM/MMHeadlineProWebTT-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  src: url('https://csscdn.redblue.de/MediaSE/static/fonts/MM/MMHeadlineProWebTT-Regular.woff2'),
+       url('https://csscdn.redblue.de/MediaSE/static/fonts/MM/MMHeadlinePro-Regular.otf'),
+       url('https://csscdn.redblue.de/MediaSE/static/fonts/MM/MMHeadlineProWebTT-Regular.ttf') format('truetype');
 }
 
+  
 @font-face {
-  font-family: 'mmtextboldpro';
-  src: url('https://csscdn.redblue.de/MediaSE/static/fonts/MM/MMTextProWebTT-Bold.woff2'), url('https://csscdn.redblue.de/MediaSE/static/fonts/MM/MMTextPro-Bold.otf'), url('https://csscdn.redblue.de/MediaSE/static/fonts/MM/MMTextProWebTT-Bold.ttf') format('truetype');
+  font-family: 'pricemm';
+  font-weight: 400;
+  src: url('https://csscdn.redblue.de/MediaSE/static/fonts/MM/pricemm.eot');
+  src: url('https://csscdn.redblue.de/MediaSE/static/fonts/MM/pricemm.eot?#iefix') format('embedded-opentype'),
+       url('https://csscdn.redblue.de/MediaSE/static/fonts/MM/pricemm.woff2') format('woff2'),
+       url('https://csscdn.redblue.de/MediaSE/static/fonts/MM/pricemm.woff') format('woff'),
+       url('https://csscdn.redblue.de/MediaSE/static/fonts/MM/pricemm.ttf') format('truetype'),
+       url('https://csscdn.redblue.de/MediaSE/static/fonts/MM/pricemm.svg#svg') format('svg')
 }
-
 @font-face {
-  font-family: 'mmtextregularpro';
-  src: url('https://csscdn.redblue.de/MediaSE/static/fonts/MM/MMTextProWebTT-Regular.woff2'), url('https://csscdn.redblue.de/MediaSE/static/fonts/MM/MMTextPro-Regular.otf'), url('https://csscdn.redblue.de/MediaSE/static/fonts/MM/MMTextProWebTT-Regular.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'sourcesanspro-regular';
-  font-weight: normal;
-  src: url("https://csscdn.redblue.de/MediaSE/static/fonts/MM/SourceSansPro-Regular.eot");
-  src: url("https://csscdn.redblue.de/MediaSE/static/fonts/MM/SourceSansPro-Regular.eot?#iefix") format("embedded-opentype"), url("https://csscdn.redblue.de/MediaSE/static/fonts/MM/SourceSansPro-Regular.woff2") format("woff2"), url("https://csscdn.redblue.de/MediaSE/static/fonts/MM/SourceSansPro-Regular.woff") format("woff"), url("https://csscdn.redblue.de/MediaSE/static/fonts/MM/SourceSansPro-Regular.ttf") format("truetype"), url("https://csscdn.redblue.de/MediaSE/static/fonts/MM/SourceSansPro-Regular.svg#svg") format("svg");
-}
-
-@font-face {
-  font-family: "pricemm";
-  src: url("https://csscdn.redblue.de/MediaSE/static/fonts/MM/pricemm.eot");
-  src: url("https://csscdn.redblue.de/MediaSE/static/fonts/MM/pricemm.eot?#iefix") format("embedded-opentype"), url("https://csscdn.redblue.de/MediaSE/static/fonts/MM/pricemm.woff2") format("woff2"), url("https://csscdn.redblue.de/MediaSE/static/fonts/MM/pricemm.woff") format("woff"), url("https://csscdn.redblue.de/MediaSE/static/fonts/MM/pricemm.ttf") format("truetype"), url("https://csscdn.redblue.de/MediaSE/static/fonts/MM/pricemm.svg#svg") format("svg")
-}
-
-@font-face {
-  font-family: "mm-icons";
-  src: url("https://csscdn.redblue.de/MediaSE/static/fonts/MM/mmicons/MMIcons.eot");
-  src: url("https://csscdn.redblue.de/MediaSE/static/fonts/MM/mmicons/MMIcons.eot?#iefix") format("embedded-opentype"),
-    url("https://csscdn.redblue.de/MediaSE/static/fonts/MM/mmicons/MMIcons.woff2") format("woff2"),
-    url("https://csscdn.redblue.de/MediaSE/static/fonts/MM/mmicons/MMIcons.woff") format("woff")
+  font-family:'mm-icons';
+  src: url('https://csscdn.redblue.de/MediaSE/static/fonts/MM/mmicons/MMIcons.eot');
+  src: url('https://csscdn.redblue.de/MediaSE/static/fonts/MM/mmicons/MMIcons.eot?#iefix') format('embedded-opentype'),
+       url('https://csscdn.redblue.de/MediaSE/static/fonts/MM/mmicons/MMIcons.woff2') format('woff2'),
+       url('https://csscdn.redblue.de/MediaSE/static/fonts/MM/mmicons/MMIcons.woff') format('woff')
 }
 
 /*FONTER*/
 body div,
 body p,
 body a,
-body li {
-  color: #000;
-  font-family: 'sourcesanspro-regular', 'mmtextregularpro', sans-serif;
-}
-
+body li,
 body span {
-  font-family: 'mmtextregularpro', sans-serif;
+  color: #000;
+  font-family: 'sourcesanspro', sans-serif;
+  font-weight: 400;
 }
 
 h1,
@@ -55,30 +80,33 @@ h3 a,
 h4,
 h4 a h5,
 h6 {
-  font-family: 'mmtextboldpro', sans-serif;
+  font-family: 'sourcesanspro', sans-serif;
+  font-weight: 700;
   text-transform: none !important;
-  font-weight: normal !important;
 }
 
 .site-navigation2__child-item[data-nav-level="level 2"] .site-navigation2__link-label {
-  font-family: 'mmtextregularpro', sans-serif;
+  font-family: 'sourcesanspro', sans-serif;
+  font-weight: 400;
 }
 
 .site-navigation2__child-item.site-navigation2__child-item--no-children[data-nav-level="level 3"] .site-navigation2__link-label {
-  font-weight: normal;
-  font-family: 'sourcesanspro-regular', 'mmtextregularpro', sans-serif;
+  font-weight: 400;
+  font-family: 'sourcesanspro', sans-serif;
 }
 
 #filters span {
-  font-family: 'sourcesanspro-regular', 'mmtextregularpro', sans-serif;
+  font-family: 'sourcesanspro', sans-serif;
+  font-weight: 400;
 }
 
 .box.infobox.availability span {
-  font-family: 'sourcesanspro-regular', 'mmtextregularpro', sans-serif;
+  font-family: 'sourcesanspro', sans-serif;
+  font-weight: 400;
 }
 
 .button {
-  font-weight: normal !important;
+  font-weight: 400 !important;
 }
 
 /* RISE HEADER */
@@ -290,7 +318,8 @@ h6 {
 
 .swemodule h4 a {
   color: #df0000;
-  font-family: 'mmtextboldpro', sans-serif;
+  font-family: 'sourcesanspro', sans-serif;
+  font-weight: 700;
   margin: 16px 0 4px 0;
 }
 
@@ -311,7 +340,8 @@ h6 {
   line-height: 14px;
   margin: 0 0 12px 0;
   display: block;
-  font-family: 'mmtextboldpro', sans-serif;
+  font-family: 'sourcesanspro', sans-serif;
+  font-weight: 700;
   color: #525252;
 }
 
@@ -338,7 +368,8 @@ h6 {
 }
 
 .swemodule b {
-  font-family: 'mmtextboldpro', sans-serif;
+  font-family: 'sourcesanspro', sans-serif;
+  font-weight: 700;
 }
 
 .cms_html_container i {
@@ -410,7 +441,7 @@ h6 {
   font-size: 12px;
   font-style: normal;
   font-variant: normal;
-  font-weight: normal;
+  font-weight: 400;
   height: 24px;
   line-height: 24px;
   margin: 0 18px 18px 0;
@@ -451,7 +482,8 @@ h6 {
 
 .infield li h2 a {
   /* Detta �r rubrikerna p� boxarna p� kategorisidorna */
-  font-family: 'mmtextboldpro', sans-serif;
+  font-family: 'sourcesanspro', sans-serif;
+  font-weight: 700;
   color: #000;
 }
 
@@ -518,26 +550,43 @@ h6 {
   background: url("images/giftcardBalance.png") no-repeat scroll 50% 0 transparent;
 }
 
+/* BUTTONS*/
+
+.button {
+  /* Fix s� att k�p knaparna g�r att trycka p� i produktsnurror */
+  z-index: 100;
+}
+
+.button span {
+  padding: 5px 15px;
+  font-size: 12px;
+}
+
+.button:hover span {
+  color: #000 !important;
+  background-color: #f8f8f8 !important;
+  border-radius: 24px;
+  height: 26px !important;
+}
+
 .button.add-to-cart,
 .button.big.arrow span,
 #header .basket .content .buttons .button,
 .button.arrow {
   /* k�p knapp, N�sta i checkout, Till Kassan i header */
   color: #fff;
-  background: #000 !important;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
+  background: #df0000 !important;
   box-sizing: border-box;
-  border: 1px solid #ddd;
+  border: 1px solid #df0000;
 }
 
 .button.add-to-cart:hover,
 .button.big.arrow span:hover,
 #header .basket .content .buttons .button:hover {
   /* k�p knapp, N�sta i checkout */
-  background: #f2f2f2 !important;
-  border: 1px solid #ddd;
-  color: #df0000;
+  background: #9c0000 !important;
+  border: 1px solid #9c0000;
+  color: #fff;
 }
 
 .button.add-to-cart span:after,
@@ -553,14 +602,30 @@ h6 {
   color: #df0000;
 }
 
+.features-wrapper .button-toggle-collapsed {
+  min-height: 36px;
+  color: #000;
+  background-color: #fff;
+  border: 1px solid #4f4f4f;
+  font-size: 12px;
+}
+
+.features-wrapper .button-toggle-collapsed span {
+  padding: 5px 15px;
+}
+
+.features-wrapper .button:hover {
+  background-color: #f2f2f2;
+  border: 1px solid #4f4f4f;
+}
+.features-wrapper .button:hover span {
+  color: #000;
+}
+
 .button.inline.trigger:hover,
 #site-search-submit:hover {
   /* Till Kassa i header m�rk p� hover */
   color: #fff;
-  background: -moz-linear-gradient(top, #333, #131313) !important;
-  background: -webkit-linear-gradient(top, #333, #131313) !important;
-  background: -o-linear-gradient(top, #333, #131313) !important;
-  background: -ms-linear-gradient(top, #333, #131313) !important;
   background: linear-gradient(top, #333, #131313) !important;
   filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#333', endColorstr='#131313') !important;
 }
@@ -569,10 +634,6 @@ h6 {
   /* Ser till att alla knappar p� sidan blir vita och ingen svart */
   height: 26px;
   line-height: 25px;
-  background: -moz-linear-gradient(top, #FEFEFE, #F0F0F0) !important;
-  background: -webkit-linear-gradient(top, #FEFEFE, #F0F0F0) !important;
-  background: -o-linear-gradient(top, #FEFEFE, #F0F0F0) !important;
-  background: -ms-linear-gradient(top, #FEFEFE, #F0F0F0) !important;
   background: linear-gradient(top, #FEFEFE, #F0F0F0) !important;
   filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#FEFEFE', endColorstr='#F0F0F0') !important;
   border: 1px solid #DFDFDF !important;
@@ -585,13 +646,12 @@ h6 {
 }
 
 .my-account.personal-data .content .personal-data-form li label {
-  /* Mindre lin-height i "�ndra" p� "personliga uppgifter" s� att den inte knuffar ner n�r det blir tv� rader */
+  /* Mindre line-height i "�ndra" p� "personliga uppgifter" s� att den inte knuffar ner n�r det blir tv� rader */
   line-height: 19px;
 }
 
 .forms.box.repair-status-form .buttons.cf .button.arrow span {
-  /* Ger tillbaka vit text p� "s�k" knappen i "status p� service�renden" i mitt konto. */
-  color: #fff;
+  color: #000;
 }
 
 .select2-container .select2-choice .select2-arrow,
@@ -645,10 +705,7 @@ h6 {
   text-indent: -999em;
 }
 
-.button {
-  /* Fix s� att k�p knaparna g�r att trycka p� i produktsnurror */
-  z-index: 100;
-}
+
 
 /*======== Bannerstyle margin fixes after release 29/7 - 15 =================*/
 .banners .photo {
@@ -742,7 +799,7 @@ h6 {
   border: 1px solid #dfdfdf;
   border-radius: 4px 4px 4px 4px;
   font-size: 15px;
-  font-weight: normal;
+  font-weight: 400;
   line-height: 50px;
   color: #535353;
   text-transform: none;
@@ -831,7 +888,8 @@ a.button.gray.print.js-print {
 /*Styling av bildgalleri för produkter i helskärm */
 /*--- PRODUKTNAMN ---*/
 .gallery-view .gv-heading span {
-  font-family: 'mmtextboldpro', sans-serif;
+  font-family: 'sourcesanspro', sans-serif;
+  font-weight: 700;
   color: #000;
   font-size: 30px;
 }
@@ -872,7 +930,8 @@ a.button.gray.print.js-print {
 /*-------------------------------------------------*/
 /*--- ÄNDRAR STYLING PÅ "STÄNG" ---*/
 .fullscreen-layer .fullscreen-layer-header .button-close {
-  font-family: 'mmtextboldpro', sans-serif;
+  font-family: 'sourcesanspro', sans-serif;
+  font-weight: 700;
   font-size: 20px;
   color: #000;
 }
@@ -909,7 +968,8 @@ a.button.gray.print.js-print {
   padding-top: 10px;
   margin: 0 0 11px 0;
   display: block;
-  font-family: 'mmtextboldpro', sans-serif;
+  font-family: 'sourcesanspro', sans-serif;
+  font-weight: 700;
   color: #000;
 }
 
@@ -923,7 +983,8 @@ a.button.gray.print.js-print {
   color: #000;
   margin: 0 0 12px 0;
   display: block;
-  font-family: 'mmtextregularpro', sans-serif;
+  font-family: 'sourcesanspro', sans-serif;
+  font-weight: 400;
 }
 
 /* -------------------------------------
@@ -961,7 +1022,8 @@ a.button.gray.print.js-print {
   font-size: 16px;
   color: #000;
   text-transform: none;
-  font-family: 'mmtextregularpro', sans-serif;
+  font-family: 'sourcesanspro', sans-serif;
+  font-weight: 400;
   line-height: 20px;
   padding: 0;
   margin: 0;
@@ -989,8 +1051,8 @@ a.button.gray.print.js-print {
   line-height: 22px;
   font-size: 20px;
   text-transform: uppercase;
-  font-family: 'mmtextboldpro', sans-serif;
-  font-weight: bold;
+  font-family: 'sourcesanspro', sans-serif;
+  font-weight: 700;
   color: #000;
   margin: 0;
   padding: 0;
@@ -1072,7 +1134,8 @@ a.button.gray.print.js-print {
   text-transform: none;
   padding-left: 1px;
   padding-right: 1px;
-  font-family: 'mmtextboldpro', sans-serif;
+  font-family: 'sourcesanspro', sans-serif;
+  font-weight: 700;
 }
 
 #top-navigation>.top-navigation-items li.item:hover>a {
@@ -1739,7 +1802,8 @@ m22 a:hover {
 .m22 .third p {
   font-size: 14px;
   margin: 0 0 3px 0;
-  font-family: 'mmtextregularpro', sans-serif;
+  font-family: 'sourcesanspro', sans-serif;
+  font-weight: 400;
   color: #525252;
 }
 
@@ -1920,9 +1984,9 @@ m22 a:hover {
   -moz-border-radius-bottomleft: 4px;
   border-bottom-left-radius: 4px;
   text-indent: 0;
-  font-family: 'mmtextboldpro', sans-serif;
+  font-family: 'sourcesanspro', sans-serif;
   font-size: 15px;
-  font-weight: bold;
+  font-weight: 700;
   font-style: normal;
   height: 28px;
   line-height: 28px;
@@ -2236,23 +2300,24 @@ a.show-salesslip {
 }
 
 #product-details .description h2 {
-  /* Fixar så att rubrikerna på produktsidorna är lika dana */
+  /* Fixar så att rubrikerna på produktsidorna är likadana */
   color: #000;
   font-size: 18px;
   text-transform: uppercase !important;
-  font-weight: normal !important;
+  font-weight: 700 !important;
   text-overflow: ellipsis;
   white-space: nowrap;
   width: 87%;
   overflow: hidden;
-  font-family: 'mmtextboldpro', sans-serif !important;
+  font-family: 'sourcesanspro', sans-serif !important;
 }
 
 #product-details .description h3 {
-  /* Fixar så att rubrikerna på produktsidorna är lika dana */
+  /* Fixar så att rubrikerna på produktsidorna är likadana */
   color: #000;
   font-size: 16px;
-  font-family: 'mmtextboldpro', sans-serif;
+  font-family: 'sourcesanspro', sans-serif;
+  font-weight: 700;
 }
 
 #product-details .price-sidebar div.price-label .label.price-guaranteee {
@@ -2557,7 +2622,8 @@ form.newsletter-form button:before {
 #header .cart .articles {
   background: #000 !important;
   border: 1px solid #000;
-  font-family: 'mmtextregularpro', sans-serif;
+  font-family: 'sourcesanspro', sans-serif;
+  font-weight: 400;
   font-size: 14px;
 }
 
@@ -2616,7 +2682,7 @@ form.newsletter-form button:before {
 .mainTextShop {
   font-size: 14px !important;
   text-align: center !important;
-  font-weight: bold;
+  font-weight: 700;
 }
 
 .imgShop {
@@ -2666,18 +2732,18 @@ form.newsletter-form button:before {
 }
 
 .leftCol h2 {
-  font-family: 'mmtextboldpro', sans-serif;
+  font-family: 'sourcesanspro', sans-serif;
   font-size: 22px;
-  font-weight: normal;
+  font-weight: 700;
   margin: 5px 5px 24px 0px;
   padding: 0px;
   line-height: 22px;
 }
 
 .leftCol h3 {
-  font-family: 'mmtextboldpro', sans-serif;
+  font-family: 'sourcesanspro', sans-serif;
   font-size: 18px;
-  font-weight: normal;
+  font-weight: 700;
   margin: 5px 0px 21px 0px;
   padding: 0px;
   line-height: 18px;
@@ -2689,8 +2755,8 @@ form.newsletter-form button:before {
   line-height: 18px;
   margin: 0 0 20px 0;
   display: block;
-  font-family: 'mmtextboldpro', sans-serif;
-  font-weight: normal;
+  font-family: 'sourcesanspro', sans-serif;
+  font-weight: 700;
 }
 
 .leftCol img {
@@ -2710,17 +2776,17 @@ form.newsletter-form button:before {
 }
 
 .rightCol h2 {
-  font-family: 'mmtextboldpro', sans-serif;
+  font-family: 'sourcesanspro', sans-serif;
   font-size: 22px;
-  font-weight: normal;
+  font-weight: 700;
   margin: 5px 5px 5px 0px;
   padding: 0;
 }
 
 .rightCol h3 {
-  font-family: 'mmtextboldpro', sans-serif;
+  font-family: 'sourcesanspro', sans-serif;
   font-size: 18px;
-  font-weight: normal;
+  font-weight: 700;
   margin: 5px 0px 6px 0px;
   padding: 0px;
 }
@@ -2731,8 +2797,8 @@ form.newsletter-form button:before {
   line-height: 18px;
   margin: 0 0 20px 20px;
   display: block;
-  font-family: 'mmtextregularpro', sans-serif;
-  font-weight: normal;
+  font-family: 'sourcesanspro', sans-serif;
+  font-weight: 400;
 }
 
 /* -------------------------------------
@@ -2998,8 +3064,8 @@ form.newsletter-form button:before {
   height: 33px;
   line-height: 34px;
   font-size: 18px;
-  font-family: 'mmtextregularpro', sans-serif !important;
-  font-weight: normal;
+  font-family: 'sourcesanspro', sans-serif !important;
+  font-weight: 400;
   text-transform: none;
 }
 
@@ -3274,7 +3340,7 @@ form.newsletter-form button:before {
 }
 
 .button.gray span {
-  font-weight: normal !important;
+  font-weight: 400 !important;
   padding-top: 2px !important;
   color: #000;
 }
@@ -3317,35 +3383,49 @@ form.newsletter-form button:before {
 }
 
 .price-button span {
-  font-family: 'mmtextboldpro', sans-serif;
-  font-weight: normal !important;
+  font-family: 'sourcesanspro', sans-serif;
+  font-weight: 700 !important;
 }
 
 .products-list>li .product-price .add-to-cart:before {
   background: url("images/sprites.png") no-repeat scroll -586px -32px transparent !important;
   width: 17px;
   height: 16px;
-  top: 4px !important;
+  top: 8px !important;
+  left: 18px !important;
 }
 
 .products-list>li .product-price .add-to-cart:hover:before {
   background: url("images/sprites.png") no-repeat scroll -586px -4px transparent !important;
 }
 
-.button.arrow span:after {
-  background: url("https://css.redblue.de/MediaSE/skins/feemmse/sv/images/sprites.png") -414px -13px no-repeat scroll !important;
-  height: 10px !important;
-  right: 8px !important;
-  top: 9px !important;
-  width: 7px !important;
-  content: ".";
-  position: absolute;
-  margin: 0 !important;
-  text-indent: -999em;
+.products-list>li .product-price .add-to-cart:hover:before {
+  background: url(https://csscdn.redblue.de/MediaSE/skins/feemmse/sv/images/sprites.png) no-repeat scroll -586px -32px transparent !important;
 }
 
-.button.arrow:hover span:after {
-  background: url(https://css.redblue.de/MediaSE/skins/feemmse/sv/images/sprites.png) -403px -13px no-repeat scroll !important;
+.products-list>li .button.add-to-cart {
+  margin: 10px;
+  background: #4f4f4f;
+  border: 1px solid #4f4f4f;
+  height: 36px;
+  padding: 4px 10px;
+  width: 88px;
+  font-size: 16px;
+  font-family: 'sourcesanspro', sans-serif;
+}
+
+.products-list>li .button.add-to-cart:hover {
+  background: #000;
+  border: 1px solid #000;
+  color: #fff;
+}
+
+.products-list > li .product-wrapper .product-price .buttons .add-to-cart:hover span {
+  color: #fff;
+}
+
+.button.arrow span:after {
+  display: none;
 }
 
 #header .basket .content .buttons .button span {
@@ -3354,8 +3434,8 @@ form.newsletter-form button:before {
 
 .pagination a {
   background: #fff;
-  font-family: 'mmtextregularpro', sans-serif;
-  font-weight: normal !important;
+  font-family: 'sourcesanspro', sans-serif;
+  font-weight: 400 !important;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   border-radius: 4px;
@@ -3375,15 +3455,16 @@ form.newsletter-form button:before {
 .filters-content fieldset.active .headline span {
   color: #000;
   font-size: 20px;
-  font-family: 'mmtextboldpro', sans-serif;
-  font-weight: normal !important;
+  font-family: 'sourcesanspro', sans-serif;
+  font-weight: 700 !important;
 }
 
 #filters h2 a,
 #filters .headline a {
   color: #000;
   font-size: 20px;
-  font-family: 'mmtextboldpro', sans-serif;
+  font-family: 'sourcesanspro', sans-serif;
+  font-weight: 700;
   padding-left: 28px;
 }
 
@@ -3431,9 +3512,9 @@ form.newsletter-form button:before {
 
 #product-details .product-anchors a:hover {
   text-decoration: none;
-  color: #df0000;
+  color: #000;
   background: #f2f2f2;
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid #4f4f4f;
 }
 
 #product-details .product-anchors a:after {
@@ -3449,7 +3530,7 @@ form.newsletter-form button:before {
 }
 
 #product-details .product-anchors a:hover:after {
-  background: url("https://css.redblue.de/MediaSE/skins/feemmse/sv/images/sprites.png") no-repeat scroll -400px -35px transparent;
+  background: url("https://css.redblue.de/MediaSE/skins/feemmse/sv/images/sprites.png") no-repeat scroll -400px -47px transparent;
 }
 
 #product-details .header h2,
@@ -3457,8 +3538,8 @@ form.newsletter-form button:before {
   color: #000;
   font-size: 18px;
   text-transform: none !important;
-  font-family: 'mmtextboldpro', sans-serif !important;
-  font-weight: normal !important;
+  font-family: 'sourcesanspro', sans-serif !important;
+  font-weight: 700 !important;
   text-overflow: ellipsis;
   white-space: nowrap;
   width: 87%;
@@ -3532,7 +3613,8 @@ form.newsletter-form button:before {
 
 a#basket-flyout-cart {
   /*till kassan från layer när man lägger något i varukorgen*/
-  font-family: 'mmtextregularpro', sans-serif;
+  font-family: 'sourcesanspro', sans-serif;
+  font-weight: 400;
   background: #000 !important;
   color: #fff;
   font-size: 14px;
@@ -3665,8 +3747,8 @@ a#basket-flyout-cart:hover span:after {
 
 .footermenublock h3 {
   color: #df0000;
-  font-family: 'mmtextboldpro', sans-serif;
-  font-weight: normal !important;
+  font-family: 'sourcesanspro', sans-serif;
+  font-weight: 700 !important;
   font-size: 16px;
   display: block;
   border-bottom: 1px solid #ddd;
@@ -3691,13 +3773,13 @@ a#basket-flyout-cart:hover span:after {
   float: right;
   position: relative;
   margin-left: 12px;
-  font-family: 'mmtextregularpro', sans-serif;
-  font-weight: normal !important;
+  font-family: 'sourcesanspro', sans-serif;
+  font-weight: 400 !important;
 }
 
 .footermenublock .miniblock p span {
-  font-family: 'mmtextboldpro', sans-serif;
-  font-weight: normal !important;
+  font-family: 'sourcesanspro', sans-serif;
+  font-weight: 700 !important;
   display: block;
   margin: 0 0 4px;
 }
@@ -3860,17 +3942,16 @@ button.button.gray.js-check-express {
 
 /*================= Sortering och filtrering - mars 2016 - juni - 2016 - juli 2016 =================*/
 .select select {
-  font-family: 'sourcesanspro-regular', sans-serif;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
+  font-family: 'sourcesanspro', sans-serif;
+  font-weight: 400;
   border-radius: 4px;
   padding: 0px 5px;
 }
 
 .select-label {
   color: #000;
-  font-weight: normal;
-  font-family: 'sourcesanspro-regular', sans-serif;
+  font-family: 'sourcesanspro', sans-serif;
+  font-weight: 400;
 }
 
 .filters-content .headline {
@@ -3952,7 +4033,20 @@ a.swogo-small-anchor-link {
 }
 
 .swogo-price span {
-  font-family: 'pricemm', 'mmtextboldpro', sans-serif;
+  font-family: 'pricemm', 'sourcesanspro', sans-serif;
+}
+
+.swogo-summary .swogo-button-add-to-cart {
+  background: transparent !important;
+  border: 1px solid #4f4f4f !important;
+  color: #000 !important;
+  border-radius: 24px !important;
+  font-family: 'sourcesanspro', sans-serif !important;
+  font-weight: 400 !important;
+}
+
+.swogo-button-add-to-cart:after {
+  display: none !important;
 }
 
 .premiumopts.extend-guarantee ul li {
@@ -3964,7 +4058,8 @@ a.swogo-small-anchor-link {
 }
 
 #usparDiv ul li {
-  font-family: 'mmtextboldpro', sans-serif;
+  font-family: 'sourcesanspro', sans-serif;
+  font-weight: 700;
   font-size: 16px;
   color: #df0000;
   border-top: 0;
@@ -3991,105 +4086,11 @@ a.swogo-small-anchor-link {
   margin-left: 15px;
 }
 
-/*================= MEDIA MARKT CLUB - maj 2016 & februari 2017=================*/
-.my-account.orders .order-info .order-data {
-  left: 45px !important;
-  position: relative !important;
-}
-
-.my-account.orders .order-info.shop:before,
-.my-account.order-details .order-info.shop:before {
-  top: 0 !important;
-}
-
-.my-account.orders .order-info .order-data {
-  width: 340px !important;
-}
-
-.my-account.login-page .box {
-  width: 444px !important;
-}
-
-.responsive .my-account.login-page .register-box {
-  position: relative;
-}
-
-.responsive .my-account.login-page .register-box p {
-  font-size: 14px;
-  width: 420px !important;
-  min-height: 15px;
-  float: none;
-}
-
-.responsive .my-account.login-page .register-box ul {
-  font-size: 14px;
-}
-
-.responsive .my-account.login-page .register-box li {
-  list-style-type: disc;
-  margin-left: 15px;
-}
-
-.my-account.login-page .register-box .button {
-  float: none;
-  position: absolute;
-  top: 32px;
-  right: 10px;
-}
-
-.my-account>.content p,
-.my-account .content .info,
-.my-account .content ul {
-  font-size: 14px;
-}
-
-span#logInText {
-  font-family: 'mmtextregularpro', sans-serif;
-  line-height: 18px;
-  font-size: 13px !important;
-  text-transform: none;
-  display: block;
-  margin-bottom: 20px;
-  position: absolute;
-  left: 0;
-}
-
-.my-account.login-page #login-form.login-form h1:before,
-.my-account.login-page #login-form.login-form h2:before {
-  top: 28px;
-}
-
-#login-form fieldset {
-  padding-top: 15px;
-  margin-top: 60px;
-}
-
-span.minaKopText {
-  width: 305px !important;
-  display: block;
-}
-
-span.textKlubbkort p {
-  font-family: 'mmtextregularpro', sans-serif;
-  font-size: 14px;
-  margin-top: 6px;
-}
-
-li.loyaltyClub.chosenToBeShown p {
-  max-width: 500px;
-}
-
-@media only screen and (max-width: 954px) {
-  .responsive .my-account.login-page .box {
-    width: 444px !important;
-  }
-}
-
 /* ---- PDP ---- */
 #product-details h1 {
   color: #000 !important;
   border-bottom: 1px solid #ddd;
-  font-weight: normal !important;
+  font-weight: 400 !important;
   font-size: 24px !important;
 }
 
@@ -4192,14 +4193,15 @@ li.loyaltyClub.chosenToBeShown p {
 }
 
 label.product-attributes__item-label {
-  font-weight: normal;
+  font-weight: 400;
 }
 
 #product-sidebar .product-name {
   color: #000;
   font-size: 18px;
   padding: 15px 0px 5px 0px;
-  font-family: 'mmtextboldpro';
+  font-family: 'sourcesanspro', sans-serif;
+  font-weight: 700;
 }
 
 #product-sidebar .fullscreen:after {
@@ -4338,7 +4340,7 @@ label.product-attributes__item-label {
 
 #product-details .product-reviews .header .rating-wrapper {
   color: #777777;
-  font-weight: normal;
+  font-weight: 400;
   margin: 0 20px 0 0;
 }
 
@@ -4367,7 +4369,8 @@ label.product-attributes__item-label {
 #product-wrapper .price-old-you-save {
   margin-top: 5px;
   color: #df0000;
-  font-family: 'mmtextregularpro', sans-serif;
+  font-family: 'sourcesanspro', sans-serif;
+  font-weight: 400;
 }
 
 .price.price-old {
@@ -4529,7 +4532,8 @@ div#header::before {
 }
 
 #top-navigation>.top-navigation-items .item>a span {
-  font-family: 'mmtextregularpro', sans-serif;
+  font-family: 'sourcesanspro', sans-serif;
+  font-weight: 400;
   font-size: 14px;
 }
 
@@ -4649,15 +4653,12 @@ nav#top-navigation {
 }
 
 .searchFieldContainer input#search-phrase {
-  font-family: 'mmtextregularpro', sans-serif;
+  font-family: 'sourcesanspro', sans-serif;
+  font-weight: 400;
   font-size: 14px;
   color: #969696;
   background-color: #f4f4f4;
   border: 1px solid #ddd;
-  -webkit-border-top-left-radius: 4px;
-  -webkit-border-bottom-left-radius: 4px;
-  -moz-border-radius-topleft: 4px;
-  -moz-border-radius-bottomleft: 4px;
   border-top-left-radius: 4px;
   border-bottom-left-radius: 4px;
   height: 43px;
@@ -4890,11 +4891,17 @@ nav#top-navigation {
   right: 22px;
   bottom: 15px;
   top: auto;
-  background: black;
-  color: #fff;
-  border-radius: 5px;
-  padding: 10px;
+  background: #fff;
+  color: #000;
+  border-radius: 50px;
+  padding: 10px 15px;
   z-index: 1000;
+  border: 1px solid #4f4f4f;
+}
+
+.product-container .more:hover {
+  background: #f2f2f2;
+  text-decoration: none;
 }
 
 /* RUBRIK-STYLING PÅ PRODUKTSNURRA */
@@ -5074,7 +5081,8 @@ form#product-service {
 
 #product-details #product-service h2 {
   background: #f8f8f8;
-  font-family: 'mmtextregularpro';
+  font-family: 'sourcesanspro', sans-serif;
+  font-weight: 400;
   font-size: 18px;
 }
 
@@ -5090,7 +5098,8 @@ form#product-service {
 
 #product-details #product-service span.service-name,
 #product-details #product-service span.service-value {
-  font-family: 'sourcesanspro-regular';
+  font-family: 'sourcesanspro', sans-serif;
+  font-weight: 400;
 }
 
 @media screen and (max-width: 1199px) {
@@ -5422,7 +5431,8 @@ body .cms-products-grid div label {
 }
 
 .product-container.product-container-vertical.recommendation-box .header.border h2 {
-  font-family: 'mmtextboldpro', sans-serif !important;
+  font-family: 'sourcesanspro', sans-serif !important;
+  font-weight: 700;
   font-size: 20px !important;
   color: #444;
   top: 6px;
@@ -5464,7 +5474,8 @@ body .cms-products-grid div label {
 #filters .content .categories-flat-current {
   padding-left: 14px;
   margin-bottom: 0px;
-  font-family: 'mmtextboldpro';
+  font-family: 'sourcesanspro', sans-serif;
+  font-weight: 700;
 }
 
 #filters .categories a {
@@ -5517,7 +5528,7 @@ ul.categories-tree-descendants {
 #filters .content .categories-tree-current {
   color: #df0000;
   font-size: 14px;
-  font-weight: normal;
+  font-weight: 400;
 }
 
 #filters .categories .child-active>ul li.active:first-child span,
@@ -5552,7 +5563,7 @@ ul.categories-tree-ancestors li:before {
 
 .categories-tree-current.categories-tree-has-descendants,
 ul.categories-tree-ancestors li a {
-  font-weight: normal !important;
+  font-weight: 400 !important;
   padding-left: 0 !important;
   color: #df0000 !important;
   margin-left: 0 !important;
@@ -5791,14 +5802,12 @@ section.ingress {
   right: 24px;
   padding: 16px;
   background: #fff;
-  border: 1px solid #bbb;
+  border: 1px solid #4f4f4f;
   outline: none;
   transition-property: none;
   z-index: 999;
   color: #000;
-  -webkit-border-radius: 4px !important;
-  -moz-border-radius: 4px !important;
-  border-radius: 4px !important;
+  border-radius: 50px !important;
 }
 
 a#scroll-to-top:after {
@@ -5885,7 +5894,7 @@ a.cookie-info-cancel-button.js-cookie-info-cancel-button.button {
 
 .cookie-info-module .cookie-info-summary-list li:before {
   background-image: none;
-  font-weight: 900;
+  font-weight: 700;
   position: relative;
   top: -4px;
 }
@@ -6033,7 +6042,7 @@ a.cookie-info-accept-button.button:hover span,
   border: 1px solid #ddd;
   border-radius: 4px;
   font-size: 13px !important;
-  font-weight: normal;
+  font-weight: 400;
   padding: 5px 25px 7px 10px !important;
   position: relative;
   display: block;
@@ -6583,7 +6592,7 @@ th {
 caption,
 th,
 td {
-  font-weight: normal !important;
+  font-weight: 400 !important;
 }
 
 .product-container .products-carousel.loading,
@@ -6598,7 +6607,7 @@ td {
   margin-bottom: -12px;
 }
 
-/*Buttons*/
+/* BUTTONS */
 .button {
   text-shadow: none;
   text-transform: none;
@@ -6612,9 +6621,7 @@ td {
 
 .button,
 .button-facebook {
-  -webkit-border-radius: 4px !important;
-  -moz-border-radius: 4px !important;
-  border-radius: 4px !important;
+  border-radius: 50px !important;
 }
 
 .button.inline {
@@ -6679,6 +6686,19 @@ td {
 .to-details.button:hover span,
 #product-preview .button:hover.arrow span {
   color: #df0000;
+}
+
+a.to-details.button.block.arrow.clickable {
+  border: 1px solid #4f4f4f;
+  padding: 4px 12px;
+  height: 36px;
+  font-size: 16px;
+  font-family: 'sourcesanspro', sans-serif;
+}
+
+a.to-details.button.block.arrow.clickable:hover {
+  color: #000;
+  background: #f2f2f2;
 }
 
 .button.large.add-to-cart.block span:after {
@@ -6854,7 +6874,7 @@ td {
 /***** Infobar *****/
 #infobar {
   background: #E7E7E7;
-  font-weight: normal;
+  font-weight: 400;
   color: #797979;
   text-shadow: none;
 }
@@ -6940,10 +6960,6 @@ td {
   padding: 0;
 }
 
-.seo-texts dd {
-  font-family: 'mm-book', Arial;
-}
-
 /*Kategori Seo*/
 .kategorietext-box {
   margin-top: 12px;
@@ -6951,17 +6967,12 @@ td {
 
 .kategorietext-box h2,
 .kategorietext-box strong {
-  font-weight: normal !important;
+  font-weight: 400 !important;
 }
 
 .kategorietext-box h2 {
   font-size: 16px;
   margin-bottom: 18px;
-}
-
-.kategorietext-box p {
-  margin-bottom: 18px;
-  font-family: 'mm-book', Arial !important
 }
 
 /* RecoTeaser */
@@ -7183,7 +7194,7 @@ td {
   height: 21px;
   color: #000000;
   left: -1px;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 13px;
   padding: 3px 0 0;
   text-align: center;
@@ -7222,7 +7233,8 @@ td {
 #product-preview .base-info h3 a {
   color: #000 !important;
   font-size: 16px;
-  font-family: 'mmtextregularpro', sans-serif;
+  font-family: 'sourcesanspro', sans-serif;
+  font-weight: 400;
 }
 
 #product-preview {
@@ -7319,7 +7331,7 @@ td {
 
 .select2-label {
   color: #555555;
-  font-weight: normal;
+  font-weight: 400;
 }
 
 .select2-container {
@@ -7402,6 +7414,27 @@ td {
   margin-top: 0;
 }
 
+.products-list>li .product-wrapper .product-price .buttons .add-to-cart span {
+  font-size: 16px;
+}
+
+.products-list>li .product-wrapper .product-price>.infobox {
+  padding-bottom: 10px;
+}
+
+.products-list>li .product-wrapper .product-price .buttons .button+.button:hover span {
+  color: #000;
+}
+
+
+.products-list>li .product-wrapper .product-price .buttons .button+.button {
+  width: 84px;
+}
+
+.products-list>li .product-price .buttons .button+.button span {
+  padding: 0px;
+}
+
 .products-list>li footer {
   margin: -20px 0 5px 202px;
   background: none;
@@ -7453,7 +7486,8 @@ td {
 .products-list>li .product-price .buttons .button+.button span {
   line-height: 26px !important;
   padding: 0 7px 0 0 !important;
-  font-family: 'mmtextregularpro', sans-serif;
+  font-family: 'sourcesanspro', sans-serif;
+  font-weight: 400;
 }
 
 .products-list>li .box.infobox {
@@ -7637,7 +7671,7 @@ td {
 .installment-compact .value {
   background: url("images/sprites.png") no-repeat scroll -49px -303px transparent;
   text-align: left;
-  font-weight: normal;
+  font-weight: 400;
   text-shadow: none;
   font-size: 11px;
   padding-top: 1px;
@@ -7671,12 +7705,6 @@ td {
 }
 
 /* Filter */
-#filters h2,
-#filters .headline {
-  font-family: 'mm-demi', Arial !important;
-  font-size: 12px;
-  font-weight: normal;
-}
 
 #filters .contentspot {
   width: 227px;
@@ -7704,7 +7732,7 @@ td {
 }
 
 #filters .categories .active a {
-  font-weight: normal;
+  font-weight: 400;
 }
 
 #filters .categories .active,
@@ -7812,7 +7840,7 @@ td {
 
 #filters .options a {
   border: 1px solid #ddd;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 13px;
 }
 
@@ -7948,7 +7976,7 @@ form#filters .categories li a {
 .productcontent header .info .pname,
 #productcontent header .info .pname {
   color: #000 !important;
-  font-weight: normal;
+  font-weight: 400;
 }
 
 .productcontent header .info.error,
@@ -8188,8 +8216,7 @@ form#filters .categories li a {
   background: none repeat scroll 0 0 #F1F1F1;
   color: #000;
   font-size: 13px;
-  font-weight: normal;
-  font-family: 'mm-demi', Arial !important;
+  font-weight: 400;
 }
 
 .tooltip .tooltip_content {
@@ -8328,7 +8355,7 @@ form#filters .categories li a {
 
 .accordion ul li>a {
   padding: 12px 0 12px 24px;
-  font-weight: normal;
+  font-weight: 400;
 }
 
 .accordion ul li>a:before,
@@ -8457,7 +8484,7 @@ form#filters .categories li a {
   top: 15px !important;
 }
 
-/**** Kundenkonto ****/
+/**** CLUB KONTO ****/
 #my-account {
   background: none !important;
   margin-top: 12px;
@@ -8474,7 +8501,7 @@ form#filters .categories li a {
 }
 
 .my-account>aside a {
-  font-weight: normal;
+  font-weight: 400;
 }
 
 .my-account>aside#filters {
@@ -8508,13 +8535,10 @@ div#my-account h2 {
 }
 
 .my-account>.content p {
-  font-family: 'mm-book', Arial !important;
   line-height: 18px;
 }
 
 .my-account .box {
-  -webkit-border-radius: 0;
-  -moz-border-radius: 0;
   border-radius: 0;
   background: none repeat scroll 0 0 #F6F6F6;
   color: #535353;
@@ -8566,7 +8590,7 @@ div#my-account h2 {
 }
 
 .my-account>.content strong {
-  font-weight: normal;
+  font-weight: 400;
 }
 
 .my-account.personal-data .content .change-password-box p strong {
@@ -8578,7 +8602,7 @@ div#my-account h2 {
 .my-account.login-page .content h2,
 .my-account>.content .box>h2 {
   font-size: 16px;
-  font-weight: normal !important;
+  font-weight: 400 !important;
   padding: 0px !important;
 }
 
@@ -8628,15 +8652,6 @@ div#my-account h2 {
   text-shadow: none;
   text-transform: none;
   background: none repeat scroll 0 0 transparent;
-  background: -moz-linear-gradient(top, #3B5998, #334E84);
-  /* Firefox */
-  background: -webkit-linear-gradient(top, #3B5998, #334E84);
-  /* Safari, Chrome */
-  background: -o-linear-gradient(top, #3B5998, #334E84);
-  /* Opera */
-  background: -ms-linear-gradient(top, #3B5998, #334E84);
-  /* IE */
-  background: linear-gradient(top, #3B5998, #334E84);
   /* W3C Standard */
   filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#3B5998', endColorstr='#334E84');
 }
@@ -8699,12 +8714,23 @@ div#my-account h2 {
 }
 
 .my-account .button.arrow {
-  height: 27px;
+  height: 36px;
+  font-size: 16px;
+  background: #fff;
+  border: 1px solid #4f4f4f;
+}
+
+.my-account .button.arrow span {
+  padding: 3px 14px !important;
+}
+
+.my-account .button.arrow:hover {
+  background: #f2f2f2;
 }
 
 .my-account .button.arrow,
 .my-account .button:hover.arrow span {
-  color: #fff !important;
+  color: #000 !important;
 }
 
 .my-account .to-details.button.arrow,
@@ -8820,11 +8846,115 @@ div#my-account h2 {
   width: 23px;
 }
 
-.my-account p.required {
-  font-family: 'mm-book', Arial !important;
+
+.my-account.orders .order-info .order-data {
+  left: 45px !important;
+  position: relative !important;
 }
 
-/* Icons */
+.my-account.orders .order-info.shop:before,
+.my-account.order-details .order-info.shop:before {
+  top: 0 !important;
+}
+
+.my-account.orders .order-info .order-data {
+  width: 340px !important;
+}
+
+.my-account.login-page .box {
+  width: 444px !important;
+}
+
+.responsive .my-account.login-page .register-box {
+  position: relative;
+}
+
+.responsive .my-account.login-page .register-box p {
+  font-size: 14px;
+  width: 420px !important;
+  min-height: 15px;
+  float: none;
+}
+
+.responsive .my-account.login-page .register-box ul {
+  font-size: 14px;
+}
+
+.responsive .my-account.login-page .register-box li {
+  list-style-type: disc;
+  margin-left: 15px;
+}
+
+.my-account.login-page .register-box .button {
+  float: none;
+  position: absolute;
+  top: 32px;
+  right: 10px;
+}
+
+span#logInText {
+  font-family: 'sourcesanspro', sans-serif;
+  font-weight: 400;
+  line-height: 18px;
+  font-size: 13px !important;
+  text-transform: none;
+  display: block;
+  margin-bottom: 20px;
+  position: absolute;
+  left: 0;
+}
+
+.my-account.login-page #login-form.login-form h1:before,
+.my-account.login-page #login-form.login-form h2:before {
+  top: 28px;
+}
+
+#login-form fieldset {
+  padding-top: 15px;
+  margin-top: 60px;
+}
+
+span.minaKopText {
+  width: 305px !important;
+  display: block;
+}
+
+span.textKlubbkort p {
+  font-family: 'sourcesanspro', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  margin-top: 6px;
+}
+
+li.loyaltyClub.chosenToBeShown p {
+  max-width: 500px;
+}
+
+@media only screen and (max-width: 954px) {
+  .responsive .my-account.login-page .box {
+    width: 444px !important;
+  }
+}
+
+/* CLUB RECEIPT & WISH LIST */
+
+.my-account.orders-wishlist-overview .content .orders-wishlist-sections li .button {
+  height: 36px;
+  border: 1px solid #4f4f4f !important;
+}
+
+.my-account.orders-wishlist-overview .content .orders-wishlist-sections li .button span {
+  font-size: 16px;
+  padding: 4px 15px !important;
+}
+
+.my-account.orders-wishlist-overview .content .orders-wishlist-sections li .button:hover span{
+  background: #f2f2f2 !important;
+  color: #000 !important;
+  border-radius: 50px;
+}
+
+/* CLUB ICONS */
 .my-account.orders-wishlist-overview .content .orders-wishlist-sections li p a.icon,
 .my-account.personal-data-overview .content .personal-data-sections li p a.icon,
 .my-account.reviews-ovierview .content .reviews-sections li p a.icon {
@@ -9084,9 +9214,8 @@ div#my-account h2 {
 .my-account.personal-data .content dl.addresses dt {
   padding-top: 17px;
   text-transform: none;
-  font-family: 'mm-demi', Arial !important;
   font-size: 16px;
-  font-weight: normal !important;
+  font-weight: 400 !important;
 }
 
 .my-account.personal-data .content dl.addresses dd,
@@ -9185,8 +9314,7 @@ div#my-account h2 {
 
 .my-account.social .content dl dt {
   padding: 3px 0 0 62px;
-  font-weight: normal;
-  font-family: 'mm-demi', Arial !important;
+  font-weight: 400;
 }
 
 .my-account.social .content dl:before {
@@ -9271,13 +9399,14 @@ div#my-account h2 {
   line-height: 15px;
 }
 
-/* Gutschein Karte */
+/* CLUB GIFT CARD */
 .my-account.gift-cards .content h1 {
   font-size: 24px !important;
 }
 
 .my-account.gift-cards .content h2 {
-  font-family: 'mm-demi', Arial !important;
+  font-family: 'sourcesanspro', sans-serif;
+  font-weight: 400;
 }
 
 .my-account.gift-cards .content hr {
@@ -9302,19 +9431,15 @@ div#my-account h2 {
 }
 
 .my-account.gift-cards .button.arrow {
-  background: #000000 !important;
+  background: #fff !important;
   filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#484848', endColorstr='#131313') !important;
-  border: none !important;
+  border: 1px solid #4f4f4f;
 }
 
 .my-account.gift-cards .button:hover.arrow {
-  background: -moz-linear-gradient(top, #F31414, #AB1414) !important;
-  background: -webkit-linear-gradient(top, #F31414, #AB1414) !important;
-  background: -o-linear-gradient(top, #F31414, #AB1414) !important;
-  background: -ms-linear-gradient(top, #F31414, #AB1414) !important;
-  background: linear-gradient(top, #F31414, #AB1414) !important;
+  background: #f2f2f2 !important;
   filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#F31414', endColorstr='#AB1414') !important;
-  color: #fff;
+  color: #000;
 }
 
 .my-account.gift-cards .button.arrow span:after {
@@ -9323,7 +9448,7 @@ div#my-account h2 {
 }
 
 .my-account.gift-cards .button.arrow span {
-  color: #ffffff;
+  color: #000;
   background: none !important;
   border: none !important;
 }
@@ -9331,14 +9456,27 @@ div#my-account h2 {
 .my-account.gift-cards .button.gray.arrow span {
   height: 27px;
   line-height: 26px;
-  padding: 0 16px 0 10px;
-  padding-top: 0px !important;
+  padding: 4px 12px;
 }
 
-/* Reperaturstatus */
+/* CLUB SERVICE STATUS */
 .my-account.repair-status .content h1 {
   margin-bottom: 17px;
   font-size: 24px !important;
+}
+
+/* CLUB BECOME MEMBER */
+
+#accountRegistration, #ssnRegistration {
+  border-radius: 50px;
+  font-size: 16px;
+  background: #fff;
+  color: #000;
+  border: 1px solid #4f4f4f;
+}
+
+#accountRegistration:hover, #ssnRegistration:hover {
+  background: #f2f2f2;
 }
 
 /**** Produktvergleich ****/
@@ -9361,8 +9499,6 @@ div#my-account h2 {
   color: #000000;
   line-height: 0.2;
   margin-left: -10px;
-  font-weight: normal;
-  font-family: 'mm-demi', Arial !important;
 }
 
 .compare-table-wrapper thead .product-head {
@@ -9436,9 +9572,8 @@ div#my-account h2 {
 .compare-table-wrapper .trigger,
 .compare-table-wrapper .closed .trigger {
   color: #000;
-  padding-left: 13px;
-  font-family: 'mm-demi', Arial !important;
-  font-size: 12px;
+  padding-left: 2px;
+  font-size: 14px;
 }
 
 .compare-table-wrapper .caption td,
@@ -9475,7 +9610,7 @@ div#my-account h2 {
   margin-bottom: 3px;
 }
 
-/**** Side Nav ****/
+/**** CLUB MY ACCOUNT SIDE NAV ****/
 .side-nav {
   margin: 22px 10px 0 0;
   padding: 0;
@@ -9487,10 +9622,9 @@ div#my-account h2 {
 }
 
 .side-nav>li a {
-  font-weight: normal !important;
   padding: 7px 5px 7px 0;
   display: block;
-  font-family: 'mm-demi', Arial !important;
+
 }
 
 .side-nav li>a:hover,
@@ -9702,7 +9836,7 @@ input[type="radio"] {
 }
 
 #infoportal .articleContent .mceContentBody section#quick-nav li {
-  font-weight: normal;
+  font-weight: 400;
 }
 
 #infoportal .articleContent .mceContentBody section#quick-nav li a {
@@ -9767,7 +9901,7 @@ input[type="radio"] {
   -moz-border-radius: 4px;
   border-radius: 4px;
   font-size: 13px;
-  font-weight: normal;
+  font-weight: 400;
 }
 
 #filters .a-z li.active a {
@@ -9855,7 +9989,7 @@ input[type="radio"] {
 }
 
 .jobs-area>aside a {
-  font-weight: normal;
+  font-weight: 400;
 }
 
 .jobs-area>aside .side-nav li.active>a {
@@ -9871,12 +10005,6 @@ input[type="radio"] {
 .responsive .jobs-area.application .content .application-form p.info,
 .responsive .jobs-area.application .content .application-form .buttons {
   padding-right: 0px;
-}
-
-.wrapper-jobs-karriere .text-view p,
-.wrapper-jobs-karriere .text p,
-.text-view ol li {
-  font-family: 'mm-book', Arial !important;
 }
 
 .jobs-area.vacancy-details .content {
@@ -10254,7 +10382,7 @@ input[type="radio"] {
   }
 
   .responsive .pagination a {
-    font-weight: normal;
+    font-weight: 400;
   }
 
   .responsive .container .page-side-nav {
@@ -10460,6 +10588,10 @@ input[type="radio"] {
     width: 160px !important;
   }
 
+  #login-password, #login-email {
+    padding: 8px 10px !important;
+}
+
   .responsive .my-account.login-page #login-form.login-form .button {
     margin: 19px 0 0 !important;
   }
@@ -10496,7 +10628,7 @@ input[type="radio"] {
     text-indent: inherit;
     overflow: visible;
     visibility: visible;
-    font-family: 'pricemm', 'mmtextboldpro', sans-serif;
+    font-family: 'pricemm', 'sourcesanspro', sans-serif;
   }
 
 
@@ -10509,7 +10641,7 @@ input[type="radio"] {
   .js body .price {
     text-shadow: 0 0 1em transparent, 0 -0.04em 0 #fff, 0.04em 0 0 #fff, 0 0.04em 0 #fff, -0.034em -0.024em 0 #fff, -0.03em -0.04em 0 #fff, -0.01em -0.04em 0 #fff, 0.052em -0.04em 0 #fff, 0.04em -0.04em 0 #fff, 0.02em -0.04em 0 #fff, 0.047em -0.025em 0 #fff, -0.045em 0.016em 0 #fff, -0.039em 0.038em 0 #fff, -0.052em 0.04em 0 #fff, -0.042em 0.04em 0 #fff, 0.031em 0.028em 0 #fff, 0.029em 0.04em 0 #fff, rgba(0, 0, 0, 0.2) 0.05em 0 0.05em, rgba(0, 0, 0, 0.2) 0 0.05em 0.05em, rgba(0, 0, 0, 0.2) 0.05em 0.05em 0.05em;
     color: #000;
-    font-family: 'pricemm', 'mmtextboldpro', sans-serif;
+    font-family: 'pricemm', 'sourcesanspro', sans-serif;
   }
 
   /* PRICE-ENDING */
@@ -10571,7 +10703,7 @@ input[type="radio"] {
 
   .layer-help ul li h3 {
     font-size: 16px;
-    font-weight: normal;
+    font-weight: 400;
     border-top: none;
     color: #000000;
     margin: 0;
@@ -10640,7 +10772,7 @@ input[type="radio"] {
 
   .layer-404 h3 {
     font-size: 15px;
-    font-weight: normal;
+    font-weight: 400;
     margin: 40px 0 0 0;
   }
 
@@ -10649,7 +10781,7 @@ input[type="radio"] {
   }
 
   .layer-404 strong {
-    font-weight: normal;
+    font-weight: 400;
   }
 
   .layer-404 .button {
@@ -10683,7 +10815,7 @@ input[type="radio"] {
 
   .layer-fsk h2 {
     font-size: 16px;
-    font-weight: normal;
+    font-weight: 400;
     margin: 25px 0 0 0;
   }
 
@@ -10693,7 +10825,7 @@ input[type="radio"] {
   }
 
   .layer-fsk strong {
-    font-weight: normal;
+    font-weight: 400;
   }
 
   .layer-fsk .button {
@@ -10782,7 +10914,7 @@ input[type="radio"] {
 
   .layer-intel h2 {
     font-size: 13px;
-    font-weight: normal;
+    font-weight: 400;
     color: #545454;
     margin: 0 0 7px 0;
   }
@@ -10823,7 +10955,7 @@ input[type="radio"] {
   }
 
   .layer-intel .group ul li p strong {
-    font-weight: normal;
+    font-weight: 400;
     border-bottom: 1px solid #C9C9C9;
   }
 
@@ -10887,7 +11019,7 @@ input[type="radio"] {
   .layer-intel .processor-detail h3 {
     font-size: 16px;
     line-height: 17px;
-    font-weight: normal;
+    font-weight: 400;
     margin: 0 0 15px 0;
   }
 
@@ -10903,7 +11035,7 @@ input[type="radio"] {
   }
 
   .layer-intel .processor-detail h4 {
-    font-weight: normal;
+    font-weight: 400;
   }
 
   .layer-intel .processor-detail p {
@@ -10963,7 +11095,7 @@ input[type="radio"] {
 
   .layer-amd h2 {
     font-size: 13px;
-    font-weight: normal;
+    font-weight: 400;
     color: #545454;
     margin: 0 0 13px 0;
   }
@@ -10991,7 +11123,7 @@ input[type="radio"] {
   }
 
   .layer-amd .group ul li p strong {
-    font-weight: normal;
+    font-weight: 400;
     display: block;
   }
 
@@ -11067,7 +11199,6 @@ input[type="radio"] {
 
   .layer-zahlungsarten ul li p {
     margin-left: 156px;
-    font-family: mm-book;
   }
 
   /***** Layer - Presse Copyright *****/
@@ -11076,7 +11207,7 @@ input[type="radio"] {
   }
 
   .layer-press-copyright p span {
-    font-weight: normal;
+    font-weight: 400;
   }
 
   /***** Layer - Impressum *****/
@@ -11085,7 +11216,6 @@ input[type="radio"] {
     border-bottom: 1px solid #DDDDDD;
     margin-bottom: 12px;
     padding: 10px 0 10px 0;
-    font-family: mm-book;
   }
 
   .layer-legalnotice address {
@@ -11094,21 +11224,9 @@ input[type="radio"] {
     margin-bottom: 12px;
   }
 
-  .layer-legalnotice address,
-  .layer-legalnotice a,
-  .layer-legalnotice p span {
-    font-weight: normal !important;
-    font-family: 'mm-medium', Arial !important;
-  }
-
   .layer-legalnotice a {
     text-decoration: underline;
     color: #000000;
-  }
-
-  .layer-legalnotice p {
-    margin-bottom: 12px;
-    font-family: mm-book;
   }
 
   /***** Markenticker *****/
@@ -11261,7 +11379,8 @@ input[type="radio"] {
 
   #my-market-content #contact-data table th {
     color: #000;
-    font-family: 'mmtextboldpro';
+    font-family: 'sourcesanspro', sans-serif;
+    font-weight: 700;
     font-size: 18px;
   }
 
@@ -11285,7 +11404,7 @@ input[type="radio"] {
   #my-market-sidebar a.find-my-location.button {
     width: 100%;
     font-size: 15px;
-    font-weight: normal;
+    font-weight: 400;
   }
 
   #my-market-sidebar .market-teaser {
@@ -11298,7 +11417,6 @@ input[type="radio"] {
     border: 1px solid #D8D8D8;
     border-radius: 0px;
     box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.15) inset;
-    -webkit-box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.15) inset;
     outline: none;
     background: #f4f4f4;
     color: #545454;
@@ -11314,17 +11432,13 @@ input[type="radio"] {
 
   .line-2>ul>li.newsletter-social-media form.newsletter-form .button:hover,
   .market-teaser .map-autocomplete .button:hover {
-    background: -moz-linear-gradient(top, #333, #131313) !important;
-    background: -webkit-linear-gradient(top, #333, #131313) !important;
-    background: -o-linear-gradient(top, #333, #131313) !important;
-    background: -ms-linear-gradient(top, #333, #131313) !important;
     background: linear-gradient(top, #333, #131313) !important;
     filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#333', endColorstr='#131313') !important;
   }
 
   a.button.gray.all-markets-list-trigger.cboxElement {
     width: 100px;
-    font-size: 14px;
+    font-size: 16px;
     height: 27px;
   }
 
@@ -11338,7 +11452,7 @@ input[type="radio"] {
     background: url(images/markt/sprite.png) -14px 0px no-repeat;
   }
 
-  /* FIND STORE*/
+  /* FIND STORE */
   #all-markets #all-markets-nav {
     top: 57px !important;
     left: 10px !important;
@@ -11360,3 +11474,59 @@ input[type="radio"] {
   #all-markets a.find-my-location.button {
     width: 130px;
   }
+
+  #all-markets a.find-my-location.button {
+    margin: 10px 12px;
+    height: 36px;
+    font-family: 'sourcesanspro', sans-serif;
+    width: 180px;
+    background: #4f4f4f;
+    border: 1px solid #4f4f4f;
+}
+
+#all-markets a.find-my-location.button:hover {
+    background: #000;
+    border: 1px solid #000;
+}
+
+a.find-my-location.button span {
+    padding: 3px 18px;
+}
+
+a.find-my-location.button:hover span {
+    color: #fff;
+}
+
+#all-markets .market-teaser .map-autocomplete .button:before {
+    display: inline-block;
+}
+
+.market-teaser .map-autocomplete .button:before {
+    background: url(https://csscdn.redblue.de/MediaSE/skins/feemmse/sv/images/buttonicons.png) -1px -12px no-repeat; 
+}
+
+.market-teaser {
+    min-height: 196px;
+}
+
+a.button.gray.all-markets-list-trigger.cboxElement {
+    height: 36px;
+    border: 1px solid #4f4f4f;
+    font-family: 'sourcesanspro', sans-serif;
+    font-size: 16px;
+    width: 110px;
+}
+
+a.button.gray.all-markets-list-trigger.cboxElement span {
+  padding: 4px 18px;
+}
+
+a.button.gray.all-markets-list-trigger.cboxElement:hover span {
+  color: #000;
+  background: #f2f2f2;
+  border-radius: 50px;
+}
+
+.market-teaser .market-actions {
+  padding: 12px 12px 20px 12px;
+}
