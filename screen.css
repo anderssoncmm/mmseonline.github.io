@@ -105,10 +105,6 @@ h6 {
   font-weight: 400;
 }
 
-.button {
-  font-weight: 400 !important;
-}
-
 /* RISE HEADER */
 .ms-textarea,
 .ms-textarea:focus,
@@ -584,9 +580,9 @@ h6 {
 .button.big.arrow span:hover,
 #header .basket .content .buttons .button:hover {
   /* k�p knapp, N�sta i checkout */
-  background: #9c0000 !important;
-  border: 1px solid #9c0000;
-  color: #fff;
+  background: #f2f2f2 !important;
+  border: 1px solid #ddd;
+  color: #df0000;
 }
 
 .button.add-to-cart span:after,
@@ -3384,7 +3380,7 @@ form.newsletter-form button:before {
 
 .price-button span {
   font-family: 'sourcesanspro', sans-serif;
-  font-weight: 700 !important;
+  font-weight: 400 !important;
 }
 
 .products-list>li .product-price .add-to-cart:before {
@@ -5008,6 +5004,7 @@ a#pdp-add-to-cart {
 
 a#pdp-add-to-cart span {
   text-align: center;
+  color: #fff;
 }
 
 #product-details .prodrel {
