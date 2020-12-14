@@ -3412,6 +3412,7 @@ form.newsletter-form button:before {
   width: 88px;
   font-size: 16px;
   font-family: 'sourcesanspro', sans-serif;
+  font-weight: 400;
 }
 
 .products-list>li .button.add-to-cart:hover {
@@ -3436,8 +3437,6 @@ form.newsletter-form button:before {
   background: #fff;
   font-family: 'sourcesanspro', sans-serif;
   font-weight: 400 !important;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
   border-radius: 4px;
   font-size: 13px;
   padding: 8px 14px;
@@ -6694,6 +6693,7 @@ a.to-details.button.block.arrow.clickable {
   height: 36px;
   font-size: 16px;
   font-family: 'sourcesanspro', sans-serif;
+  font-weight: 400;
 }
 
 a.to-details.button.block.arrow.clickable:hover {
@@ -9813,11 +9813,6 @@ input[type="radio"] {
   margin: 2px 12px 0 0 !important;
 }
 
-#infoportal .content p,
-#infoportal .articleContent section div {
-  font-family: 'mm-book', Arial !important;
-}
-
 #infoportal .products-list>li .product-wrapper.cms-wrapper .content p {
   min-height: 75px;
   margin-right: 12px !important;
@@ -9956,10 +9951,6 @@ input[type="radio"] {
 #infoportal th,
 #infoportal table {
   border: none !important;
-}
-
-#infoportal .content p a {
-  font-family: 'mm-medi', Arial !important;
 }
 
 #infoportal tr:nth-child(2n) td,
@@ -11479,6 +11470,7 @@ input[type="radio"] {
     margin: 10px 12px;
     height: 36px;
     font-family: 'sourcesanspro', sans-serif;
+    font-weight: 400;
     width: 180px;
     background: #4f4f4f;
     border: 1px solid #4f4f4f;
@@ -11513,6 +11505,7 @@ a.button.gray.all-markets-list-trigger.cboxElement {
     height: 36px;
     border: 1px solid #4f4f4f;
     font-family: 'sourcesanspro', sans-serif;
+    font-weight: 400;
     font-size: 16px;
     width: 110px;
 }
