@@ -563,6 +563,7 @@ h6 {
 #header .basket .content .buttons .button,
 .button.arrow {
   /* k�p knapp, N�sta i checkout, Till Kassan i header */
+  color: #fff;
   background: #000 !important;
   box-sizing: border-box;
   border: 1px solid #000;
@@ -2488,7 +2489,6 @@ form.newsletter-form input {
 
 .add-to-cart.button.large.add-to-cart.block span {
   font-size: 20px !important;
-  color: #fff;
 }
 
 .add-to-cart.button.large.add-to-cart.block span:after {
