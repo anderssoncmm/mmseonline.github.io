@@ -329,11 +329,11 @@ a.mmsebutton.parent-bg:hover, .mmsebutton.parent-bg:hover{
 }
 
 /*FORMS*/
-.input-label label input {
+.input-label label input, .input-label label select {
     display: block;
     margin-top: 5px;
     box-shadow: none;
-    background: none;
+    background-color: none;
     border: 1px solid #ddd;
     border-radius: 4px;
 }
@@ -389,7 +389,7 @@ div#type-pickup-delivery.delivery-type-item .mrh-accordion.mrh-accordion-contain
 }
 
 div#delivery-type h1, h1.mrh-accordion-headline span {
-    font-family: 'sourcesanspro', sans-serif;
+
     font-weight: 700;
     font-size: 18px;
     line-height: 1;
@@ -782,7 +782,7 @@ body #wrapper-main .category-breadcrumb:after {
     display: block;
     color: #000;
 }
-.swemodule h2, h2 {
+.swemodule h2{
     font-size: 22px;
     line-height: 25px;
     margin: 0 0 18px 0;
@@ -1684,11 +1684,6 @@ span.rating-count {
     color: #000;
 }
 /* --------------------   End: Ratings -------------------- */
-
-/* CMS */
-.cms_html_container img {
-	width: 100%;
-}
 
 /* -------------------- Start: Produktsnurror -------------------- */
 .swiper-slide .product-teaser-container figure {
