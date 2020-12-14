@@ -558,13 +558,6 @@ h6 {
   font-size: 12px;
 }
 
-.button:hover span {
-  color: #000 !important;
-  background-color: #f8f8f8 !important;
-  border-radius: 24px;
-  height: 26px !important;
-}
-
 .button.add-to-cart,
 .button.big.arrow span,
 #header .basket .content .buttons .button,
@@ -3631,7 +3624,7 @@ a#basket-flyout-cart:hover span:after {
 }
 
 .button:hover span {
-  color: rgb(223, 0, 0);
+  color: #df0000;
 }
 
 .basket .add-to-cart.button.cart-button:before {
