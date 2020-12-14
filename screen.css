@@ -563,10 +563,9 @@ h6 {
 #header .basket .content .buttons .button,
 .button.arrow {
   /* k�p knapp, N�sta i checkout, Till Kassan i header */
-  color: #fff;
-  background: #df0000 !important;
+  background: #000 !important;
   box-sizing: border-box;
-  border: 1px solid #df0000;
+  border: 1px solid #000;
 }
 
 .button.add-to-cart:hover,
