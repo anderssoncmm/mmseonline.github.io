@@ -333,7 +333,7 @@ a.mmsebutton.parent-bg:hover, .mmsebutton.parent-bg:hover{
     display: block;
     margin-top: 5px;
     box-shadow: none;
-    background-color: none;
+    background-color: transparent;
     border: 1px solid #ddd;
     border-radius: 4px;
 }
