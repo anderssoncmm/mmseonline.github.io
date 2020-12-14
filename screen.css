@@ -2488,6 +2488,7 @@ form.newsletter-form input {
 
 .add-to-cart.button.large.add-to-cart.block span {
   font-size: 20px !important;
+  color: #fff;
 }
 
 .add-to-cart.button.large.add-to-cart.block span:after {
@@ -4996,7 +4997,6 @@ a#pdp-add-to-cart {
 
 a#pdp-add-to-cart span {
   text-align: center;
-  color: #fff;
 }
 
 #product-details .prodrel {
