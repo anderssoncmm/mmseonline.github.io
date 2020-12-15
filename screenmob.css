@@ -157,7 +157,7 @@ body .crossed-price-wrapper .crossed-price-layer span {
 }
 
 /* -------------------- Start: Buttons ---------------- */
-a.button, input.button, label.button, p.button, span.button, .button.background-type-2, .button.background-type-1  {
+a.button, input.button, label.button, p.button, span.button, .button.background-type-2, .button.background-type-1, button.btn  {
     height: 30px;
     background-color: #fff;
     border-radius: 30px;
@@ -179,7 +179,7 @@ a.button, input.button, label.button, p.button, span.button, .button.background-
     font-family: 'sourcesanspro', sans-serif;
 }
 
-a.button.primary-button, input.button.primary-button, label.button.primary-button, p.button, span.button.primary-button {
+a.button.primary-button, input.button.primary-button, label.button.primary-button, p.button, span.button.primary-button, button.btn.btn-primary {
     height: 30px;
     border-radius: 30px;
     background-color: #4f4f4f;
@@ -294,20 +294,6 @@ a.mmsebutton.pri-sec:hover, .mmsebutton.pri-sec:hover{
     border: 1px solid #000;
 }
 
-a.mmsebutton.inactive, .mmsebutton.inactive{
-    opacity: 0.2;
-    background: #fff;
-    color: #000;
-    border: 1px solid #4f4f4f;
-    pointer-events: none;
-}
-
-a.mmsebutton:hover.inactive, .mmsebutton:hover.inactive{
-    opacity: 0.2;
-    background: #fff;
-    color: #000;
-    border: 1px solid #4f4f4f;
-}
 
 a.mmsebutton.pri.parent-bg, a.mmsebutton.pri-sec.parent-bg, .mmsebutton.pri.parent-bg, .mmsebutton.pri-sec.parent-bg {
     background: #fff;
@@ -321,7 +307,6 @@ a.mmsebutton.sec.parent-bg, .mmsebutton.sec.parent-bg {
     border: 1px solid #fff;
 }
 
-
 a.mmsebutton.parent-bg:hover, .mmsebutton.parent-bg:hover{
     background: #9c0000;
     color: #fff;
@@ -331,6 +316,22 @@ a.mmsebutton.parent-bg:hover, .mmsebutton.parent-bg:hover{
 .highlight {
     text-decoration: underline;
     color: #df0000;
+}
+
+/*INACTIVE BUTTONS*/
+a.mmsebutton.inactive, .mmsebutton.inactive, button.btn.btn-primary[disabled], button.btn[disabled]{
+    opacity: 0.2;
+    background: #fff;
+    color: #000;
+    border: 1px solid #4f4f4f;
+    pointer-events: none;
+}
+
+a.mmsebutton:hover.inactive, .mmsebutton:hover.inactive, button.btn.btn-primary[disabled]:hover, button.btn[disabled]:hover{
+    opacity: 0.2;
+    background: #fff;
+    color: #000;
+    border: 1px solid #4f4f4f;
 }
 
 /*FORMS*/
@@ -1076,24 +1077,7 @@ a.button.background-type-1.async-layer-link {
     display: inline-block;
     padding: 0 10px 0 0;
 }
-.layer-open .mrh-layer-content .button.background-type-2.button-proceed-shopping,
-.layer-open .mrh-layer-content .button.background-type-2.button-proceed-shopping *,
-.layer-open .mrh-layer-content .button.background-type-1.primary-button,
-.layer-open .mrh-layer-content .button.background-type-1.primary-button * {
-    font-size: 18px;
-    height: 2em;
-    line-height: 2em;
-}
-.layer-open .mrh-layer-content .button.background-type-1.primary-button {
-    margin-bottom: 10px;
-}
-.layer-open .mrh-layer-content .button.background-type-1.primary-button > span {
-    padding-left: 0;
-}
-.layer-open .mrh-layer-content .button.background-type-1.primary-button > span::after {
-    content: "";
-    background: none;
-}
+
 .layer-open .layer-header > a.layer-button-close,
 .layer-open .layer-header > a.layer-button-close::after {
     font-size: 40px;
