@@ -3394,9 +3394,9 @@ form.newsletter-form button:before {
 .products-list>li .button.add-to-cart {
   background: #4f4f4f !important;
   border: 1px solid #4f4f4f;
-  height: 26px;
+  height: 36px;
   padding: 4px 10px;
-  width: 66px;
+  width: 88px;
 }
 
 .products-list>li .button.add-to-cart:hover {
