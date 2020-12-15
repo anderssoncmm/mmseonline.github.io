@@ -241,6 +241,7 @@ a.button.background-type-1.button-go-to-basket.primary-button span {
 
 button.btn, button.btn.btn-primary {
     height: 42px;
+    padding: 0px;
 }
 
 /* MMSEBUTTONS */ 
