@@ -62,7 +62,7 @@
 }
 
 /* -------------------- Start: Typography -------------------- */
-body, p, ul, li, a, span:not(.ms-icon), label {
+body, p, ul, li, a, span:not(.ms-icon), label, input, select {
     font-family: 'sourcesanspro', sans-serif !important; 
     font-weight: 400;
     font-size: 16px;
@@ -326,6 +326,11 @@ a.mmsebutton.parent-bg:hover, .mmsebutton.parent-bg:hover{
     background: #9c0000;
     color: #fff;
     border: 1px solid #fff
+}
+
+.highlight {
+    text-decoration: underline;
+    color: #df0000;
 }
 
 /*FORMS*/
