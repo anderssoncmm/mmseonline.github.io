@@ -298,6 +298,7 @@ button.btn.btn-primary,
 a.btn,
 a.btn.btn-primary {
     height: 42px;
+    line-height: 42px;
     padding: 0px;
 }
 
