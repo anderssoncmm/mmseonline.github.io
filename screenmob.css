@@ -220,13 +220,13 @@ a#addToBasket.button.primary-button {
 
 a#addToBasket.button.primary-button span {
     height:54px;
-    font-family: 'sourcesanspro', sans-serif;
     font-weight: 600;
     font-size: 20px;
     line-height: 54px;
     background-color: #000;
     color: #fff;
     border: 1px solid #000;
+    padding-left: 35px;
 }
 
 .button.background-type-1.primary-button, .button.background-type-1.primary-button * {
@@ -242,6 +242,11 @@ a.button.background-type-1.button-go-to-basket.primary-button span {
 button.btn, button.btn.btn-primary {
     height: 42px;
     padding: 0px;
+}
+
+.btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn.active.focus {
+    outline: none;
+    border: inherit;
 }
 
 /* MMSEBUTTONS */ 
