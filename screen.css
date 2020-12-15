@@ -104,11 +104,6 @@ h6 {
   font-weight: 400;
 }
 
-.box.infobox.availability span {
-  font-family: 'sourcesanspro', sans-serif;
-  font-weight: 400;
-}
-
 /* RISE HEADER */
 .ms-textarea,
 .ms-textarea:focus,
@@ -3397,15 +3392,11 @@ form.newsletter-form button:before {
 }
 
 .products-list>li .button.add-to-cart {
-  margin: 10px;
-  background: #4f4f4f;
+  background: #4f4f4f !important;
   border: 1px solid #4f4f4f;
-  height: 36px;
+  height: 26px;
   padding: 4px 10px;
-  width: 88px;
-  font-size: 16px;
-  font-family: 'sourcesanspro', sans-serif;
-  font-weight: 400;
+  width: 66px;
 }
 
 .products-list>li .button.add-to-cart:hover {
