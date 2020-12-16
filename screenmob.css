@@ -215,6 +215,11 @@ body .crossed-price-wrapper .crossed-price-layer span {
     font-weight: 700;
 }
 
+.gridbox:empty {
+    padding: 0px!important;
+    margin: 0px!important;
+}
+
 /* -------------------- Start: Buttons ---------------- */
 a.button,
 input.button,
