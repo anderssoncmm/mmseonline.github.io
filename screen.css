@@ -7412,7 +7412,8 @@ a.to-details.button.block.arrow.clickable:hover {
 }
 
 .products-list>li .product-price .buttons .button+.button span {
-  padding: 0px;
+  padding: 0px !important;
+  font-size: 16px;
 }
 
 .products-list>li footer {
