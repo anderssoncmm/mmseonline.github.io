@@ -215,6 +215,10 @@ body .crossed-price-wrapper .crossed-price-layer span {
     font-weight: 700;
 }
 
+.contentspot.grid {
+    margin: 0px;
+}
+
 .gridbox:empty {
     padding: 0px!important;
     margin: 0px!important;
@@ -1997,6 +2001,10 @@ span.rating-count {
 
 .swiper-slide .product-teaser-container h3.product-teaser-headline {
     max-height: 100%;
+}
+
+.product-teaser-container h3.product-teaser-headline span {
+    font-weight: 400;
 }
 
 /* --------------------   End: Produktsnurror -------------------- */
