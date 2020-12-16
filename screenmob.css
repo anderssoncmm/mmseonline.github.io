@@ -343,6 +343,10 @@ a.btn.btn-primary {
     background-size: 25px;
 }
 
+.mrh-delivery-type .mrh-accordion-headline>.mrh-accordion-trigger:after, .product-variants-container .mrh-accordion-headline>.mrh-accordion-trigger:after {
+    background-color: transparent;
+}
+
 /* MMSEBUTTONS */
 a.mmsebutton,
 .mmsebutton {
