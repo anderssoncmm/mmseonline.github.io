@@ -187,10 +187,6 @@ body .crossed-price-wrapper .crossed-price-layer span {
 /* -------------------- End: Price -------------------- */
 
 /* -------------------- Start: General ---------------- */
-.grid {
-    margin: 0px;
-}
-
 .greentext{
     color: #00ac45;
 }
@@ -1716,24 +1712,7 @@ a.instockonline {
     color: #000;
 }
 
-span.greentext {
-    color: #00ac45;
-}
-
-span.redtext {
-    color: #df0000;
-}
-
-span.orangetext {
-    color: #ff9900;
-}
-
 /*----------------------- GRIDBOX AND BOXES---------------------------- */
-.grid h4.gridbox,
-.gridbox {
-    padding: 5px;
-}
-
 /* CMS PRODUCT GRID */
 .cms-products-grid .ct-products-grid>li .base-info .price {
     top: 145px;
