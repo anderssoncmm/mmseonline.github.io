@@ -207,6 +207,14 @@ body .crossed-price-wrapper .crossed-price-layer span {
     color: #4f4f4f;
 }
 
+.highlight {
+    text-decoration: underline;
+}
+
+.highlight-bold {
+    font-weight: 700;
+}
+
 /* -------------------- Start: Buttons ---------------- */
 a.button,
 input.button,
@@ -411,11 +419,6 @@ a.mmsebutton.parent-bg:hover,
     background: #9c0000;
     color: #fff;
     border: 1px solid #fff
-}
-
-.highlight {
-    text-decoration: underline;
-    color: #df0000;
 }
 
 /*INACTIVE BUTTONS*/
