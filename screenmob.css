@@ -1244,37 +1244,6 @@ a.button.background-type-1.async-layer-link {
     margin-top: 20px;
 }
 
-.layer-open .mrh-page-overlay {
-    box-sizing: border-box;
-    background-color: #f2f2f2;
-    padding: 10px;
-}
-
-.layer-open .mrh-layer-wrapper {
-    background-color: #f2f2f2;
-}
-
-.layer-open .mrh-layer-content {
-    box-sizing: border-box;
-    margin: 10px;
-    padding: 50px 0 10px !important;
-    width: auto;
-}
-
-.layer-open .layer-header {
-    background: none;
-    border-top: 10px solid #f2f2f2;
-    box-sizing: border-box;
-    box-shadow: none;
-    left: 10px;
-    height: auto;
-    right: 10px;
-    margin: 0px;
-    position: fixed;
-    top: 0px;
-    width: auto;
-}
-
 .layer-open .mrh-layer-content h1 {
     border-top: 0;
     border-bottom: 0;
