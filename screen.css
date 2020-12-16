@@ -3400,9 +3400,8 @@ form.newsletter-form button:before {
 }
 
 .products-list>li .button.add-to-cart:hover {
-  background: #000;
+  background: #000 !important;
   border: 1px solid #000;
-  color: #fff;
 }
 
 .products-list>li .product-wrapper .product-price .buttons .add-to-cart:hover span {
@@ -6538,7 +6537,7 @@ a.site-navigation2__link[data-tracking='outlet_head']:hover>.site-navigation2__l
 }
 
 .products-list>li .product-price .add-to-cart:hover {
-  height: 28px;
+  height: 36px;
 }
 
 /*sub-CTA in footer*/
@@ -6677,8 +6676,7 @@ a.to-details.button.block.arrow.clickable {
 }
 
 a.to-details.button.block.arrow.clickable:hover {
-  color: #000;
-  background: #f2f2f2;
+  background: #f2f2f2 !important;
 }
 
 .button.large.add-to-cart.block span:after {
