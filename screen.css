@@ -3377,8 +3377,8 @@ form.newsletter-form button:before {
 
 .products-list>li .product-price .add-to-cart:before {
   background: url("images/sprites.png") no-repeat scroll -586px -32px transparent !important;
-  width: 17px;
-  height: 16px;
+  width: 17px !important;
+  height: 16px !important;
   top: 8px !important;
   left: 18px !important;
 }
@@ -3395,7 +3395,7 @@ form.newsletter-form button:before {
   background: #4f4f4f !important;
   border: 1px solid #4f4f4f;
   height: 36px;
-  padding: 4px 10px;
+  padding: 4px 10px !important;
   width: 88px;
 }
 
@@ -3405,7 +3405,7 @@ form.newsletter-form button:before {
   color: #fff;
 }
 
-.products-list > li .product-wrapper .product-price .buttons .add-to-cart:hover span {
+.products-list>li .product-wrapper .product-price .buttons .add-to-cart:hover span {
   color: #fff;
 }
 
@@ -6671,12 +6671,9 @@ td {
 }
 
 a.to-details.button.block.arrow.clickable {
-  border: 1px solid #4f4f4f;
-  padding: 4px 12px;
-  height: 36px;
-  font-size: 16px;
-  font-family: 'sourcesanspro', sans-serif;
-  font-weight: 400;
+  border: 1px solid #4f4f4f !important;
+  padding: 4px 12px !important;
+
 }
 
 a.to-details.button.block.arrow.clickable:hover {
@@ -7411,7 +7408,7 @@ a.to-details.button.block.arrow.clickable:hover {
 
 
 .products-list>li .product-wrapper .product-price .buttons .button+.button {
-  width: 84px;
+  width: 84px !important;
 }
 
 .products-list>li .product-price .buttons .button+.button span {
@@ -7457,7 +7454,7 @@ a.to-details.button.block.arrow.clickable:hover {
 }
 
 .products-list>li .product-price .buttons .button+.button {
-  height: 28px !important;
+  height: 36px !important;
   float: left !important;
   width: 66px !important;
 }
