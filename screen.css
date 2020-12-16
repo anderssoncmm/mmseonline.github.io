@@ -125,6 +125,11 @@ h6 {
   box-shadow: 0 .2rem .6rem rgba(0, 0, 0, .2) !important;
 }
 
+.site-navigation2--dropdown .ms-market-selector__button--offcanvas, .site-navigation2--dropdown .site-navigation2__link {
+  font-family: 'sourcesanspro', sans-serif;
+  font-weight: 600;
+}
+
 #uspWrapperP {
   position: absolute;
   display: none;
