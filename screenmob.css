@@ -191,6 +191,26 @@ body .crossed-price-wrapper .crossed-price-layer span {
     margin: 0px;
 }
 
+.greentext{
+    color: #00ac45;
+}
+
+.orangetext {
+    color: #ff9900;
+}
+
+.redtext{
+    color: #df0000;
+}
+
+.graytext{
+    color: #ddd;
+}
+
+.darkggraytext{
+    color: #4f4f4f;
+}
+
 /* -------------------- Start: Buttons ---------------- */
 a.button,
 input.button,
@@ -221,7 +241,6 @@ a.btn {
     font-weight: 400;
     line-height: 28px;
     font-size: 16px;
-    padding: 0px;
     font-family: 'sourcesanspro', sans-serif;
 }
 
@@ -286,7 +305,6 @@ a#addToBasket.button.primary-button span {
 .button.background-type-1.primary-button * {
     height: 42px;
     line-height: 42px;
-    padding: 0px;
 }
 
 a.button.background-type-1.button-go-to-basket.primary-button span {
@@ -550,18 +568,22 @@ div#type-pickup-delivery .grid.market-list {
     font-weight: 400;
 }
 
+.mrh-delivery-type .market-list .delivery-type-item.sub-item h2.not-available-pickup span {
+    font-size: 16px;
+    font-weight: 400;
+}
+
 .mrh-delivery-type .delivery-type-item.disabled>* {
     opacity: 1;
 }
 
-.grid.delivery-type-item.sub-item .not-available-pickup .green {
-    color: #00ac45;
+.grid.delivery-type-item.sub-item.disabled .not-available-pickup{
+    color: #ddd;
     font-weight: normal;
 }
 
-.grid.delivery-type-item.sub-item.disabled .not-available-pickup {
-    color: #ddd;
-    font-weight: normal;
+.grid.delivery-type-item.sub-item .not-available-pickup span.green {
+    color: #00ac45;
 }
 
 div#type-standard-delivery.disabled h1,
@@ -1179,9 +1201,6 @@ body #wrapper-main .category-breadcrumb:after {
     left: 10px !important;
 }
 
-#wrapper-main section.login-section {
-    margin-top: 80px;
-}
 
 section.bg-white.login-section.login-ie-border {
     margin: 20px 0 !important;
