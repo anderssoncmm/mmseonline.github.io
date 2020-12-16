@@ -11440,17 +11440,17 @@ input[type="radio"] {
     display: none;
   }
 
+  #all-markets a.find-my-location.button:hover {
+    background: #000;
+    border: 1px solid #000;
+}
+
   #all-markets a.find-my-location.button {
     margin: 10px 6px;
     height: 36px;
     width: 190px;
-    background: #4f4f4f !important;
-    border: 1px solid #4f4f4f !important;
-}
-
-#all-markets a.find-my-location.button:hover {
-    background: #000;
-    border: 1px solid #000;
+    background: #4f4f4f;
+    border: 1px solid #4f4f4f;
 }
 
 a.find-my-location.button span {
@@ -11476,18 +11476,17 @@ a.find-my-location.button:hover span {
 
 a.button.gray.all-markets-list-trigger.cboxElement {
     height: 36px;
-    border: 1px solid #4f4f4f !mportant;
+    border: 1px solid #4f4f4f !important;
     width: 110px;
 }
 
 a.button.gray.all-markets-list-trigger.cboxElement span {
-  padding: 4px 14px;
+  padding: 4px 14px !important;
   font-size: 16px;
 }
 
 a.button.gray.all-markets-list-trigger.cboxElement:hover span {
-  color: #000;
-  background: #f2f2f2;
+  color: #000 !important;
   border-radius: 50px;
 }
 
