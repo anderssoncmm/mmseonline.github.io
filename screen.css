@@ -693,7 +693,114 @@ h6 {
   text-indent: -999em;
 }
 
+/* MMSEBUTTONS */
+a.mmsebutton,
+.mmsebutton {
+    border: 1px solid #4f4f4f;
+    border-radius: 50px;
+    background: #fff;
+    color: #000;
+    padding: 12px 20px;
+    font-size: 16px;
+    line-height: 1.2;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+}
 
+a.mmsebutton.small,
+.mmsebutton.small {
+    padding: 6px 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+a.mmsebutton:hover,
+.mmsebutton:hover {
+    text-decoration: none;
+    background: #f2f2f2;
+}
+
+a.mmsebutton.fullwidth,
+.mmsebutton.fullwidth {
+    display: block;
+}
+
+a.mmsebutton.pri,
+.mmsebutton.pri {
+    background: #df0000;
+    color: #fff;
+    border: 1px solid #df0000;
+    font-weight: 600;
+}
+
+a.mmsebutton.pri:hover,
+.mmsebutton.pri:hover {
+    background: #9c0000;
+    color: #fff;
+    border: 1px solid #9c0000;
+}
+
+a.mmsebutton.pri-sec,
+.mmsebutton.pri-sec {
+    background: #4f4f4f;
+    color: #fff;
+    border: 1px solid #4f4f4f;
+    font-weight: 600;
+}
+
+a.mmsebutton.pri-sec:hover,
+.mmsebutton.pri-sec:hover {
+    background: #000;
+    color: #fff;
+    border: 1px solid #000;
+}
+
+
+a.mmsebutton.pri.parent-bg,
+a.mmsebutton.pri-sec.parent-bg,
+.mmsebutton.pri.parent-bg,
+.mmsebutton.pri-sec.parent-bg {
+    background: #fff;
+    color: #df0000;
+    border: 1px solid #fff;
+}
+
+a.mmsebutton.sec.parent-bg,
+.mmsebutton.sec.parent-bg {
+    background: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+a.mmsebutton.parent-bg:hover,
+.mmsebutton.parent-bg:hover {
+    background: #9c0000;
+    color: #fff;
+    border: 1px solid #fff
+}
+
+/*INACTIVE BUTTONS*/
+a.mmsebutton.inactive,
+.mmsebutton.inactive,
+button.btn.btn-primary[disabled],
+button.btn[disabled] {
+    opacity: 0.2;
+    background: #fff;
+    color: #000;
+    border: 1px solid #4f4f4f;
+    pointer-events: none;
+}
+
+a.mmsebutton:hover.inactive,
+.mmsebutton:hover.inactive,
+button.btn.btn-primary[disabled]:hover,
+button.btn[disabled]:hover {
+    opacity: 0.2;
+    background: #fff;
+    color: #000;
+    border: 1px solid #4f4f4f;
+}
 
 /*======== Bannerstyle margin fixes after release 29/7 - 15 =================*/
 .banners .photo {
