@@ -8693,17 +8693,17 @@ div#my-account h2 {
 
 .my-account .button.arrow {
   height: 36px;
-  font-size: 16px;
-  background: #fff;
+  background: #fff !important;
   border: 1px solid #4f4f4f;
 }
 
 .my-account .button.arrow span {
-  padding: 3px 14px !important;
+  padding: 3px 14px;
+  font-size: 16px;
 }
 
 .my-account .button.arrow:hover {
-  background: #f2f2f2;
+  background: #f2f2f2 !important;
 }
 
 .my-account .button.arrow,
@@ -11441,7 +11441,7 @@ input[type="radio"] {
   }
 
   #all-markets a.find-my-location.button:hover {
-    background: #000;
+    background: #000 !important;
     border: 1px solid #000;
 }
 
