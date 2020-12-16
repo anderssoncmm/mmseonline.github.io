@@ -2609,6 +2609,7 @@ form.newsletter-form input {
   background: #fff !important;
   color: #000;
   border: 1px solid #4f4f4f;
+  height: 36px;
 }
 
 .button.close:hover {
