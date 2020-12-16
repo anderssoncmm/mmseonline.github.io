@@ -505,7 +505,7 @@ div#type-standard-delivery.delivery-type-item {
     padding: 20px 0px 0px 0px !important;
 }
 
-div#type-pickup-delivery.delivery-type-item {
+div#type-pickup-delivery.delivery-type-item div#type-pickup-delivery {
     padding: 0px 0px 20px 0px !important;
 }
 
