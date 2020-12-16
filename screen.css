@@ -6730,7 +6730,7 @@ td {
 
 .button,
 .button-facebook {
-  border-radius: 50px !important;
+  border-radius: 50px;
 }
 
 .button.inline {
