@@ -339,7 +339,7 @@ a.btn.btn-primary {
 }
 
 .button.geolocation span:before {
-    background: transparent url(images/sprite-mediamarkt.png) no-repeat 0 -127px;
+    background: transparent url('images/sprite-mediamarkt.png') no-repeat 0 -127px;
 }
 
 /* MMSEBUTTONS */
