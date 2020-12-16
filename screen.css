@@ -3328,7 +3328,6 @@ form.newsletter-form button:before {
 }
 
 .button.gray span {
-  font-weight: 400 !important;
   padding-top: 2px !important;
   color: #000;
 }
@@ -11440,19 +11439,13 @@ input[type="radio"] {
   #all-markets .market-teaser .map-autocomplete .button:before {
     display: none;
   }
-  
-  #all-markets a.find-my-location.button {
-    width: 130px;
-  }
 
   #all-markets a.find-my-location.button {
-    margin: 10px 12px;
+    margin: 10px 6px;
     height: 36px;
-    font-family: 'sourcesanspro', sans-serif;
-    font-weight: 400;
-    width: 180px;
-    background: #4f4f4f;
-    border: 1px solid #4f4f4f;
+    width: 190px;
+    background: #4f4f4f !important;
+    border: 1px solid #4f4f4f !important;
 }
 
 #all-markets a.find-my-location.button:hover {
@@ -11461,7 +11454,8 @@ input[type="radio"] {
 }
 
 a.find-my-location.button span {
-    padding: 3px 18px;
+    padding: 3px 16px;
+    font-size: 16px;
 }
 
 a.find-my-location.button:hover span {
@@ -11482,15 +11476,13 @@ a.find-my-location.button:hover span {
 
 a.button.gray.all-markets-list-trigger.cboxElement {
     height: 36px;
-    border: 1px solid #4f4f4f;
-    font-family: 'sourcesanspro', sans-serif;
-    font-weight: 400;
-    font-size: 16px;
+    border: 1px solid #4f4f4f !mportant;
     width: 110px;
 }
 
 a.button.gray.all-markets-list-trigger.cboxElement span {
-  padding: 4px 18px;
+  padding: 4px 14px;
+  font-size: 16px;
 }
 
 a.button.gray.all-markets-list-trigger.cboxElement:hover span {
