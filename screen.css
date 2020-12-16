@@ -6059,7 +6059,16 @@ a.cookie-info-cancel-button.js-cookie-info-cancel-button.button {
 }
 
 .cookie-info-accept-button.button span {
-  padding-right: 20px;
+  padding: 4px 10px;
+  width: 80px;
+}
+
+a.cookie-info-accept-button.js-cookie-info-accept-button.button {
+  font-size: 16px;
+  background: #fff !important;
+  color: #000;
+  border: 1px solid #4f4f4f;
+  height: 36px;
 }
 
 .cookie-info-accept-button.button span:after {
@@ -6067,9 +6076,13 @@ a.cookie-info-cancel-button.js-cookie-info-cancel-button.button {
 }
 
 a.cookie-info-accept-button.button:hover span,
+.cookie-info-buttons .button:hover {
+  background: #f2f2f2 !important;
+}
+
+a.cookie-info-accept-button.button:hover span,
 .cookie-info-buttons .button:hover span {
-  color: #ffffff;
-  text-decoration: underline;
+  color: #000;
 }
 
 @media (min-width: 1200px) and (max-width: 1230px) {
