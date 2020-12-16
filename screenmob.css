@@ -212,16 +212,11 @@ body .crossed-price-wrapper .crossed-price-layer span {
 }
 
 .highlight-bold {
-    font-weight: 700;
+    font-weight: 700!important
 }
 
 .contentspot.grid {
     margin: 0px;
-}
-
-.gridbox:empty {
-    padding: 0px!important;
-    margin: 0px!important;
 }
 
 /* -------------------- Start: Buttons ---------------- */
@@ -341,6 +336,10 @@ a.btn.btn-primary {
 .btn.active.focus {
     outline: none;
     border: inherit;
+}
+
+.button.geolocation span:before {
+    background: transparent url(../images/sprite-mediamarkt.png) no-repeat 0 -127px;
 }
 
 /* MMSEBUTTONS */
@@ -1304,16 +1303,6 @@ a.button.background-type-1.async-layer-link {
     border-radius: 0;
     border: 0;
     font-family: serif;
-}
-
-.layer-open .product-teaser-container figure {
-    border: 1px solid #f2f2f2;
-    max-width: 25%;
-}
-
-.layer-open .product-teaser-container figure img {
-    box-sizing: border-box;
-    padding: 5px;
 }
 
 .layer-open .product-teaser-container .product-teaser-details {
