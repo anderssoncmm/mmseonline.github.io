@@ -504,7 +504,7 @@ div#type-standard-delivery.delivery-type-item {
     padding: 20px 0px 0px 0px !important;
 }
 
-div#type-pickup-delivery.delivery-type-item {
+div#type-pickup-delivery.delivery-type-item.localized {
     padding: 0px 0px 20px 0px !important;
 }
 
@@ -653,14 +653,6 @@ h3.mrh-accordion-headline.additional-services-headline {
 
 h3.mrh-accordion-headline.additional-services-headline span {
     font-weight: 400;
-}
-
-.mrh-delivery-type .mrh-accordion-headline>.mrh-accordion-trigger:after {
-    bottom: -21px;
-    top: auto;
-    right: -15px;
-    position: absolute;
-    background-color: transparent;
 }
 
 .mrh-delivery-type .mrh-accordion .only-open {
