@@ -2501,11 +2501,15 @@ form.newsletter-form input {
 .button.close {
   background: #fff !important;
   color: #000;
-  border: 1px solid #ddd;
+  border: 1px solid #4f4f4f;
 }
 
 .button.close:hover {
   background: #f2f2f2 !important;
+}
+
+.button.close:hover span {
+  color: #000;
 }
 
 .loften li:before {
@@ -3579,7 +3583,7 @@ form.newsletter-form button:before {
 #continue-shopping.button span:before {
   /* Forts�tt handla knapp n�r man l�ggar n�got i varukorgen */
   background: url("https://css.redblue.de/MediaSE/skins/feemmse/sv/images/sprites.png") no-repeat scroll -403px -60px transparent;
-  display: inline-block;
+  display: none;
   height: 11px;
   width: 5px;
   content: "";
@@ -3609,6 +3613,10 @@ a#basket-flyout-cart:hover span:after {
   background: url("https://css.redblue.de/MediaSE/skins/feemmse/sv/images/sprites.png") -404px -12px no-repeat scroll !important;
   height: 12px !important;
   top: 8px !important;
+}
+
+.button.close span {
+  font-size: 16px;
 }
 
 .button.close:hover {
