@@ -339,7 +339,8 @@ a.btn.btn-primary {
 }
 
 .button.geolocation span:before {
-    background: transparent url('images/sprite-mediamarkt.png') no-repeat 0 -127px;
+    background: transparent url(images/sprite-mediamarkt.png) no-repeat 0 -127px;
+    background-size: 25px;
 }
 
 /* MMSEBUTTONS */
@@ -504,7 +505,7 @@ div#type-standard-delivery.delivery-type-item {
     padding: 20px 0px 0px 0px !important;
 }
 
-div#type-pickup-delivery.delivery-type-item.localized {
+div#type-pickup-delivery.delivery-type-item {
     padding: 0px 0px 20px 0px !important;
 }
 
