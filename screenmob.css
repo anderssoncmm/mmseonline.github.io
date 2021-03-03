@@ -750,6 +750,10 @@ label.button.search-submit {
     background-color: #4f4f4f;
 }
 
+.ms-text--color-availability-stock, .ms-text--color-availability-limited, .ms-text--color-availability-none{
+	display: none;
+}
+
 /* --------------------   End: Search Field -------------------- */
 
 /* -------------------- Start: Category Page -------------------- */
