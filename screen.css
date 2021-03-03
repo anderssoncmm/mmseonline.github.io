@@ -6410,10 +6410,7 @@ footer#page-footer {
 }
 
 /*------------------------------ ENERGY EFFICIENCY -----------------------------*/
-.energy-usage-label.eu2017{
-  background: url(images/sprites-eek-MMSE-eu2017.png);
-}
-
+/*------------------------------OLD LABELS---------------------------------------*/
 .energy-usage-label.ee-l-39 {
   /* F */
   background: url(images/sprites-eek-MMSE.png) no-repeat 0px -352px;
@@ -6567,6 +6564,23 @@ footer#page-footer {
   background-size: auto !important;
   height: 25px !important;
 }
+
+/*------------------------------NEW LABELS---------------------------------------*/
+
+/* A */
+a.ee-layer.energy-usage-label.eu2017.ee-l-46{
+  background: url(images/sprites-eek-MMSE-eu2017.png) no-repeat 0px 0px;
+  background-size: auto !important;
+  height: 44px !important;
+}
+
+/* F */
+a.ee-layer.energy-usage-label.eu2017.ee-l-46{
+  background: url(images/sprites-eek-MMSE-eu2017.png) no-repeat 0px 0px;
+  background-size: auto !important;
+  height: 44px !important;
+}
+
 
 /* OUTLET */
 a.site-navigation2__link[data-tracking='outlet_head'] {
