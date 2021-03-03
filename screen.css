@@ -4813,6 +4813,10 @@ nav#top-navigation {
   position: absolute;
 }
 
+.ms-text--color-availability-stock, .ms-text--color-availability-limited, .ms-text--color-availability-none{
+	display: none;
+}
+
 @media all and (min-width: 954px) {
   .searchFieldContainer form#site-search {
     width: 715px;
