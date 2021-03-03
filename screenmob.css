@@ -2012,6 +2012,7 @@ div[data-bv-show=rating_summary] div.bv_main_container {
     background: url(images/sprites-eek-MMSE-eu2017.png) no-repeat -100px -6px;
     background-size: auto !important;
     height: 44px !important;
+    width: 82px;
   }
   
   /* B */
@@ -2019,6 +2020,7 @@ div[data-bv-show=rating_summary] div.bv_main_container {
     background: url(images/sprites-eek-MMSE-eu2017.png) no-repeat -100px -55px;
     background-size: auto !important;
     height: 44px !important;
+    width: 82px;
   }
   
   
@@ -2027,6 +2029,7 @@ div[data-bv-show=rating_summary] div.bv_main_container {
     background: url(images/sprites-eek-MMSE-eu2017.png) no-repeat -100px -104px;
     background-size: auto !important;
     height: 44px !important;
+    width: 82px;
   }
   
   /* D */
@@ -2034,6 +2037,7 @@ div[data-bv-show=rating_summary] div.bv_main_container {
     background: url(images/sprites-eek-MMSE-eu2017.png) no-repeat -100px -153px;
     background-size: auto !important;
     height: 44px !important;
+    width: 82px;
   }
   
   /* E */
@@ -2041,6 +2045,7 @@ div[data-bv-show=rating_summary] div.bv_main_container {
     background: url(images/sprites-eek-MMSE-eu2017.png) no-repeat -100px -202px;
     background-size: auto !important;
     height: 44px !important;
+    width: 82px;
   }
   
   /* F */
@@ -2048,6 +2053,7 @@ div[data-bv-show=rating_summary] div.bv_main_container {
     background: url(images/sprites-eek-MMSE-eu2017.png) no-repeat -100px -251px;
     background-size: auto !important;
     height: 44px !important;
+    width: 82px;
   }
   
   /* G */
@@ -2055,4 +2061,5 @@ div[data-bv-show=rating_summary] div.bv_main_container {
     background: url(images/sprites-eek-MMSE-eu2017.png) no-repeat -100px -300px;
     background-size: auto !important;
     height: 44px !important;
+    width: 82px;
   }
