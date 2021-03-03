@@ -5069,7 +5069,7 @@ nav#top-navigation {
 
 .products-carousel .products-grid .base-info h3 {
   position: absolute;
-  top: 240px;
+  top: 260px;
   left: 10px;
   margin: 0px;
   font-size: 14px;
@@ -5092,7 +5092,7 @@ nav#top-navigation {
 
 .product-container .products-carousel .rate {
   position: absolute;
-  top: 260px;
+  top: 280px;
   left: 10px;
   display: block;
 }
