@@ -6410,6 +6410,10 @@ footer#page-footer {
 }
 
 /*------------------------------ ENERGY EFFICIENCY -----------------------------*/
+.energy-usage-label.eu2017{
+  background: url(images/sprites-eek-MMSE-eu2017.png);
+}
+
 .energy-usage-label.ee-l-39 {
   /* F */
   background: url(images/sprites-eek-MMSE.png) no-repeat 0px -352px;
