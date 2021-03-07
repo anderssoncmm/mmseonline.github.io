@@ -6572,14 +6572,14 @@ footer#page-footer {
 /*------------------------------NEW LABELS---------------------------------------*/
 
 /* A */
-a.ee-layer.energy-usage-label.eu2017.ee-l-41 {
+.energy-usage-label.eu2017.ee-l-41 {
   background: url(images/sprites-eek-MMSE-eu2017.png) no-repeat -100px -6px;
   background-size: auto !important;
   height: 44px !important;
 }
 
 /* B */
-a.ee-layer.energy-usage-label.eu2017.ee-l-42 {
+.energy-usage-label.eu2017.ee-l-42 {
   background: url(images/sprites-eek-MMSE-eu2017.png) no-repeat -100px -55px;
   background-size: auto !important;
   height: 44px !important;
@@ -6587,35 +6587,35 @@ a.ee-layer.energy-usage-label.eu2017.ee-l-42 {
 
 
 /* C */
-a.ee-layer.energy-usage-label.eu2017.ee-l-43 {
+.energy-usage-label.eu2017.ee-l-43 {
   background: url(images/sprites-eek-MMSE-eu2017.png) no-repeat -100px -104px;
   background-size: auto !important;
   height: 44px !important;
 }
 
 /* D */
-a.ee-layer.energy-usage-label.eu2017.ee-l-44 {
+.energy-usage-label.eu2017.ee-l-44 {
   background: url(images/sprites-eek-MMSE-eu2017.png) no-repeat -100px -153px;
   background-size: auto !important;
   height: 44px !important;
 }
 
 /* E */
-a.ee-layer.energy-usage-label.eu2017.ee-l-45 {
+.energy-usage-label.eu2017.ee-l-45 {
   background: url(images/sprites-eek-MMSE-eu2017.png) no-repeat -100px -202px;
   background-size: auto !important;
   height: 44px !important;
 }
 
 /* F */
-a.ee-layer.energy-usage-label.eu2017.ee-l-46 {
+.energy-usage-label.eu2017.ee-l-46 {
   background: url(images/sprites-eek-MMSE-eu2017.png) no-repeat -100px -251px;
   background-size: auto !important;
   height: 44px !important;
 }
 
 /* G */
-a.ee-layer.energy-usage-label.eu2017.ee-l-47 {
+.energy-usage-label.eu2017.ee-l-47 {
   background: url(images/sprites-eek-MMSE-eu2017.png) no-repeat -100px -300px;
   background-size: auto !important;
   height: 44px !important;
